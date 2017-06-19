@@ -1,18 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package runner;
 
-/**
- *
- * @author walte
- */
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import x.gui.MainWindow;
+
+
 public class Runner {
-    public static void main(String[] args) {
-        
-        // TODO code application logic here
-        
+    public static void main(String[] args) {      
+        try {
+            MainWindow mainWindow= new MainWindow();
+        }catch(Exception ex) {}     
     }
 }
