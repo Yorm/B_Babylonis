@@ -10,6 +10,6 @@ public class Runner {
     public static void main(String[] args) {      
         try {
             MainWindow mainWindow= new MainWindow();
-        }catch(Exception ex) {}     
+        }catch(Exception ex) { ex.printStackTrace();}     
     }
 }
