@@ -1,15 +1,11 @@
-
 package runner;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import x.gui.MainWindow;
-
+import x.gui.main.XMainWindow;
 
 public class Runner {
-    public static void main(String[] args) {      
-        try {
-            MainWindow mainWindow= new MainWindow();
-        }catch(Exception ex) { ex.printStackTrace();}     
-    }
+
+	public static void main(String[] args) {
+		new XMainWindow();
+	}
+
 }

@@ -4,52 +4,123 @@ package x.ucf;
 
 public class UcfCoder {
     
-    //UCF = XXXX XXXX XXXX XXXX;
-    public static final int LANDSCAPE_MASK = 0xF000;
-    //0x0
-    public static final int LANDSCAPE_WATER_LOW = 0x1;
-    public static final int LANDSCAPE_WATER_HIGH = 0x2;
-    public static final int LANDSCAPE_GROUND_LOW = 0x3;
-    public static final int LANDSCAPE_GROUND_HIGH = 0x4;
-    public static final int LANDSCAPE_SAND_LOW = 0x5;
-    public static final int LANDSCAPE_SAND_HIGH = 0x6;
-    public static final int LANDSCAPE_SNOW_LOW = 0x7;
-    public static final int LANDSCAPE_SNOW_HIGH = 0x8; 
-    public static final int LANDSCAPE_TREE_LOW = 0x9;
-    public static final int LANDSCAPE_TREE_HIGH = 0xA;
-    public static final int LANDSCAPE_MOUNTAIN_LOW = 0xB;
-    public static final int LANDSCAPE_MOUNTAIN_HIGH = 0xC;
-    public static final int LANDSCAPE_SWAMP_LOW = 0xD;
-    public static final int LANDSCAPE_CAVE = 0xF;
-    
-    public static final int CREATURE_MASK = 0x0F00;
-    //0x0
-    public static final int CREATURE_HUMAN = 0x1;
-    public static final int CREATURE_CHIKEN = 0x2;
-    public static final int CREATURE_WOLF = 0x3;
-    public static final int CREATURE_RABBIT = 0x4;
-    public static final int CREATURE_FISH = 0x5;
-    public static final int CREATURE_SHARK = 0x6;
-    public static final int CREATURE_UNICORN = 0x7;
-    public static final int CREATURE_SCORPION = 0x8;
-    public static final int CREATURE_BEAR = 0x9;
-    public static final int CREATURE_HORSE = 0xA;
-    public static final int CREATURE_KRAKEN = 0xB;
-    //0x...
-    
-    public static final int decodingLandscape(int ucf){
-        return (ucf & LANDSCAPE_MASK) >> 12; 
+    // LANDSCAPE - TYPE
+    private final static long LANDSCAPE_TYPE_MASK       = 0x0000_0000_0000_0007L;
+    private final static int LANDSCAPE_TYPE_SHIFT       = 0;
+    public final static int LANDSCAPE_TYPE_EMPTY        = 0x0;
+    public final static int LANDSCAPE_TYPE_WATER_LOW    = 0x1;
+    public final static int LANDSCAPE_TYPE_WATER_HIGH   = 0x2;
+    public final static int LANDSCAPE_TYPE_GROUND_LOW   = 0x3;
+    public final static int LANDSCAPE_TYPE_GROUND_HIGH  = 0x4;
+    public final static int LANDSCAPE_TYPE_GRASS_LOW    = 0x5;
+    public final static int LANDSCAPE_TYPE_GRASS_HIGH   = 0x6;
+    // HUMAN - TYPE
+    private final static long HUMAN_TYPE_MASK           = 0x0000_0000_0000_0018L;
+    private final static int HUMAN_TYPE_SHIFT           = 3;
+    public final static int HUMAN_TYPE_EMPTY            = 0x0;
+    public final static int HUMAN_TYPE_MAN              = 0x1;
+    public final static int HUMAN_TYPE_WOMAN            = 0x2;
+    // HUMAN - AGE
+    private final static long HUMAN_AGE_MASK            = 0x0000_0000_000F_FFE0L;
+    private final static int HUMAN_AGE_SHIFT            = 5;
+    // HUMAN - ENERGY
+    private final static long HUMAN_ENERGY_MASK         = 0x0000_0000_03F0_0000L;
+    private final static int HUMAN_ENERGY_SHIFT         = 20;	
+    // HUMAN - SATIETY
+    private final static long HUMAN_SATIETY_MASK        = 0x0000_0000_FC00_0000L;
+    private final static int HUMAN_SATIETY_SHIFT        = 26;	
+    // HUMAN - PREGNANCY
+    private final static long HUMAN_PREGNANCY_MASK      = 0x0000_01FF_0000_0000L;
+    private final static int HUMAN_PREGNANCY_SHIFT      = 32;	
+    // PLANT - TYPE
+    private final static long PLANT_TYPE_MASK           = 0x0000_0200_0000_0000L;
+    private final static int PLANT_TYPE_SHIFT           = 41;
+    public final static int PLANT_TYPE_EMPTY            = 0x0;
+    public final static int PLANT_TYPE_X                = 0x1;
+    // PLANT - FRUITS
+    private final static long PLANT_FRUITS_MASK         = 0x0000_FC00_0000_0000L;
+    private final static int PLANT_FRUITS_SHIFT         = 42;
+    // ACTIVE FLAG
+    private final static long ACTIVE_FLAG_MASK          = 0x8000_0000_0000_0000L;
+    private final static int ACTIVE_FLAG_SHIFT          = 63;
+
+    public final static long encodeLandscapeType(long uc, int u) {
+        return encode(uc, u, LANDSCAPE_TYPE_MASK, LANDSCAPE_TYPE_SHIFT);
     }
-    
-    public static final int encodeLandscape(int ucf, int uf){
-        return (ucf & ~LANDSCAPE_MASK) | (uf << 12); 
+
+    public final static int decodeLandscapeType(long uc) {
+        return decode(uc, LANDSCAPE_TYPE_MASK, LANDSCAPE_TYPE_SHIFT);
     }
-    
-    public static final int decodingCreature(int ucf){
-        return (ucf & LANDSCAPE_MASK) >> 8; 
+
+    public final static long encodeHumanType(long uc, int u) {
+        return encode(uc, u, HUMAN_TYPE_MASK, HUMAN_TYPE_SHIFT);
     }
-    
-    public static final int encodeCreature(int ucf, int uf){
-        return (ucf & ~CREATURE_MASK) | (uf << 8); 
+
+    public final static int decodeHumanType(long uc) {
+        return decode(uc, HUMAN_TYPE_MASK, HUMAN_TYPE_SHIFT);
+    }
+
+    public final static long encodeHumanAge(long uc, int u) {
+        return encode(uc, u, HUMAN_AGE_MASK, HUMAN_AGE_SHIFT);
+    }
+
+    public final static int decodeHumanAge(long uc) {
+        return decode(uc, HUMAN_AGE_MASK, HUMAN_AGE_SHIFT);
+    }
+
+    public final static long encodeHumanEnergy(long uc, int u) {
+        return encode(uc, u, HUMAN_ENERGY_MASK, HUMAN_ENERGY_SHIFT);
+    }
+
+    public final static int decodeHumanEnergy(long uc) {
+        return decode(uc, HUMAN_ENERGY_MASK, HUMAN_ENERGY_SHIFT);
+    }
+
+    public final static long encodeHumanSatiety(long uc, int u) {
+        return encode(uc, u, HUMAN_SATIETY_MASK, HUMAN_SATIETY_SHIFT);
+    }
+
+    public final static int decodeHumanSatiety(long uc) {
+        return decode(uc, HUMAN_SATIETY_MASK, HUMAN_SATIETY_SHIFT);
+    }
+
+    public final static long encodeHumanPregnancy(long uc, int u) {
+        return encode(uc, u, HUMAN_PREGNANCY_MASK, HUMAN_PREGNANCY_SHIFT);
+    }
+
+    public final static int decodeHumanPregnancy(long uc) {
+        return decode(uc, HUMAN_PREGNANCY_MASK, HUMAN_PREGNANCY_SHIFT);
+    }
+
+    public final static long encodePlantType(long uc, int u) {
+        return encode(uc, u, PLANT_TYPE_MASK, PLANT_TYPE_SHIFT);
+    }
+
+    public final static int decodePlantType(long uc) {
+        return decode(uc, PLANT_TYPE_MASK, PLANT_TYPE_SHIFT);
+    }
+
+    public final static long encodePlantFruits(long uc, int u) {
+        return encode(uc, u, PLANT_FRUITS_MASK, PLANT_FRUITS_SHIFT);
+    }
+
+    public final static int decodePlantFruits(long uc) {
+        return decode(uc, PLANT_FRUITS_MASK, PLANT_FRUITS_SHIFT);
+    }
+
+    public final static long encodeActiveFlag(long uc, int u) {
+        return encode(uc, u, ACTIVE_FLAG_MASK, ACTIVE_FLAG_SHIFT);
+    }
+
+    public final static int decodeActiveFlag(long uc) {
+        return decode(uc, ACTIVE_FLAG_MASK, ACTIVE_FLAG_SHIFT);
+    }
+
+    private final static long encode(long uc, int u, long mask, int shift) {
+        return (uc & ~mask) | ((long) u << shift & mask);
+    }
+
+    private final static int decode(long uc, long mask, int shift) {
+        return (int) ((uc & mask) >>> shift);
     }
 }

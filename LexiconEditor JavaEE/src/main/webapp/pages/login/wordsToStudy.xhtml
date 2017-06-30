@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Слова к изучению</title>
+    </h:head>
+    <h:body>
+        <h:form> 
+            <p:tabMenu activeIndex="#{param.i}">
+                <p:menuitem value="Анализ текста" outcome="anText" icon="ui-icon-search">
+                    <f:param name="i" value="0" />
+                </p:menuitem>
+                <p:menuitem value="Слова к изучению" outcome="wordsToStudy" icon="ui-icon-document">
+                    <f:param name="i" value="1" />
+                </p:menuitem>
+                <p:menuitem value="Редактор" outcome="viewKnownWords" icon="ui-icon-wrench">
+                    <f:param name="i" value="2" />
+                </p:menuitem>
+            </p:tabMenu>
+            <div class="settng">
+                <p:menuButton value="#{loginUser.login}">
+                    <p:menuitem value="Настройки" action="settings"  />
+                    <p:separator />
+                    <p:menuitem value="Выход" action="login" actionListener="#{loginUser.unLogin}" />
+                </p:menuButton>
+            </div>
+            <p:growl id="messages" showDetail="true"/>
+            <p:inputText value="#{toStudy.word}"  />
+            <p:commandButton value="Перевести " update="messages" actionListener="#{toStudy.translate}">
+            </p:commandButton > 
+            
+            <p:dataTable var="cell" value="#{toStudy.wat_list}">
+                <p:column headerText="Оригинал">
+                    <h:outputText value="#{cell.word}" />
+                </p:column>
+                <p:column headerText="Перевод">
+                    <h:outputText value="#{cell.translate}" />
+                </p:column>
+            </p:dataTable>
+            
+            
+        </h:form>
+        <style>
+            .settng{
+                display: block;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-left: 510px;
+                margin-top: -335px;
+                padding: 15px;
+                width: 100px;
+                height: 100px;
+
+            }
+        </style>
+    </h:body>
+</html>

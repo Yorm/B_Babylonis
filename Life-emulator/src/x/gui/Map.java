@@ -32,10 +32,10 @@ public class Map extends JTable {
     }
             // Diamond Square
     private final void generateLandscape() {
-        setValueAt(UcfCoder.LANDSCAPE_MOUNTAIN_LOW, 0, 0);
-        setValueAt(UcfCoder.LANDSCAPE_MOUNTAIN_LOW, 0, this.mapSize - 1);
-        setValueAt(UcfCoder.LANDSCAPE_MOUNTAIN_LOW, this.mapSize - 1, 0);
-        setValueAt(UcfCoder.LANDSCAPE_MOUNTAIN_LOW, this.mapSize - 1, this.mapSize - 1);
+        setValueAt(UcfCoder.LANDSCAPE_TYPE_GROUND_LOW, 0, 0);
+        setValueAt(UcfCoder.LANDSCAPE_TYPE_GROUND_LOW, 0, this.mapSize - 1);
+        setValueAt(UcfCoder.LANDSCAPE_TYPE_GROUND_LOW, this.mapSize - 1, 0);
+        setValueAt(UcfCoder.LANDSCAPE_TYPE_GROUND_LOW, this.mapSize - 1, this.mapSize - 1);
 
         float landscapeShift = 15.0f;
         //!!!

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Информация о сайте</title>
+    </h:head>
+    <h:body>
+        <h:form>  
+            <p:tabMenu activeIndex="#{param.i}">
+                <p:menuitem value="Вход/регистрация" outcome="/pages/login/login" icon="ui-icon-search">
+                    <f:param name="i" value="0" />
+                </p:menuitem>
+                <p:menuitem value="О сайте" outcome="/pages/info/info" icon="ui-icon-document">
+                    <f:param name="i" value="1" />
+                </p:menuitem>
+                <p:menuitem value="Обратная связь" outcome="/pages/feedback" icon="ui-icon-wrench">
+                    <f:param name="i" value="2" />
+                </p:menuitem>
+            </p:tabMenu>
+            <div align="center">          
+                                       Добро пожаловать!     
+            </div>
+            <br/>
+            <div align="center">
+                Тут должна быть какая нибудь информация о сайте, партнерство и все такое.
+                                       Но я ее не придумал!
+                      Вместо этого я загрузил сюда годную, по моему, картинку.
+                     
+                
+            </div>
+           <h:graphicImage value="pic.jpg" width="650" class="centr" />
+        </h:form>
+        <style>
+            .centr{
+                display: block;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                margin-left: -275px;
+                margin-top: -145px;
+                padding: 15px;
+                width: 604px;
+                height: 408px;
+                border: 1px solid #ccc;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+            }
+            
+        </style>
+    </h:body>
+</html>
+
