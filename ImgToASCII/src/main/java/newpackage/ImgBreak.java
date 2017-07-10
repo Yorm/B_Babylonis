@@ -6,8 +6,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import javax.imageio.ImageIO;
 
 
@@ -18,7 +16,6 @@ public class ImgBreak {
     public Color[][] pixels;
     private String[] ascii={".",",","`","\"","*","+","-",";","&","$","&","#","@","=","№"};//15
     private String[][] chars;
-   //List<List<Color>> pixels = new ArrayList<>();
     
     public ImgBreak(String name) throws IOException  {
         this.image = ImageIO.read(new File("src/main/java/img/"+name));
@@ -28,31 +25,23 @@ public class ImgBreak {
         Color[][] p = new Color[width][height];
         for(int w=0;w<this.width;w++){
             for(int h=0;h<this.height;h++)
-                p[w][h] = getPixelColor(w,h);
-            p[w][0] = getPixelColor(w,0);
+                p[h][w] = getPixelColor(h,w);
         }
         pixels=p;
         chars=new String[width][height];
-    }
-
-    public Color getPixelColor(int x, int y) {
-        Object colorData = image.getRaster().getDataElements(x, y, null);
-        int argb = image.getColorModel().getRGB(colorData);
-        return new Color(argb, true);
     }
     
     public void imgToAscii(){  
         for(int w=0;w<this.width;w++){
             for(int h=0;h<this.height;h++)
-                chars[w][h] = asciiSwitch(pixels[w][h]);
-            chars[w][0] = asciiSwitch(pixels[w][0]);
+                chars[h][w] = asciiSwitch(pixels[h][w]);
         }
         for(int w=0;w<this.width;w++){
             for(int h=0;h<this.height;h++)
                 System.out.print(chars[h][w]+" ");
             System.out.println("\n");
         }
-        //asciiWrite();
+        asciiWrite();
     }
     
     private String asciiSwitch(Color color){
@@ -90,10 +79,11 @@ public class ImgBreak {
     public void asciiWrite(){
         try(FileWriter writer = new FileWriter("notes.txt", false))
         { 
-            writer.write("hello");
+            writer.write("hello"
+                    + "\n");
             for(int w=0;w<this.width;w++){
                 for(int h=0;h<this.height;h++)
-                    writer.append(chars[w][h]);
+                    writer.append(chars[h][w]);
                 writer.append('\n');
             }
             writer.flush();
@@ -103,14 +93,30 @@ public class ImgBreak {
             System.out.println(ex.getMessage());
         } 
     }
-
-    /*
-    public void redToZero(){
+    
+    public void inBlackWhite(){
         for(int w=0;w<this.width;w++){
-            for(int h=0;h<this.height;h++)
-                pixels[w][h]=new Color(0,pixels[w][h].getGreen(),pixels[w][h].getBlue());
-            pixels[w][0]=new Color(0,pixels[w][0].getGreen(),pixels[w][0].getBlue());
+            for(int h=0;h<this.height;h++){
+                int c = Math.round((pixels[h][w].getRed()+pixels[h][w].getGreen()+pixels[h][w].getBlue())/3);
+                pixels[h][w] = new Color(c,c,c);
+                imgWrite(h,w,pixels[h][w]);
+            }
         }
-    }*/
-         
+        
+    }
+    
+    public void imgWrite(int x,int y, Color color) {
+        image.setRGB(x, y, color.getRGB());
+        try {
+            ImageIO.write(image, "png", new File("image.png"));
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+    
+    public Color getPixelColor(int x, int y) {
+        Object colorData = image.getRaster().getDataElements(x, y, null);
+        int argb = image.getColorModel().getRGB(colorData);
+        return new Color(argb, true);
+    }
 }
