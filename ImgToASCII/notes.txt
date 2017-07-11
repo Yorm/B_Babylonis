@@ -1,17 +1,65 @@
 hello
-*.*.*.*.```.=.=.
-.`.`.`.`.`.`.=.=
-+.+.+...........
-.+..............
-................
-.+.+.+++.+...+..
-.+.+.+...+...+..
-.+++.+++.+...+..
-.+.+.+...+...+..
-.+.+.+++.+++.+++
-................
-.+++.+.+.+++.+++
-.+.+.+.+.+.+.+.+
-.+.+.+.+.+.+.+++
-.+.+.+++.+.+.++.
-.+++.+.+.+++.+.+
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W # H & % % & H H # W W W W W W W W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W W W W & h k j j ? ? + + = + ? + ? j h H W W W W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W & % h h h % % h + = = / / c = + ? ? ? ? j h # W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W & % % % & j = : ^ : ; : : : ^ ^ : ^ ^ ; / + k ? j j & W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W H & h k k c ^ ^ : : : ; / / ; : ^ : ^ ^ ^ ^ ^ ^ ^ = j j k j H W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W # & % j c / / ; ; ; ; ; ; : ; ; ; ; : ^ ^ ^ ^ ^ ^ ^ ^ ^ ° ; h h h & # W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W # H & ? / c c c c ; ; : / + c = + = + = / / c / : ^ ^ ^ ^ ^ ^ " c k h % H W W W W W W W W W W W W W 
+W W W W W W W W W W W W W H % & = c c / c = ; + + + / : ; ; : ; / / / ; ^ : c = = ^ ^ ^ ^ ^ ^ ^ ? h % H W W W W W W W W W W W W 
+W W W W W W W W W W W # & h k c = c = / / ? + / ; / ; : ; ; ; c c c / / ; : ; ^ ^ c = ; ^ ^ ^ ^ ° / ? % H # W W W W W W W W W W 
+W W W W W W W W W W # h % j c c / c / / + ; / ; ; ; : ; ; ; ; / c / ; ; : ; ; : : ^ ; c + ^ ^ ^ ^ ^ ^ j % # W W W W W W W W W W 
+W W W W W W W W W W % & ? c / / = / ? k : / ; ; / ; : ; ; / / / / / / / : : ; : : : : ; c ' " : ^ : ° ° ? % # W W W W W W W W W 
+W W W W W W W W # & & ? ; ; c / = % j ^ : ; : ; : : ; / ; ; / / / / / ; ; : : ^ : : : / % " , ' ^ ^ ° ^ ^ j & H W W W W W W W W 
+W W W W W W W # & & k ; c / / ? & % j ? : ; : ; : ; / ; ; ; / / / ; ; : : : : : ^ : ; + k = : ° ' ^ ° " " ^ h & # W W W W W W W 
+W W W W W W # H & % ; / c ; ? % % H W W + = ; : ; ; ; ; ; / / / / ; / ; : : : : ^ : = & h W % ; : ^ ^ ° ° ° ^ h % # W W W W W W 
+W W W W W W # & & ; c ; / + % & H W W W % ? c : ; ; ; ; / / / / / ; ; : : : ^ : : ; h H W W W H ; / : ° " " ° c j & W W W W W W 
+W W W W # W & & = / / / / & & & W W W W W h ? ; ; ; / / / / / c c : ; ; : ^ : : : + H W W W W W # ; c : " ° ° ° ? ? # W W W W W 
+W W W W W H H k : ; ; / % % & W W W W W W & h c / : / / ; ; c / c : ; ; ; ; ^ ; / # H W W W W W # H c ? ^ ^ ^ ° : + k W W W W W 
+W W W W W & & c ; : ; k & % # W W W W W W W & j ; ; ; ; ; c / / ; ; ; ; : : : : % & W W W W W W W W j ? j ^ ^ ° ° / = H W W W W 
+W W W W & & j ^ ; ; / % h H W W W W W W W W # h = / / : ; / ; ; ; : / ; ; ; ; ? # # W W W W W W W W W ? = = ° ° ° ^ / k W W W W 
+W W W W k % ; ^ : ^ k k % W W W W W W W W W W H j / / / ; ; / / ; ; ^ ; : ^ / # H W W W W W W W W W W H + c : ^ ° ° ; = # W W W 
+W W W H k k ^ ^ ^ / k j # W # W W W W W W W W W % + / / ; : " _ _ , ² ° / ; % H W W W W W W W W W W W W k + c ^ ^ ° ^ / % W W W 
+W W W h h c ° ° ° ? ? & W W W W W W W W W W W W # h + ? j j ? c / ^ ' _ _ = # W W W W W W W W W W W W W # ? + ^ ^ ° ° ; k W W # 
+W W W k % ² ° ° ° k + W W W W W W W W W W W W W W H ^ j + h % W # # H j c j # W W W W W W W W W W W W W W h ? c ° " ° ^ = H W W 
+W W # k k ² ° ° ; = k W W W W W W W W W W W W W W # + k W W W W W W W W # H W W W W W W W W W W W W W W W # k j ² ^ ° ^ c h W W 
+W W % ? c ² ° ² + + & W W W W W W W W W W W W W W W W W W W W # H # W W W W W W W W W W W W W W W W W W W W h j : " ² " / ? W W 
+W W h j ^ " " " + c # W W W W W W W W W W W W W W W W W W # & h k + = & W W W W W W W W W W W W W W W W W W % ? c ° " ² ; + W W 
+W W k ? " " ° : = = W W W W W W W W W W W W W W W W W # H & j ? c = ; ? k W W W W W W W W W W W W W W W W W & + / " " ² ; c H W 
+W W ? + ² ° ° / / + W W W W W W W W W # W # W W W W # H h = ? = c ^ ² ' j & W W W W W W W W W W W W W W W W % = k " ² ' : = % W 
+W W + + " ° ° c ^ + # W # # # # # W # # # W W W W W % k / j ? = / : ' - ^ h W W W # W W # # W # W # # # W W h c j ' " ² : / % W 
+W W = c " ° ^ c / j & H H H & H & H H # # H j % W # + : ; ; = c ; ^ ² , - & & W # j h H H H & # H # # H H & H & % ² ² ² : ; h W 
+W H c / ^ ^ : ; ^ ^ ^ ^ : : ^ ^ : ^ : ^ : ° ; & W # ? ; ^ " ^ ; c ^ " ' , % h W W ? c : ^ : ^ ° ° ° ° ^ ^ ^ ^ ° / ' " ² : ; % W 
+W # c ; ^ ; : ; : : : ^ : ^ ^ : ^ ^ ^ ^ ^ : = & W H k c / / c c c ² ² ' , ? h W W ? c ² ² ² " ' ' ² ² ² ² ' ² ² : ² ' ' ^ ; % W 
+W # c / : ; ; / ; / : : / ; : ; ; : : : ; : % % W W k k = = c = c = ; ^ " / % W # ? / ' ' ' ² ' ' ' ² ² ² ' ' ² ; ' ' ' : / h W 
+W W c ; ; ; ; / / c / ; / c / / / / ; : ; ^ j h W W k % / = c / c = = ; ? = W W & c ° ' ' ² ² ² ' ² ' ' ² ² ² " / ' ' ' ° ; % W 
+W W = ; ; / / / / = c c / c / c c / / ; / c ; h # W H + j / ^ ^ / = = k & h W W j ; " ' ' ' ' ² ' ² ² ² ² ² " " / ' ' ' ° ; & W 
+W W ? ; / c c / c = = = c c c = c c = : ; / ^ k % W W & = : ' ' ° / % H # W W W c : ° " ² ' ' ² ² ² ² ² ² ² ² ' / ² ² ' ; / H W 
+W W k ; / c c / / = = = = = = = / / / / : / ; ° h H W W # j c / = h & H W W W h c : ° ° ° ° " ² " ² ² ² ² ² ² ' c " ² ' c c W W 
+W W % / / c c / ; = + c = + + c / c / / ; / / ^ ; % # W W W # H H W W W W W & j c ; : ^ ^ ^ ° ° " " ² " " ² ² ^ : " ² " ; + W W 
+W W H c / / c c / c = = = c = = = c c ; c ; / c ^ ^ j # W W W W W W W W # & & + ; : ; : ^ : ^ ^ " ° " " ° ² ° / ' " ' ^ ; k W W 
+W W W + ; c c / / / = + = = = + = c c c / / ; ; / / ^ c & W W W W W W # j h = : ; : ; ; ; : ; ^ ^ ^ ^ ° ^ " " / " ² ² c / H W W 
+W W W h ; c c / c ; = = = = + = = c = c c c / ; / ; / ? # W W W W W W W h h : / ; : / / / / ; ^ : : ^ ^ : " : : " " ^ h + W W W 
+W W W # c / c c c ; c = = = + + + = + = = c c / / / + H W W W W W W W W H k = / ; ; / ; / / ; ; ; : ^ : ^ ^ + " ^ ^ = j h W W W 
+W W W W j / = c c c / + c + + + + + + + = = c c / / % # W W W W W W W W W h h / / / / ; / / / / ; : / ; ^ ; ; ; ^ ° % j # # W W 
+W W W W & = + c c = / c c = + + + + + = = = c c / + # # W W W W W W W W W H k ? / c / / / / / ; / ; ; ; ; = : ^ ^ c h k W W W W 
+W W W W W k + = / = = ; = = = + + + + + = = c c / & H W W W W W W W W W W W k h c / ; ; ; ; / ; / ; : / = : ; : ^ & h & W W # W 
+W W W W W H k ? c c c c c = + = + + + ? + = c c j & W W W W W W W W W W W W H k ? / / ; ; ; / / / ; : : = ; : : = % h W W W W W 
+W W # W W W % k + c c = / c + = + + + ? + = c c H H W W W W W W W W W W W W W k % / c ; ; ; ; / ; : ^ ? ^ : ; ^ H % H W W W W W 
+W W W W W W # % h c c = = c c = + + = + + = = k H W W W W W W W W W W W W W W H j k : ; ; / : ; ; : + : ; : : & % H W W W W W W 
+W W W W W W W H h h c / / c c = = + + + + = + H # W W W W W W W W W W W W W W W j k c / ; : ; ; : + / : : ; j & H # W W W W W W 
+W W W W W W W W h & j / c c + / = + + + = + k H W W W W W W W W W W W W W W W W H + k : ; / ; ; ? ; ; / ; + H H # W W W W W W W 
+W W W W W W W W W % h = c c c + c c = + = + h & W W W W W W W W W W W W W W W W W c c = / c c + / ; c ; = & # # W W W W W W W W 
+W W W W W W W W W # % k c c c = = c c + = ? = W W W W W W W W W W W W W W W W W W # c = ; + = ; / / / + & & # W W W W W W W W W 
+W W W W W W W W W W # h = ; = c + = + c c = ^ : k H W W W W W W W W W W W W W H # j = % ? c = c c = + & H # W W W W W W W W W W 
+W W W W W W W W W W W W h = : ; c = + ? + / : / c c c ? h % & # # H # H % & H H & % ? c c c c / ; h H H # W W W W W W W W W W W 
+W W W W W W W W W W W W W % c ^ ° + + ? + j = = ? h h ? ? j h k k k % % % & & h j c = c c c c = # H W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W % c ^ ' ; ? ? ? j + + = = + j k k k k k k j ? + c = = c = c c : j # H # W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W H + ^ , , ; ? = j ? + = = + + + = = + ? ? + ? + = + = / c j & H % # W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W h c " - , ° c = + ? + = = + + = + j ? = + = = c + k & h % % W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W # h / ² _ - , ² ^ c = + + = + + + + c = + ? k h % h % # W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W & + ^ ² ' _ . . _ ' ' ² " ° ^ ; / c ? j h H # W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W W W W & k = ; ^ ^ ^ : ; c = + j k % H W W W W W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W # H & H # # # W W W W W W W W W W W W W W W W W W W W W W W W W W W W 
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W 

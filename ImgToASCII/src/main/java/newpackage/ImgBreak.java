@@ -14,8 +14,7 @@ public class ImgBreak {
     private int width;
     private int height;
     public Color[][] pixels;
-    private String[] ascii={".",",","`","\"","*","+","-",";","&","$","&","#","@","=","№"};//15
-    private String[][] chars;
+    private char[][] chars;
     
     public ImgBreak(String name) throws IOException  {
         this.image = ImageIO.read(new File("src/main/java/img/"+name));
@@ -28,7 +27,7 @@ public class ImgBreak {
                 p[h][w] = getPixelColor(h,w);
         }
         pixels=p;
-        chars=new String[width][height];
+        chars=new char[width][height];
     }
     
     public void imgToAscii(){  
@@ -44,35 +43,35 @@ public class ImgBreak {
         asciiWrite();
     }
     
-    private String asciiSwitch(Color color){
+    private char asciiSwitch(Color color){
         switch(color.getRed()/10){
-            case 0: return ascii[0];
-            case 1:return ascii[1];
-            case 2:return ascii[1];
-            case 3:return ascii[1];
-            case 4:return ascii[2];
-            case 5:return ascii[2];
-            case 6:return ascii[2];
-            case 7:return ascii[3];
-            case 8:return ascii[3];
-            case 9:return ascii[4];
-            case 10:return ascii[4];
-            case 11:return ascii[5];
-            case 12:return ascii[5];
-            case 13:return ascii[6];
-            case 14:return ascii[6];
-            case 15:return ascii[7];
-            case 16:return ascii[7];
-            case 17:return ascii[8];
-            case 18:return ascii[8];
-            case 19:return ascii[9];
-            case 20:return ascii[9];
-            case 21:return ascii[10];
-            case 22:return ascii[10];
-            case 23:return ascii[11];
-            case 24:return ascii[12];
-            case 25:return ascii[13];
-            default:return ascii[0];
+            case 0: return 'W';
+            case 1:return '#';
+            case 2:return 'H';
+            case 3:return '&';
+            case 4:return '%';
+            case 5:return 'h';
+            case 6:return 'k';
+            case 7:return 'j';
+            case 8:return '?';
+            case 9:return '+';
+            case 10:return '=';
+            case 11:return 'c';
+            case 12:return '/';
+            case 13:return ';';
+            case 14:return ':';
+            case 15:return '^';
+            case 16:return '^';
+            case 17:return '°';
+            case 18:return '\"';           
+            case 19:return '²';
+            case 20:return '\'';
+            case 21:return '\'';
+            case 22:return ',';
+            case 23:return '_';
+            case 24:return '-';
+            case 25:return '.';
+            default:return '.';
         }
     }
     
@@ -82,15 +81,16 @@ public class ImgBreak {
             writer.write("hello"
                     + "\n");
             for(int w=0;w<this.width;w++){
-                for(int h=0;h<this.height;h++)
+                for(int h=0;h<this.height;h++){
                     writer.append(chars[h][w]);
+                   // writer.append(' ');
+                }
                 writer.append('\n');
             }
             writer.flush();
         }
-        catch(IOException ex){
-             
-            System.out.println(ex.getMessage());
+        catch(IOException ex){ 
+            System.err.println(ex.getMessage());
         } 
     }
     
@@ -99,14 +99,13 @@ public class ImgBreak {
             for(int h=0;h<this.height;h++){
                 int c = Math.round((pixels[h][w].getRed()+pixels[h][w].getGreen()+pixels[h][w].getBlue())/3);
                 pixels[h][w] = new Color(c,c,c);
-                imgWrite(h,w,pixels[h][w]);
+                image.setRGB(h,w,pixels[h][w].getRGB()); 
             }
         }
-        
+        imgWrite();
     }
     
-    public void imgWrite(int x,int y, Color color) {
-        image.setRGB(x, y, color.getRGB());
+    public void imgWrite() {  
         try {
             ImageIO.write(image, "png", new File("image.png"));
         } catch (IOException ex) {
