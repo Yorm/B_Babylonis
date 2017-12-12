@@ -1,0 +1,464 @@
+2017-10-31 12:23:20,661 [main] - args 0 C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-10-31 12:23:20,661 [main] - args 1 localhost
+2017-10-31 12:23:20,661 [main] - args 2 161
+2017-10-31 12:23:20,662 [main] - args 3 public
+2017-10-31 12:23:20,662 [main] - args 4 public
+2017-10-31 12:23:20,662 [main] - args 5 162
+2017-10-31 12:23:20,662 [main] - args 6 0
+2017-10-31 12:23:20,662 [main] - args 7 com.gdepri.t861.file.instrumentation.InstrumentationManager
+2017-10-31 12:23:20,662 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/
+2017-10-31 12:23:20,662 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/server/
+2017-10-31 12:23:20,663 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/classes/server/
+2017-10-31 12:23:20,663 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-10-31 12:23:20,663 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-10-31 12:23:20,663 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-10-31 12:23:20,663 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-10-31 12:23:20,663 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-10-31 12:23:20,663 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-10-31 12:23:20,663 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-10-31 12:23:20,663 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-10-31 12:23:20,664 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-10-31 12:23:20,665 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-10-31 12:23:20,666 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-10-31 12:23:20,667 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-10-31 12:23:20,668 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/agentruntimeserver.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/common.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/core.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/integration.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/legacycommon.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/metadata.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/remoteagentruntime-api.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/schema-generation.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/server.jar
+2017-10-31 12:23:20,681 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_metadata.jar
+2017-10-31 12:23:20,682 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_server.jar
+2017-10-31 12:23:20,692 [main] - Script = C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-10-31 12:23:20,725 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-10-31 12:23:20,725 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-10-31 12:23:20,726 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-10-31 12:23:20,770 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@62facfa5)
+2017-10-31 12:23:20,770 [main] - put(key = summAlarmOidsDict, value = {})
+2017-10-31 12:23:20,770 [main] - put(key = configDict, value = {})
+2017-10-31 12:23:20,770 [main] - put(key = attributeDict, value = {})
+2017-10-31 12:23:20,770 [main] - put(key = alarmDict, value = {})
+2017-10-31 12:23:20,770 [main] - put(key = alarmOidsDict, value = {})
+2017-10-31 12:23:20,770 [main] - put(key = InstrumentationManager, value = com.gdepri.t861.file.instrumentation.InstrumentationManager@40568c67)
+2017-10-31 12:23:20,770 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@721bdf30)
+2017-10-31 12:23:20,770 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@721bdf30)
+2017-10-31 12:23:20,771 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@3da02d7)
+2017-10-31 12:23:21,781 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-10-31 12:23:21,782 [main] - ERROR::Secondary attribute = IPAddress
+2017-10-31 12:23:21,785 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-10-31 12:23:21,788 [main] - get(key = Logger)
+2017-10-31 12:23:21,789 [main] - get(key = ContextHelper)
+2017-10-31 12:23:21,789 [main] - get(key = IndicationHandler)
+2017-10-31 12:23:21,789 [main] - put(key = ConfigHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler@65d7a36e)
+2017-10-31 12:23:21,792 [main] - get(key = Logger)
+2017-10-31 12:23:21,793 [main] - get(key = ContextHelper)
+2017-10-31 12:23:21,793 [main] - get(key = IndicationHandler)
+2017-10-31 12:23:21,793 [main] - put(key = AlarmHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler@279ad355)
+2017-10-31 12:23:21,795 [main] - get(key = Logger)
+2017-10-31 12:23:21,796 [main] - get(key = ContextHelper)
+2017-10-31 12:23:21,796 [main] - get(key = IndicationHandler)
+2017-10-31 12:23:21,796 [main] - put(key = AttributeHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AttributeHandler@2c11008e)
+2017-10-31 12:23:21,797 [main] - DEBUG:com.gdepri.t861.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-10-31 12:23:21,872 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-10-31 12:23:21,873 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-10-31 12:23:21,874 [main] - current script = this C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-10-31 12:23:22,188 [Thread-1] - get(key = SnmpHandler)
+2017-10-31 12:23:22,188 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-10-31 12:23:22,189 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-10-31 12:23:22,350 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-10-31 12:23:22,351 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-10-31 12:23:22,351 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-10-31 12:23:22,352 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-10-31 12:23:22,352 [Thread-1] - INFO:Main.js:Parent :
+2017-10-31 12:23:22,363 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-10-31 12:23:22,364 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-10-31 12:23:22,364 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-10-31 12:23:22,373 [Thread-1] - ReferenceError: "displayName" is not defined. (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#41)
+2017-10-31 12:23:22,373 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Exception occured calling Error Handler function call for  Configuration
+2017-10-31 12:23:22,383 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-10-31 12:23:22,384 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-10-31 12:23:22,385 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-10-31 12:23:22,385 [Thread-1] - MO id = test 
+2017-10-31 12:23:22,387 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for EthernetInterfaces
+2017-10-31 12:23:22,387 [Thread-1] - createActualElement :: Instance = EthernetInterfacesParent ID  = 0 null
+2017-10-31 12:23:22,388 [Thread-1] - MO id = 2 
+2017-10-31 12:23:22,390 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Configuration return was null
+2017-10-31 12:23:22,391 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Configuration
+2017-10-31 12:23:22,391 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@64375c2a
+2017-10-31 12:23:22,412 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 org.mozilla.javascript.EcmaError: ReferenceError: "displayName" is not defined. (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#41)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.notFoundError(ScriptRuntime.java:3750)
+	at org.mozilla.javascript.ScriptRuntime.name(ScriptRuntime.java:1728)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1._c_createEthernetPorts_2(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js:41)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1._c_Configuration_1(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js:10)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.executeFunction(InstrumentationManager.java:1060)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler.pollConfig(InstrumentationManager.java:158)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler.pollConfig(InstrumentationManager.java:149)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.invoke(InstrumentationManager.java:1634)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.instrumentationManagerInvoke(JsSimulationManager.java:2723)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeConfiguration(JsSimulationManager.java:3475)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeDevice(JsSimulationManager.java:3484)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.invoke(JsSimulationManager.java:2739)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$4.run(JsSimulationManager.java:769)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-10-31 12:23:22,412 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-10-31 12:23:22,413 [Thread-1] - DEBUG:Main.js:Handling Error on Configuration
+2017-10-31 12:23:22,414 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function ErrorHandler;return= success
+2017-10-31 12:23:22,415 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-10-31 12:23:22,415 [Thread-1] - get(key = SnmpHandler)
+2017-10-31 12:23:22,415 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-10-31 12:23:22,416 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-10-31 12:23:22,498 [Thread-1] - INFO:Main.js:Alias :1
+2017-10-31 12:23:22,499 [Thread-1] - INFO:Main.js:Description :TX( 1)
+2017-10-31 12:23:22,499 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,500 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,500 [Thread-1] - INFO:Main.js:PortSpeed :100000000
+2017-10-31 12:23:22,501 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,502 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,502 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-10-31 12:23:22,503 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,504 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,505 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,506 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,506 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,507 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,507 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,508 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,508 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,509 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,509 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,509 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,510 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,511 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 1_Interface was null
+2017-10-31 12:23:22,545 [Thread-1] - INFO:Main.js:Alias :2
+2017-10-31 12:23:22,545 [Thread-1] - INFO:Main.js:Description :TX( 2)
+2017-10-31 12:23:22,546 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,546 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,546 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,547 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,547 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,547 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,548 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,548 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,548 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,549 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,549 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,549 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,550 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,550 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,550 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,550 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,551 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,551 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,552 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,552 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 2_Interface was null
+2017-10-31 12:23:22,579 [Thread-1] - INFO:Main.js:Alias :3
+2017-10-31 12:23:22,580 [Thread-1] - INFO:Main.js:Description :TX( 3)
+2017-10-31 12:23:22,580 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,580 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,581 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,581 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,581 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,582 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,582 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,582 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,583 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,583 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,583 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,584 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,584 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,584 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,585 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,585 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,585 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,586 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,586 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,586 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 3_Interface was null
+2017-10-31 12:23:22,620 [Thread-1] - INFO:Main.js:Alias :4
+2017-10-31 12:23:22,620 [Thread-1] - INFO:Main.js:Description :TX( 4)
+2017-10-31 12:23:22,620 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,621 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,621 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,621 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,622 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,622 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,622 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,623 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,623 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,623 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,624 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,624 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,624 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,625 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,625 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,625 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,626 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,626 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,627 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,627 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 4_Interface was null
+2017-10-31 12:23:22,661 [Thread-1] - INFO:Main.js:Alias :5
+2017-10-31 12:23:22,662 [Thread-1] - INFO:Main.js:Description :TX( 5)
+2017-10-31 12:23:22,662 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,662 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,663 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,663 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,663 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,664 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,664 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,664 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,665 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,665 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,665 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,665 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,666 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,666 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,666 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,667 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,667 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,667 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,668 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,669 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 5_Interface was null
+2017-10-31 12:23:22,701 [Thread-1] - INFO:Main.js:Alias :6
+2017-10-31 12:23:22,702 [Thread-1] - INFO:Main.js:Description :TX( 6)
+2017-10-31 12:23:22,702 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,702 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,703 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,703 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,703 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,704 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,704 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,705 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,705 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,706 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,706 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,706 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,707 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,707 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,707 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,708 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,708 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,709 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,709 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,710 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 6_Interface was null
+2017-10-31 12:23:22,741 [Thread-1] - INFO:Main.js:Alias :7
+2017-10-31 12:23:22,741 [Thread-1] - INFO:Main.js:Description :TX( 7)
+2017-10-31 12:23:22,741 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,742 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,742 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,742 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,743 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,743 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,743 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,744 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,744 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,744 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,745 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,745 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,746 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,746 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,746 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,747 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,747 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,747 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,748 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,748 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 7_Interface was null
+2017-10-31 12:23:22,786 [Thread-1] - INFO:Main.js:Alias :8
+2017-10-31 12:23:22,787 [Thread-1] - INFO:Main.js:Description :TX/G( 8)
+2017-10-31 12:23:22,787 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,787 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,788 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-10-31 12:23:22,788 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,788 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,789 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-10-31 12:23:22,789 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,789 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,790 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,790 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,790 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,791 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,791 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,791 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,792 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,792 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,792 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,793 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,793 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,794 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 8_Interface was null
+2017-10-31 12:23:22,822 [Thread-1] - INFO:Main.js:Alias :9
+2017-10-31 12:23:22,822 [Thread-1] - INFO:Main.js:Description :FP/G( 9)
+2017-10-31 12:23:22,822 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,823 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,823 [Thread-1] - INFO:Main.js:PortSpeed :1000000000
+2017-10-31 12:23:22,823 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,824 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,824 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-10-31 12:23:22,824 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,825 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,825 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,825 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,826 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,826 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,826 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,827 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,827 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,827 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,828 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,828 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,828 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,829 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 9_Interface was null
+2017-10-31 12:23:22,868 [Thread-1] - INFO:Main.js:Alias :10
+2017-10-31 12:23:22,868 [Thread-1] - INFO:Main.js:Description :FP/G(10)
+2017-10-31 12:23:22,869 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-10-31 12:23:22,869 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,869 [Thread-1] - INFO:Main.js:PortSpeed :1000000000
+2017-10-31 12:23:22,870 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,870 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,870 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-10-31 12:23:22,871 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,871 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,871 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,872 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,872 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,872 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,873 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,873 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,873 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,874 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,874 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,874 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,875 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,875 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 10_Interface was null
+2017-10-31 12:23:22,909 [Thread-1] - INFO:Main.js:Alias :11
+2017-10-31 12:23:22,909 [Thread-1] - INFO:Main.js:Description :Port_cpu
+2017-10-31 12:23:22,910 [Thread-1] - INFO:Main.js:TrafficType :53
+2017-10-31 12:23:22,910 [Thread-1] - INFO:Main.js:MTU :1500
+2017-10-31 12:23:22,910 [Thread-1] - INFO:Main.js:PortSpeed :100000000
+2017-10-31 12:23:22,911 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-10-31 12:23:22,911 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-10-31 12:23:22,911 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-10-31 12:23:22,912 [Thread-1] - INFO:Main.js:LastChange :0
+2017-10-31 12:23:22,912 [Thread-1] - INFO:Main.js:InOctets :null
+2017-10-31 12:23:22,912 [Thread-1] - INFO:Main.js:InUcastPkts :null
+2017-10-31 12:23:22,913 [Thread-1] - INFO:Main.js:InNUcastPkts :null
+2017-10-31 12:23:22,913 [Thread-1] - INFO:Main.js:InDiscards :null
+2017-10-31 12:23:22,913 [Thread-1] - INFO:Main.js:InErrors :null
+2017-10-31 12:23:22,914 [Thread-1] - INFO:Main.js:InUnknownProtos :null
+2017-10-31 12:23:22,914 [Thread-1] - INFO:Main.js:OutOctets :null
+2017-10-31 12:23:22,915 [Thread-1] - INFO:Main.js:OutUcastPkts :null
+2017-10-31 12:23:22,915 [Thread-1] - INFO:Main.js:OutNUcastPkts :null
+2017-10-31 12:23:22,915 [Thread-1] - INFO:Main.js:OutDiscards :null
+2017-10-31 12:23:22,916 [Thread-1] - INFO:Main.js:OutErrors :null
+2017-10-31 12:23:22,916 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-10-31 12:23:22,916 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name 11_Interface was null
+2017-10-31 12:23:22,917 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-10-31 12:23:22,917 [Thread-1] - 
+2017-10-31 12:23:22,918 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-10-31 12:23:22,918 [Thread-1] - get(key = SnmpHandler)
+2017-10-31 12:23:22,919 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-10-31 12:23:22,919 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-10-31 12:23:22,920 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-10-31 12:23:22,923 [Thread-1] - TypeError: Cannot read property "LinkStatus" from undefined (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#107)
+2017-10-31 12:23:22,924 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Exception occured calling Error Handler function call for  Alarm
+2017-10-31 12:23:22,925 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Alarm return was null
+2017-10-31 12:23:22,925 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Alarm
+2017-10-31 12:23:22,926 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@64827e06
+2017-10-31 12:23:22,935 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 org.mozilla.javascript.EcmaError: TypeError: Cannot read property "LinkStatus" from undefined (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#107)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.undefReadError(ScriptRuntime.java:3725)
+	at org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1483)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1._c_Alarm_5(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js:107)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.executeFunction(InstrumentationManager.java:1060)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler.pollAllAlarms(InstrumentationManager.java:87)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.invoke(InstrumentationManager.java:1630)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.instrumentationManagerInvoke(JsSimulationManager.java:2723)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeAlarm(JsSimulationManager.java:3448)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeDevice(JsSimulationManager.java:3486)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.invoke(JsSimulationManager.java:2739)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$4.run(JsSimulationManager.java:769)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-10-31 12:23:22,936 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-10-31 12:23:22,937 [Thread-1] - DEBUG:Main.js:Handling Error on Alarm
+2017-10-31 12:23:22,937 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function ErrorHandler;return= success
+2017-10-31 12:23:22,938 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-10-31 12:23:22,939 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-10-31 12:23:22,939 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success
+2017-10-31 12:23:26,871 [Thread-259] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-10-31 12:23:26,871 [Thread-259] - get(key = SnmpHandler)
+2017-10-31 12:23:26,872 [Thread-259] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-10-31 12:23:26,873 [Thread-259] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-10-31 12:23:26,874 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-10-31 12:23:26,882 [Thread-259] - TypeError: Cannot read property "LinkStatus" from undefined (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#107)
+2017-10-31 12:23:26,882 [Thread-259] - WARN:InstrumentationManager :: executeFunction():Exception occured calling Error Handler function call for  Alarm
+2017-10-31 12:23:26,884 [Thread-259] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Alarm return was null
+2017-10-31 12:23:26,885 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Alarm
+2017-10-31 12:23:26,886 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@510b02da
+2017-10-31 12:23:26,890 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 org.mozilla.javascript.EcmaError: TypeError: Cannot read property "LinkStatus" from undefined (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#107)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.undefReadError(ScriptRuntime.java:3725)
+	at org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1483)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1._c_Alarm_5(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js:107)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_gdepri_t861_server_com_gdepri_t861_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.executeFunction(InstrumentationManager.java:1060)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler.pollAllAlarms(InstrumentationManager.java:87)
+	at com.gdepri.t861.file.instrumentation.InstrumentationManager.invoke(InstrumentationManager.java:1630)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.instrumentationManagerInvoke(JsSimulationManager.java:2723)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeAlarm(JsSimulationManager.java:3448)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.invoke(JsSimulationManager.java:2731)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationGUI$11.run(JsSimulationGUI.java:769)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-10-31 12:23:26,891 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-10-31 12:23:26,892 [Thread-259] - DEBUG:Main.js:Handling Error on Alarm
+2017-10-31 12:23:26,892 [Thread-259] - DEBUG:InstrumentationManager :: executeFunction():function ErrorHandler;return= success

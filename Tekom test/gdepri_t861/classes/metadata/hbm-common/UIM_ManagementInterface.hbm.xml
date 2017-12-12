@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_ManagedElement" name="UIM_ManagementInterface" discriminator-value="UIM_ManagementInterface">
+    <meta attribute="class-description">Generated Javadocs for UIM_ManagementInterface
+	@author jkonicki</meta>
+    <join table="UIM_ManagementInterface">
+      <key column="id"/>
+      <property name="Name" type="java.lang.String" index="index_1441058335183_Name">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Name" sql-type="varchar2(3000)"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

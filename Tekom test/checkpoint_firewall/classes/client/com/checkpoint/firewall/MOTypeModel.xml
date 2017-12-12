@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2010 Harris Corporation. All Rights Reserved. -->
+<ManagedObject>
+    <UIMClass>UIM_CheckPFirewallNetworkElement</UIMClass>
+    <DisplayName>Firewall CheckPoint</DisplayName>
+    <ElementType>CheckPointFirewall</ElementType>
+    <Version>2.7</Version>
+</ManagedObject>

@@ -1,0 +1,94 @@
+2017-11-07 10:18:22,473 [main] - args 0 C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-07 10:18:22,474 [main] - args 1 localhost
+2017-11-07 10:18:22,474 [main] - args 2 161
+2017-11-07 10:18:22,474 [main] - args 3 public
+2017-11-07 10:18:22,474 [main] - args 4 public
+2017-11-07 10:18:22,474 [main] - args 5 162
+2017-11-07 10:18:22,474 [main] - args 6 0
+2017-11-07 10:18:22,474 [main] - args 7 com.gdepri.t861.file.instrumentation.InstrumentationManager
+2017-11-07 10:18:22,475 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/
+2017-11-07 10:18:22,475 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/server/
+2017-11-07 10:18:22,475 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/classes/server/
+2017-11-07 10:18:22,475 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-07 10:18:22,475 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-11-07 10:18:22,475 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-11-07 10:18:22,475 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-11-07 10:18:22,475 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-11-07 10:18:22,476 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-11-07 10:18:22,476 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-11-07 10:18:22,477 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/agentruntimeserver.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/common.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/core.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/integration.jar
+2017-11-07 10:18:22,478 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/legacycommon.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/metadata.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/remoteagentruntime-api.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/schema-generation.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/server.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_metadata.jar
+2017-11-07 10:18:22,479 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_server.jar
+2017-11-07 10:18:22,484 [main] - Script = C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-11-07 10:18:22,512 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@7a450ea8, signature = null)
+2017-11-07 10:18:22,512 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@7a450ea8, signature = null)
+2017-11-07 10:18:22,512 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@7a450ea8, signature = null)
+2017-11-07 10:18:22,556 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@40568c67)
+2017-11-07 10:18:22,557 [main] - put(key = summAlarmOidsDict, value = {})
+2017-11-07 10:18:22,557 [main] - put(key = configDict, value = {})
+2017-11-07 10:18:22,557 [main] - put(key = attributeDict, value = {})
+2017-11-07 10:18:22,557 [main] - put(key = alarmDict, value = {})
+2017-11-07 10:18:22,557 [main] - put(key = alarmOidsDict, value = {})
+2017-11-07 10:18:22,557 [main] - put(key = InstrumentationManager, value = com.gdepri.t861.file.instrumentation.InstrumentationManager@721bdf30)
+2017-11-07 10:18:22,557 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@3da02d7)
+2017-11-07 10:18:22,557 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@3da02d7)
+2017-11-07 10:18:22,557 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@5df0733a)
+2017-11-07 10:18:23,564 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-07 10:18:23,565 [main] - ERROR::Secondary attribute = IPAddress
+2017-11-07 10:18:23,569 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-07 10:18:23,573 [main] - get(key = Logger)
+2017-11-07 10:18:23,573 [main] - get(key = ContextHelper)
+2017-11-07 10:18:23,573 [main] - get(key = IndicationHandler)
+2017-11-07 10:18:23,573 [main] - put(key = ConfigHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler@302abefe)
+2017-11-07 10:18:23,578 [main] - get(key = Logger)
+2017-11-07 10:18:23,578 [main] - get(key = ContextHelper)
+2017-11-07 10:18:23,578 [main] - get(key = IndicationHandler)
+2017-11-07 10:18:23,579 [main] - put(key = AlarmHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler@25a885c3)
+2017-11-07 10:18:23,583 [main] - get(key = Logger)
+2017-11-07 10:18:23,583 [main] - get(key = ContextHelper)
+2017-11-07 10:18:23,583 [main] - get(key = IndicationHandler)
+2017-11-07 10:18:23,584 [main] - put(key = AttributeHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AttributeHandler@103b813c)
+2017-11-07 10:18:23,586 [main] - DEBUG:com.gdepri.t861.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-07 10:18:23,650 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-11-07 10:18:23,651 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-11-07 10:18:23,652 [main] - current script = this C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js currently it is at Main.js DEBUG

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <subclass extends="UIM_NetworkElement" name="UIM_GenericNetworkElement" discriminator-value="UIM_GenericNetworkElement">
+    <meta attribute="class-description">Generated Javadocs for UIM_GenericNetworkElement
+	@author jkonicki</meta>
+    <join table="UIM_GenericNetworkElement">
+      <key column="id"/>
+      <property name="SystemUpTime" type="java.lang.Long">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemUpTime"/>
+      </property>
+      <property name="SystemLocation" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemLocation" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="SystemContact" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemContact" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="SnmpSleepTimeout" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SnmpSleepTimeout"/>
+      </property>
+      <property name="DeviceName" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="DeviceName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="IsElementInEMS" type="java.lang.Boolean">
+        <meta attribute="default-value">new java.lang.Boolean(false)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="IsElementInEMS"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

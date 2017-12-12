@@ -1,0 +1,216 @@
+2017-12-07 14:36:56,379 [main] - args 0 C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-07 14:36:56,380 [main] - args 1 localhost
+2017-12-07 14:36:56,380 [main] - args 2 161
+2017-12-07 14:36:56,380 [main] - args 3 public
+2017-12-07 14:36:56,380 [main] - args 4 public
+2017-12-07 14:36:56,380 [main] - args 5 162
+2017-12-07 14:36:56,380 [main] - args 6 0
+2017-12-07 14:36:56,380 [main] - args 7 com.checkpoint.firewall.file.instrumentation.InstrumentationManager
+2017-12-07 14:36:56,380 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/
+2017-12-07 14:36:56,380 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/server/
+2017-12-07 14:36:56,380 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/classes/server/
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-12-07 14:36:56,381 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-12-07 14:36:56,381 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-12-07 14:36:56,381 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-12-07 14:36:56,381 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-12-07 14:36:56,381 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-12-07 14:36:56,382 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-12-07 14:36:56,383 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-12-07 14:36:56,383 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-12-07 14:36:56,383 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-12-07 14:36:56,383 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-12-07 14:36:56,383 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-12-07 14:36:56,395 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-12-07 14:36:56,395 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-12-07 14:36:56,395 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-12-07 14:36:56,395 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-12-07 14:36:56,395 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/agentruntimeserver.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/common.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/core.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/integration.jar
+2017-12-07 14:36:56,396 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/legacycommon.jar
+2017-12-07 14:36:56,397 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/metadata.jar
+2017-12-07 14:36:56,397 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/schema-generation.jar
+2017-12-07 14:36:56,397 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/server.jar
+2017-12-07 14:36:56,397 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_metadata.jar
+2017-12-07 14:36:56,397 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_server.jar
+2017-12-07 14:36:56,410 [main] - Script = C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-12-07 14:36:56,439 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 14:36:56,439 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 14:36:56,439 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 14:36:56,488 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@164c786e)
+2017-12-07 14:36:56,489 [main] - put(key = summAlarmOidsDict, value = {})
+2017-12-07 14:36:56,489 [main] - put(key = configDict, value = {})
+2017-12-07 14:36:56,489 [main] - put(key = attributeDict, value = {})
+2017-12-07 14:36:56,489 [main] - put(key = alarmDict, value = {})
+2017-12-07 14:36:56,489 [main] - put(key = alarmOidsDict, value = {})
+2017-12-07 14:36:56,489 [main] - put(key = InstrumentationManager, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager@76768931)
+2017-12-07 14:36:56,489 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@60292cb9)
+2017-12-07 14:36:56,489 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@60292cb9)
+2017-12-07 14:36:56,489 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@2f375701)
+2017-12-07 14:36:57,498 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-07 14:36:57,499 [main] - ERROR::Secondary attribute = IPAddress
+2017-12-07 14:36:57,502 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-07 14:36:57,507 [main] - get(key = Logger)
+2017-12-07 14:36:57,508 [main] - get(key = ContextHelper)
+2017-12-07 14:36:57,508 [main] - get(key = IndicationHandler)
+2017-12-07 14:36:57,508 [main] - put(key = ConfigHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$ConfigHandler@14b746c8)
+2017-12-07 14:36:57,513 [main] - get(key = Logger)
+2017-12-07 14:36:57,513 [main] - get(key = ContextHelper)
+2017-12-07 14:36:57,513 [main] - get(key = IndicationHandler)
+2017-12-07 14:36:57,513 [main] - put(key = AlarmHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AlarmHandler@5db6fa62)
+2017-12-07 14:36:57,518 [main] - get(key = Logger)
+2017-12-07 14:36:57,518 [main] - get(key = ContextHelper)
+2017-12-07 14:36:57,518 [main] - get(key = IndicationHandler)
+2017-12-07 14:36:57,519 [main] - put(key = AttributeHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AttributeHandler@998b16b)
+2017-12-07 14:36:57,522 [main] - DEBUG:com.checkpoint.firewall.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-07 14:36:57,588 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-12-07 14:36:57,589 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-12-07 14:36:57,591 [main] - current script = this C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-12-07 14:36:57,882 [main] - Failed to create a trap listener on port .
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(Unknown Source)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(Unknown Source)
+	at java.net.DatagramSocket.bind(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at org.snmp4j.transport.DefaultUdpTransportMapping.<init>(DefaultUdpTransportMapping.java:100)
+	at com.netboss.adt.ide.eclipse.simulation.js.TrapReceiver.<init>(TrapReceiver.java:150)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.<init>(JsSimulationManager.java:753)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.main(JsSimulationManager.java:426)
+2017-12-07 14:36:57,887 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 14:36:57,888 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-12-07 14:36:57,889 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-12-07 14:36:57,899 [Thread-1] - INFO:Main.js:Name :FanSpeed
+2017-12-07 14:36:57,900 [Thread-1] - INFO:Main.js:DisplayName :FanSpeed
+2017-12-07 14:36:57,900 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeedGrouping
+2017-12-07 14:36:57,901 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeedGrouping
+2017-12-07 14:36:57,901 [Thread-1] - INFO:Main.js:Parent :
+2017-12-07 14:36:57,905 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-07 14:36:57,905 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-07 14:36:57,906 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name FanSpeed did not resolve to instance id
+2017-12-07 14:36:58,036 [Thread-1] - INFO:Main.js:Name :Sensor_1
+2017-12-07 14:36:58,036 [Thread-1] - INFO:Main.js:DisplayName :Sensor_1
+2017-12-07 14:36:58,036 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-07 14:36:58,037 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-07 14:36:58,037 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-07 14:36:58,038 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-07 14:36:58,038 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_1
+2017-12-07 14:36:58,039 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_1 did not resolve to instance id
+2017-12-07 14:36:58,039 [Thread-1] - INFO:Main.js:Name :Sensor_2
+2017-12-07 14:36:58,039 [Thread-1] - INFO:Main.js:DisplayName :Sensor_2
+2017-12-07 14:36:58,040 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-07 14:36:58,041 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-07 14:36:58,042 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-07 14:36:58,042 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-07 14:36:58,042 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_2
+2017-12-07 14:36:58,043 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_2 did not resolve to instance id
+2017-12-07 14:36:58,043 [Thread-1] - INFO:Main.js:Name :Sensor_3
+2017-12-07 14:36:58,044 [Thread-1] - INFO:Main.js:DisplayName :Sensor_3
+2017-12-07 14:36:58,044 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-07 14:36:58,045 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-07 14:36:58,045 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-07 14:36:58,045 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-07 14:36:58,046 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_3
+2017-12-07 14:36:58,046 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_3 did not resolve to instance id
+2017-12-07 14:36:58,047 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Configuration;return= 
+2017-12-07 14:36:58,048 [Thread-1] - Instantiation component for UIM_FirewallFanSpeedGrouping is not found, use the default one. WARN
+2017-12-07 14:36:58,049 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-12-07 14:36:58,050 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-07 14:36:58,050 [Thread-1] - MO id = test 
+2017-12-07 14:36:58,051 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for FanSpeed
+2017-12-07 14:36:58,051 [Thread-1] - ClassName does not exist in the model: UIM_FirewallFanSpeedGrouping
+2017-12-07 14:36:58,052 [Thread-1] - ClassName does not exist in the model: UIM_FirewallFanSpeedGrouping
+2017-12-07 14:36:58,053 [Thread-1] - ERROR:InstrumentationManager :: createInstance():Dump of properties 
+2017-12-07 14:36:58,053 [Thread-1] - ERROR:InstrumentationManager :: createInstance():property: Name=>FanSpeed
+2017-12-07 14:36:58,054 [Thread-1] - ERROR:InstrumentationManager :: createInstance():property: ElementType=>FirewallFanSpeedGrouping
+2017-12-07 14:36:58,054 [Thread-1] - ERROR:InstrumentationManager :: createInstance():property: DisplayName=>FanSpeed
+2017-12-07 14:36:58,055 [Thread-1] - ERROR:InstrumentationManager :: createInstance():property: InstComp=>UIM_GenericLogicalDeviceInstComp
+2017-12-07 14:36:58,055 [Thread-1] - ERROR:InstrumentationManager :: createInstance():property: CustomClassName=>UIM_FirewallFanSpeedGrouping
+2017-12-07 14:36:58,056 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-07 14:36:58,056 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-07 14:36:58,056 [Thread-1] - WARN:InstrumentationManager :: createInstance():The parent name FanSpeed was not found using top level instance
+2017-12-07 14:36:58,057 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-07 14:36:58,057 [Thread-1] - MO id = test 
+2017-12-07 14:36:58,058 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Sensor_1
+2017-12-07 14:36:58,058 [Thread-1] - createActualElement :: Instance = Sensor_1Parent ID  = 0 null
+2017-12-07 14:36:58,058 [Thread-1] - MO id = 2 
+2017-12-07 14:36:58,061 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-07 14:36:58,061 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-07 14:36:58,062 [Thread-1] - WARN:InstrumentationManager :: createInstance():The parent name FanSpeed was not found using top level instance
+2017-12-07 14:36:58,062 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-07 14:36:58,063 [Thread-1] - MO id = test 
+2017-12-07 14:36:58,063 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Sensor_2
+2017-12-07 14:36:58,063 [Thread-1] - createActualElement :: Instance = Sensor_2Parent ID  = 0 null
+2017-12-07 14:36:58,064 [Thread-1] - MO id = 3 
+2017-12-07 14:36:58,064 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-07 14:36:58,065 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-07 14:36:58,065 [Thread-1] - WARN:InstrumentationManager :: createInstance():The parent name FanSpeed was not found using top level instance
+2017-12-07 14:36:58,066 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-07 14:36:58,066 [Thread-1] - MO id = test 
+2017-12-07 14:36:58,067 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Sensor_3
+2017-12-07 14:36:58,067 [Thread-1] - createActualElement :: Instance = Sensor_3Parent ID  = 0 null
+2017-12-07 14:36:58,067 [Thread-1] - MO id = 4 
+2017-12-07 14:36:58,068 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-12-07 14:36:58,068 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 14:36:58,069 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-12-07 14:36:58,069 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-12-07 14:36:58,102 [Thread-1] - INFO:Main.js:FanIndex :1.0
+2017-12-07 14:36:58,103 [Thread-1] - INFO:Main.js:FanName :null
+2017-12-07 14:36:58,103 [Thread-1] - INFO:Main.js:FanValue :null
+2017-12-07 14:36:58,104 [Thread-1] - INFO:Main.js:FanUnit :null
+2017-12-07 14:36:58,104 [Thread-1] - INFO:Main.js:FanType :null
+2017-12-07 14:36:58,105 [Thread-1] - INFO:Main.js:FanStatus :null
+2017-12-07 14:36:58,106 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Sensor_1.0 was null
+2017-12-07 14:36:58,123 [Thread-1] - INFO:Main.js:FanIndex :2.0
+2017-12-07 14:36:58,123 [Thread-1] - INFO:Main.js:FanName :null
+2017-12-07 14:36:58,124 [Thread-1] - INFO:Main.js:FanValue :null
+2017-12-07 14:36:58,124 [Thread-1] - INFO:Main.js:FanUnit :null
+2017-12-07 14:36:58,125 [Thread-1] - INFO:Main.js:FanType :null
+2017-12-07 14:36:58,125 [Thread-1] - INFO:Main.js:FanStatus :null
+2017-12-07 14:36:58,125 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Sensor_2.0 was null
+2017-12-07 14:36:58,136 [Thread-1] - INFO:Main.js:FanIndex :3.0
+2017-12-07 14:36:58,137 [Thread-1] - INFO:Main.js:FanName :null
+2017-12-07 14:36:58,137 [Thread-1] - INFO:Main.js:FanValue :null
+2017-12-07 14:36:58,137 [Thread-1] - INFO:Main.js:FanUnit :null
+2017-12-07 14:36:58,137 [Thread-1] - INFO:Main.js:FanType :null
+2017-12-07 14:36:58,138 [Thread-1] - INFO:Main.js:FanStatus :null
+2017-12-07 14:36:58,138 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Sensor_3.0 was null
+2017-12-07 14:36:58,142 [Thread-1] - INFO:Main.js:FFFFFFFFFFFFFFFbond2.7
+2017-12-07 14:36:58,142 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-12-07 14:36:58,143 [Thread-1] - 
+2017-12-07 14:36:58,144 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-12-07 14:36:58,144 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 14:36:58,144 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-12-07 14:36:58,145 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-12-07 14:36:58,145 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-12-07 14:36:58,146 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Alarm;return= Success
+2017-12-07 14:36:58,146 [Thread-1] - INFO:InstrumentationManager :: reconcileAlarms():Clearing 0 alerts
+2017-12-07 14:36:58,147 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-12-07 14:36:58,148 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-12-07 14:36:58,148 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success

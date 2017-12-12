@@ -1,0 +1,1344 @@
+2017-11-07 11:30:23,191 [main] - args 0 C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-07 11:30:23,192 [main] - args 1 localhost
+2017-11-07 11:30:23,192 [main] - args 2 161
+2017-11-07 11:30:23,192 [main] - args 3 public
+2017-11-07 11:30:23,192 [main] - args 4 public
+2017-11-07 11:30:23,193 [main] - args 5 162
+2017-11-07 11:30:23,193 [main] - args 6 0
+2017-11-07 11:30:23,193 [main] - args 7 com.gdepri.t861.file.instrumentation.InstrumentationManager
+2017-11-07 11:30:23,193 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/
+2017-11-07 11:30:23,193 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/server/
+2017-11-07 11:30:23,193 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/classes/server/
+2017-11-07 11:30:23,193 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-07 11:30:23,194 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-11-07 11:30:23,194 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-11-07 11:30:23,194 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-11-07 11:30:23,194 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-11-07 11:30:23,194 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-11-07 11:30:23,194 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-07 11:30:23,194 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-11-07 11:30:23,194 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-11-07 11:30:23,194 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-11-07 11:30:23,195 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-11-07 11:30:23,196 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-11-07 11:30:23,197 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/agentruntimeserver.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/common.jar
+2017-11-07 11:30:23,198 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/core.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/integration.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/legacycommon.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/metadata.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/remoteagentruntime-api.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/schema-generation.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/server.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_metadata.jar
+2017-11-07 11:30:23,199 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_server.jar
+2017-11-07 11:30:23,207 [main] - Script = C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-11-07 11:30:23,241 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-11-07 11:30:23,241 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-11-07 11:30:23,241 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@25b0cc8c, signature = null)
+2017-11-07 11:30:23,282 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@62facfa5)
+2017-11-07 11:30:23,282 [main] - put(key = summAlarmOidsDict, value = {})
+2017-11-07 11:30:23,282 [main] - put(key = configDict, value = {})
+2017-11-07 11:30:23,282 [main] - put(key = attributeDict, value = {})
+2017-11-07 11:30:23,282 [main] - put(key = alarmDict, value = {})
+2017-11-07 11:30:23,282 [main] - put(key = alarmOidsDict, value = {})
+2017-11-07 11:30:23,282 [main] - put(key = InstrumentationManager, value = com.gdepri.t861.file.instrumentation.InstrumentationManager@40568c67)
+2017-11-07 11:30:23,283 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@721bdf30)
+2017-11-07 11:30:23,283 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@721bdf30)
+2017-11-07 11:30:23,283 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@3da02d7)
+2017-11-07 11:30:24,290 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-07 11:30:24,292 [main] - ERROR::Secondary attribute = IPAddress
+2017-11-07 11:30:24,295 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-07 11:30:24,299 [main] - get(key = Logger)
+2017-11-07 11:30:24,299 [main] - get(key = ContextHelper)
+2017-11-07 11:30:24,299 [main] - get(key = IndicationHandler)
+2017-11-07 11:30:24,300 [main] - put(key = ConfigHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler@65d7a36e)
+2017-11-07 11:30:24,304 [main] - get(key = Logger)
+2017-11-07 11:30:24,304 [main] - get(key = ContextHelper)
+2017-11-07 11:30:24,304 [main] - get(key = IndicationHandler)
+2017-11-07 11:30:24,304 [main] - put(key = AlarmHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler@279ad355)
+2017-11-07 11:30:24,309 [main] - get(key = Logger)
+2017-11-07 11:30:24,309 [main] - get(key = ContextHelper)
+2017-11-07 11:30:24,309 [main] - get(key = IndicationHandler)
+2017-11-07 11:30:24,310 [main] - put(key = AttributeHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AttributeHandler@2c11008e)
+2017-11-07 11:30:24,312 [main] - DEBUG:com.gdepri.t861.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-07 11:30:24,379 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-11-07 11:30:24,380 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-11-07 11:30:24,382 [main] - current script = this C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-11-07 11:30:24,719 [Thread-1] - get(key = SnmpHandler)
+2017-11-07 11:30:24,721 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-11-07 11:30:24,724 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-11-07 11:30:24,864 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:24,866 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:24,869 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:24,871 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:24,875 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:24,880 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:24,883 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:24,885 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:24,888 [Thread-1] - INFO:Main.js:Name :Interface_1
+2017-11-07 11:30:24,891 [Thread-1] - INFO:Main.js:DisplayName :Interface_1
+2017-11-07 11:30:24,893 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:24,896 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:24,898 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:24,901 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:24,903 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-11-07 11:30:24,906 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_1 did not resolve to instance id
+2017-11-07 11:30:24,909 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:24,911 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:24,914 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:24,918 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:24,922 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:24,926 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:24,930 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:24,933 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:24,936 [Thread-1] - INFO:Main.js:Name :Interface_2
+2017-11-07 11:30:24,939 [Thread-1] - INFO:Main.js:DisplayName :Interface_2
+2017-11-07 11:30:24,943 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:24,946 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:24,949 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:24,952 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:24,955 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_2
+2017-11-07 11:30:24,958 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_2 did not resolve to instance id
+2017-11-07 11:30:24,962 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:24,965 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:24,968 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:24,972 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:24,975 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:24,978 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:24,981 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:24,984 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:24,987 [Thread-1] - INFO:Main.js:Name :Interface_3
+2017-11-07 11:30:24,990 [Thread-1] - INFO:Main.js:DisplayName :Interface_3
+2017-11-07 11:30:24,993 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:24,997 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,000 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,003 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,006 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_3
+2017-11-07 11:30:25,009 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_3 did not resolve to instance id
+2017-11-07 11:30:25,012 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,015 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,019 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,023 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,027 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,031 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,034 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,039 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,042 [Thread-1] - INFO:Main.js:Name :Interface_4
+2017-11-07 11:30:25,046 [Thread-1] - INFO:Main.js:DisplayName :Interface_4
+2017-11-07 11:30:25,049 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,052 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,055 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,059 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,062 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_4
+2017-11-07 11:30:25,065 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_4 did not resolve to instance id
+2017-11-07 11:30:25,068 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,072 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,075 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,078 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,082 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,085 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,088 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,091 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,095 [Thread-1] - INFO:Main.js:Name :Interface_5
+2017-11-07 11:30:25,098 [Thread-1] - INFO:Main.js:DisplayName :Interface_5
+2017-11-07 11:30:25,101 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,104 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,107 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,110 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,113 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_5
+2017-11-07 11:30:25,116 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_5 did not resolve to instance id
+2017-11-07 11:30:25,120 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,123 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,127 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,130 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,133 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,136 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,139 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,142 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,145 [Thread-1] - INFO:Main.js:Name :Interface_6
+2017-11-07 11:30:25,148 [Thread-1] - INFO:Main.js:DisplayName :Interface_6
+2017-11-07 11:30:25,151 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,154 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,157 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,161 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,164 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_6
+2017-11-07 11:30:25,167 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_6 did not resolve to instance id
+2017-11-07 11:30:25,170 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,173 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,176 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,179 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,182 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,185 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,188 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,192 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,195 [Thread-1] - INFO:Main.js:Name :Interface_7
+2017-11-07 11:30:25,198 [Thread-1] - INFO:Main.js:DisplayName :Interface_7
+2017-11-07 11:30:25,201 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,204 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,207 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,211 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,214 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_7
+2017-11-07 11:30:25,217 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_7 did not resolve to instance id
+2017-11-07 11:30:25,220 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,224 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,228 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,231 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,235 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,239 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,242 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,245 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,248 [Thread-1] - INFO:Main.js:Name :Interface_8
+2017-11-07 11:30:25,251 [Thread-1] - INFO:Main.js:DisplayName :Interface_8
+2017-11-07 11:30:25,254 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,258 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,261 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,265 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,268 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_8
+2017-11-07 11:30:25,271 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_8 did not resolve to instance id
+2017-11-07 11:30:25,275 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,278 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,281 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,284 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,287 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,290 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,293 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,297 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,300 [Thread-1] - INFO:Main.js:Name :Interface_9
+2017-11-07 11:30:25,303 [Thread-1] - INFO:Main.js:DisplayName :Interface_9
+2017-11-07 11:30:25,306 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,309 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,312 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,316 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,319 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_9
+2017-11-07 11:30:25,322 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_9 did not resolve to instance id
+2017-11-07 11:30:25,325 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,328 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,331 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,334 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,338 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,341 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,345 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,348 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,351 [Thread-1] - INFO:Main.js:Name :Interface_10
+2017-11-07 11:30:25,354 [Thread-1] - INFO:Main.js:DisplayName :Interface_10
+2017-11-07 11:30:25,357 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,360 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,363 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,366 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,370 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_10
+2017-11-07 11:30:25,373 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_10 did not resolve to instance id
+2017-11-07 11:30:25,377 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-11-07 11:30:25,380 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-11-07 11:30:25,383 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetGrouping
+2017-11-07 11:30:25,386 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetGrouping
+2017-11-07 11:30:25,389 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,393 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,396 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,399 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,402 [Thread-1] - INFO:Main.js:Name :Interface_11
+2017-11-07 11:30:25,407 [Thread-1] - INFO:Main.js:DisplayName :Interface_11
+2017-11-07 11:30:25,410 [Thread-1] - INFO:Main.js:ElementType :GDEpriEthernetPort
+2017-11-07 11:30:25,414 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861EthernetPort
+2017-11-07 11:30:25,417 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-11-07 11:30:25,420 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,423 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_11
+2017-11-07 11:30:25,426 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_11 did not resolve to instance id
+2017-11-07 11:30:25,430 [Thread-1] - INFO:Main.js:Name :Ports
+2017-11-07 11:30:25,433 [Thread-1] - INFO:Main.js:DisplayName :Ports
+2017-11-07 11:30:25,436 [Thread-1] - INFO:Main.js:ElementType :GDEpriGenericLogicalDevice
+2017-11-07 11:30:25,439 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GenericLogicalDevice
+2017-11-07 11:30:25,443 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,447 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,451 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,454 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-11-07 11:30:25,462 [Thread-1] - INFO:Main.js:Name :Port_1
+2017-11-07 11:30:25,465 [Thread-1] - INFO:Main.js:DisplayName :Port_1
+2017-11-07 11:30:25,468 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,471 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,475 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,478 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,481 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:25,484 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_1 did not resolve to instance id
+2017-11-07 11:30:25,487 [Thread-1] - INFO:Main.js:Name :Port_2
+2017-11-07 11:30:25,490 [Thread-1] - INFO:Main.js:DisplayName :Port_2
+2017-11-07 11:30:25,493 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,496 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,499 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,502 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,505 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:25,508 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_2 did not resolve to instance id
+2017-11-07 11:30:25,512 [Thread-1] - INFO:Main.js:Name :Port_3
+2017-11-07 11:30:25,515 [Thread-1] - INFO:Main.js:DisplayName :Port_3
+2017-11-07 11:30:25,518 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,521 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,524 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,527 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,530 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:25,533 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_3 did not resolve to instance id
+2017-11-07 11:30:25,536 [Thread-1] - INFO:Main.js:Name :Port_4
+2017-11-07 11:30:25,539 [Thread-1] - INFO:Main.js:DisplayName :Port_4
+2017-11-07 11:30:25,542 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,545 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,549 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,552 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,555 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:25,559 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_4 did not resolve to instance id
+2017-11-07 11:30:25,563 [Thread-1] - INFO:Main.js:Name :Port_5
+2017-11-07 11:30:25,568 [Thread-1] - INFO:Main.js:DisplayName :Port_5
+2017-11-07 11:30:25,571 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,574 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,578 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,581 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,584 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:25,586 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_5 did not resolve to instance id
+2017-11-07 11:30:25,590 [Thread-1] - INFO:Main.js:Name :Port_6
+2017-11-07 11:30:25,593 [Thread-1] - INFO:Main.js:DisplayName :Port_6
+2017-11-07 11:30:25,596 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,599 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,602 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,606 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,609 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:25,612 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_6 did not resolve to instance id
+2017-11-07 11:30:25,615 [Thread-1] - INFO:Main.js:Name :Port_7
+2017-11-07 11:30:25,618 [Thread-1] - INFO:Main.js:DisplayName :Port_7
+2017-11-07 11:30:25,621 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,624 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,627 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,630 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,633 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:25,636 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_7 did not resolve to instance id
+2017-11-07 11:30:25,640 [Thread-1] - INFO:Main.js:Name :Port_8
+2017-11-07 11:30:25,643 [Thread-1] - INFO:Main.js:DisplayName :Port_8
+2017-11-07 11:30:25,646 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,649 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,652 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,655 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,660 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:25,663 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_8 did not resolve to instance id
+2017-11-07 11:30:25,667 [Thread-1] - INFO:Main.js:Name :Port_9
+2017-11-07 11:30:25,670 [Thread-1] - INFO:Main.js:DisplayName :Port_9
+2017-11-07 11:30:25,673 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,676 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,680 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,683 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,686 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:25,688 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_9 did not resolve to instance id
+2017-11-07 11:30:25,692 [Thread-1] - INFO:Main.js:Name :Port_10
+2017-11-07 11:30:25,695 [Thread-1] - INFO:Main.js:DisplayName :Port_10
+2017-11-07 11:30:25,698 [Thread-1] - INFO:Main.js:ElementType :GDEpriPort
+2017-11-07 11:30:25,701 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Port
+2017-11-07 11:30:25,704 [Thread-1] - INFO:Main.js:Parent :Ports
+2017-11-07 11:30:25,707 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,710 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:25,713 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Port_10 did not resolve to instance id
+2017-11-07 11:30:25,716 [Thread-1] - INFO:Main.js:Name :Vlans
+2017-11-07 11:30:25,719 [Thread-1] - INFO:Main.js:DisplayName :Vlans
+2017-11-07 11:30:25,722 [Thread-1] - INFO:Main.js:ElementType :GDEpriGenericLogicalDevice
+2017-11-07 11:30:25,726 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GenericLogicalDevice
+2017-11-07 11:30:25,728 [Thread-1] - INFO:Main.js:Parent :
+2017-11-07 11:30:25,732 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,735 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Vlans
+2017-11-07 11:30:25,737 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Vlans did not resolve to instance id
+2017-11-07 11:30:25,741 [Thread-1] - INFO:Main.js:Name :Vlan_1
+2017-11-07 11:30:25,744 [Thread-1] - INFO:Main.js:DisplayName :Vlan_1
+2017-11-07 11:30:25,747 [Thread-1] - INFO:Main.js:ElementType :GDEpriVlan
+2017-11-07 11:30:25,750 [Thread-1] - INFO:Main.js:CustomClassName :UIM_GDEpriT861Vlans
+2017-11-07 11:30:25,753 [Thread-1] - INFO:Main.js:Parent :Vlans
+2017-11-07 11:30:25,756 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-11-07 11:30:25,759 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Vlan_1
+2017-11-07 11:30:25,762 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Vlan_1 did not resolve to instance id
+2017-11-07 11:30:25,765 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Configuration;return= 
+2017-11-07 11:30:25,769 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,773 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-11-07 11:30:25,778 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-11-07 11:30:25,781 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,786 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for EthernetInterfaces
+2017-11-07 11:30:25,786 [Thread-1] - createActualElement :: Instance = EthernetInterfacesParent ID  = 0 null
+2017-11-07 11:30:25,789 [Thread-1] - MO id = 2 
+2017-11-07 11:30:25,794 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,797 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,801 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,804 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,807 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,811 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,814 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,817 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,821 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,824 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetGrouping is not found, use the default one. WARN
+2017-11-07 11:30:25,828 [Thread-1] - Picking up Instantiation component from agent constants. INFO
+2017-11-07 11:30:25,831 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-11-07 11:30:25,834 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-11-07 11:30:25,838 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,842 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Ports
+2017-11-07 11:30:25,842 [Thread-1] - createActualElement :: Instance = PortsParent ID  = 0 null
+2017-11-07 11:30:25,845 [Thread-1] - MO id = 3 
+2017-11-07 11:30:25,849 [Thread-1] - Picking up Instantiation component from agent constants. INFO
+2017-11-07 11:30:25,852 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-11-07 11:30:25,856 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-11-07 11:30:25,861 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,864 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Vlans
+2017-11-07 11:30:25,864 [Thread-1] - createActualElement :: Instance = VlansParent ID  = 0 null
+2017-11-07 11:30:25,868 [Thread-1] - MO id = 4 
+2017-11-07 11:30:25,873 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,880 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,885 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,889 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,889 [Thread-1] - createActualElement :: Instance = Interface_1Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,893 [Thread-1] - MO id = 5 
+2017-11-07 11:30:25,897 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,900 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,904 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,908 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,908 [Thread-1] - createActualElement :: Instance = Interface_2Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,911 [Thread-1] - MO id = 6 
+2017-11-07 11:30:25,915 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,918 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,922 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,925 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,925 [Thread-1] - createActualElement :: Instance = Interface_3Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,928 [Thread-1] - MO id = 7 
+2017-11-07 11:30:25,932 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,935 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,938 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,941 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,941 [Thread-1] - createActualElement :: Instance = Interface_4Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,944 [Thread-1] - MO id = 8 
+2017-11-07 11:30:25,948 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,951 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,954 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,957 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,957 [Thread-1] - createActualElement :: Instance = Interface_5Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,960 [Thread-1] - MO id = 9 
+2017-11-07 11:30:25,964 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,967 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,970 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,973 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,973 [Thread-1] - createActualElement :: Instance = Interface_6Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,977 [Thread-1] - MO id = 10 
+2017-11-07 11:30:25,981 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:25,985 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:25,989 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:25,993 [Thread-1] - MO id = test 
+2017-11-07 11:30:25,993 [Thread-1] - createActualElement :: Instance = Interface_7Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:25,996 [Thread-1] - MO id = 11 
+2017-11-07 11:30:25,999 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:26,003 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:26,006 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:26,009 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,009 [Thread-1] - createActualElement :: Instance = Interface_8Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:26,012 [Thread-1] - MO id = 12 
+2017-11-07 11:30:26,016 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:26,019 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:26,022 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:26,025 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,025 [Thread-1] - createActualElement :: Instance = Interface_9Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:26,029 [Thread-1] - MO id = 13 
+2017-11-07 11:30:26,032 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:26,035 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:26,048 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:26,051 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,051 [Thread-1] - createActualElement :: Instance = Interface_10Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:26,054 [Thread-1] - MO id = 14 
+2017-11-07 11:30:26,058 [Thread-1] - Instantiation component for UIM_GDEpriT861EthernetPort is not found, use the default one. WARN
+2017-11-07 11:30:26,063 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-11-07 11:30:26,066 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-11-07 11:30:26,072 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,072 [Thread-1] - createActualElement :: Instance = Interface_11Parent ID  = 2 EthernetInterfaces
+2017-11-07 11:30:26,075 [Thread-1] - MO id = 15 
+2017-11-07 11:30:26,081 [Thread-1] - Instantiation component for UIM_GDEpriT861Vlans is not found, use the default one. WARN
+2017-11-07 11:30:26,084 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Vlans
+2017-11-07 11:30:26,090 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 4
+2017-11-07 11:30:26,097 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,097 [Thread-1] - createActualElement :: Instance = Vlan_1Parent ID  = 4 Vlans
+2017-11-07 11:30:26,100 [Thread-1] - MO id = 16 
+2017-11-07 11:30:26,108 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,116 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,123 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,132 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,132 [Thread-1] - createActualElement :: Instance = Port_1Parent ID  = 3 Ports
+2017-11-07 11:30:26,141 [Thread-1] - MO id = 17 
+2017-11-07 11:30:26,150 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,157 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,165 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,173 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,174 [Thread-1] - createActualElement :: Instance = Port_2Parent ID  = 3 Ports
+2017-11-07 11:30:26,181 [Thread-1] - MO id = 18 
+2017-11-07 11:30:26,190 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,198 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,205 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,213 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,213 [Thread-1] - createActualElement :: Instance = Port_3Parent ID  = 3 Ports
+2017-11-07 11:30:26,220 [Thread-1] - MO id = 19 
+2017-11-07 11:30:26,227 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,235 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,242 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,249 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,249 [Thread-1] - createActualElement :: Instance = Port_4Parent ID  = 3 Ports
+2017-11-07 11:30:26,252 [Thread-1] - MO id = 20 
+2017-11-07 11:30:26,259 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,266 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,274 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,281 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,281 [Thread-1] - createActualElement :: Instance = Port_5Parent ID  = 3 Ports
+2017-11-07 11:30:26,287 [Thread-1] - MO id = 21 
+2017-11-07 11:30:26,292 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,301 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,309 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,316 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,317 [Thread-1] - createActualElement :: Instance = Port_6Parent ID  = 3 Ports
+2017-11-07 11:30:26,323 [Thread-1] - MO id = 22 
+2017-11-07 11:30:26,331 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,338 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,346 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,353 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,353 [Thread-1] - createActualElement :: Instance = Port_7Parent ID  = 3 Ports
+2017-11-07 11:30:26,356 [Thread-1] - MO id = 23 
+2017-11-07 11:30:26,366 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,375 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,383 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,392 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,392 [Thread-1] - createActualElement :: Instance = Port_8Parent ID  = 3 Ports
+2017-11-07 11:30:26,398 [Thread-1] - MO id = 24 
+2017-11-07 11:30:26,406 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,414 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,422 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,429 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,429 [Thread-1] - createActualElement :: Instance = Port_9Parent ID  = 3 Ports
+2017-11-07 11:30:26,436 [Thread-1] - MO id = 25 
+2017-11-07 11:30:26,444 [Thread-1] - Instantiation component for UIM_GDEpriT861Port is not found, use the default one. WARN
+2017-11-07 11:30:26,451 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Ports
+2017-11-07 11:30:26,458 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-11-07 11:30:26,466 [Thread-1] - MO id = test 
+2017-11-07 11:30:26,466 [Thread-1] - createActualElement :: Instance = Port_10Parent ID  = 3 Ports
+2017-11-07 11:30:26,473 [Thread-1] - MO id = 26 
+2017-11-07 11:30:26,481 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-11-07 11:30:26,481 [Thread-1] - get(key = SnmpHandler)
+2017-11-07 11:30:26,484 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-11-07 11:30:26,491 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-11-07 11:30:26,571 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:26,579 [Thread-1] - INFO:Main.js:Description :TX( 1)
+2017-11-07 11:30:26,586 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:26,593 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:26,596 [Thread-1] - INFO:Main.js:PortSpeed :100000000
+2017-11-07 11:30:26,603 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:26,610 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:26,617 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-11-07 11:30:26,625 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:26,628 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:26,637 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:26,645 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:26,648 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:26,650 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:26,658 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:26,661 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:26,663 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:26,666 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:26,669 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:26,671 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:26,674 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:26,676 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-11-07 11:30:26,723 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:26,727 [Thread-1] - INFO:Main.js:Description :TX( 2)
+2017-11-07 11:30:26,731 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:26,736 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:26,741 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:26,749 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:26,757 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:26,760 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:26,763 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:26,765 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:26,768 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:26,770 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:26,772 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:26,775 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:26,778 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:26,780 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:26,782 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:26,785 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:26,787 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:26,790 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:26,792 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:26,795 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_2
+2017-11-07 11:30:26,833 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:26,836 [Thread-1] - INFO:Main.js:Description :TX( 3)
+2017-11-07 11:30:26,838 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:26,841 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:26,844 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:26,846 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:26,849 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:26,860 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:26,864 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:26,867 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:26,870 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:26,873 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:26,875 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:26,878 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:26,881 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:26,883 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:26,886 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:26,888 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:26,891 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:26,894 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:26,896 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:26,898 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_3
+2017-11-07 11:30:26,942 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:26,945 [Thread-1] - INFO:Main.js:Description :TX( 4)
+2017-11-07 11:30:26,948 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:26,951 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:26,954 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:26,957 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:26,960 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:26,962 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:26,965 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:26,967 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:26,970 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:26,973 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:26,975 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:26,978 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:26,981 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:26,983 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:26,986 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:26,989 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:26,991 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:26,994 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:26,997 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:26,999 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_4
+2017-11-07 11:30:27,047 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:27,049 [Thread-1] - INFO:Main.js:Description :TX( 5)
+2017-11-07 11:30:27,052 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,055 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,059 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:27,062 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,065 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,067 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:27,069 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,072 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,075 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,078 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,081 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,083 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,086 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,088 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,091 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,094 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,097 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,100 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,103 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,105 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_5
+2017-11-07 11:30:27,149 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:27,152 [Thread-1] - INFO:Main.js:Description :TX( 6)
+2017-11-07 11:30:27,154 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,157 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,159 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:27,162 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,165 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,168 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:27,172 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,175 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,178 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,181 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,183 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,186 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,189 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,192 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,194 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,197 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,199 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,202 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,204 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,207 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_6
+2017-11-07 11:30:27,243 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:27,246 [Thread-1] - INFO:Main.js:Description :TX( 7)
+2017-11-07 11:30:27,248 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,251 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,259 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:27,262 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,264 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,267 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:27,270 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,273 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,275 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,278 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,280 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,283 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,286 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,288 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,291 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,294 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,296 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,299 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,301 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,304 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_7
+2017-11-07 11:30:27,346 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:27,348 [Thread-1] - INFO:Main.js:Description :TX/G( 8)
+2017-11-07 11:30:27,351 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,353 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,356 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-11-07 11:30:27,358 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,361 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,364 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-11-07 11:30:27,366 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,369 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,371 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,374 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,377 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,379 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,381 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,384 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,386 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,389 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,392 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,395 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,397 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,400 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_8
+2017-11-07 11:30:27,439 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:27,442 [Thread-1] - INFO:Main.js:Description :FP/G( 9)
+2017-11-07 11:30:27,444 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,447 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,449 [Thread-1] - INFO:Main.js:PortSpeed :1000000000
+2017-11-07 11:30:27,452 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,454 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,457 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-11-07 11:30:27,460 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,462 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,465 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,467 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,470 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,472 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,475 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,477 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,479 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,482 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,484 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,487 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,489 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,492 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_9
+2017-11-07 11:30:27,535 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:27,537 [Thread-1] - INFO:Main.js:Description :FP/G(10)
+2017-11-07 11:30:27,540 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-11-07 11:30:27,542 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,545 [Thread-1] - INFO:Main.js:PortSpeed :1000000000
+2017-11-07 11:30:27,547 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,550 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,552 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-11-07 11:30:27,555 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,557 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,560 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,568 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,571 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,573 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,576 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,578 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,581 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,583 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,586 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,588 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,591 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,594 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_10
+2017-11-07 11:30:27,633 [Thread-1] - INFO:Main.js:Alias :11
+2017-11-07 11:30:27,636 [Thread-1] - INFO:Main.js:Description :Port_cpu
+2017-11-07 11:30:27,638 [Thread-1] - INFO:Main.js:TrafficType :53
+2017-11-07 11:30:27,641 [Thread-1] - INFO:Main.js:MTU :1500
+2017-11-07 11:30:27,644 [Thread-1] - INFO:Main.js:PortSpeed :100000000
+2017-11-07 11:30:27,646 [Thread-1] - INFO:Main.js:PhysicalAddress :0:22:6f:4:ec:58
+2017-11-07 11:30:27,649 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-11-07 11:30:27,651 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-11-07 11:30:27,654 [Thread-1] - INFO:Main.js:LastChange :0
+2017-11-07 11:30:27,656 [Thread-1] - INFO:Main.js:InOctets :0
+2017-11-07 11:30:27,659 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-11-07 11:30:27,662 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-11-07 11:30:27,664 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-11-07 11:30:27,666 [Thread-1] - INFO:Main.js:InErrors :0
+2017-11-07 11:30:27,669 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-11-07 11:30:27,671 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:27,674 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-11-07 11:30:27,676 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-11-07 11:30:27,679 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-11-07 11:30:27,681 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-11-07 11:30:27,684 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-11-07 11:30:27,687 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_11
+2017-11-07 11:30:27,704 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,707 [Thread-1] - INFO:Main.js:LinkStatus :1
+2017-11-07 11:30:27,709 [Thread-1] - INFO:Main.js:DuplexStatus :1
+2017-11-07 11:30:27,712 [Thread-1] - INFO:Main.js:PortSpeed :1
+2017-11-07 11:30:27,715 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:27,717 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,730 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,732 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:27,735 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:27,737 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:27,740 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:27,742 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:27,745 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,750 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,753 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:27,755 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,768 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,770 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:27,773 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:27,776 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:27,778 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:27,781 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:27,783 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,791 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,794 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:27,796 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:27,799 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,824 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,827 [Thread-1] - INFO:Main.js:InGoodOctets :20076767
+2017-11-07 11:30:27,829 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:27,832 [Thread-1] - INFO:Main.js:InUnicasts :293565
+2017-11-07 11:30:27,835 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:27,837 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:27,840 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:27,843 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:27,845 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:27,848 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:27,851 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:27,854 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:27,857 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:27,860 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,902 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:27,906 [Thread-1] - INFO:Main.js:OutOctets :2572536122
+2017-11-07 11:30:27,910 [Thread-1] - INFO:Main.js:OutUnicast :6567242
+2017-11-07 11:30:27,912 [Thread-1] - INFO:Main.js:OutBroadCasts :222605846
+2017-11-07 11:30:27,916 [Thread-1] - INFO:Main.js:OutMulticasts :131707773
+2017-11-07 11:30:27,919 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:27,921 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:27,924 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:27,927 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:27,929 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:27,932 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:27,934 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:27,936 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_1
+2017-11-07 11:30:27,947 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:27,950 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:27,952 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:27,955 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:27,957 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:27,960 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:27,974 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:27,977 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:27,979 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:27,982 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:27,984 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:27,987 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:27,989 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:27,995 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:27,998 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:28,000 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:28,015 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:28,018 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:28,021 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:28,023 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:28,026 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:28,029 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:28,032 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:28,039 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:28,042 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:28,044 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:28,047 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:28,074 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:28,077 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:28,079 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:28,082 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:28,084 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:28,087 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:28,090 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:28,093 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:28,096 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:28,098 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:28,101 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:28,104 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:28,107 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:28,109 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:28,132 [Thread-1] - INFO:Main.js:Alias :2
+2017-11-07 11:30:28,134 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:28,137 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:28,139 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:28,142 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:28,145 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:28,147 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:28,150 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:28,153 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:28,155 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:28,158 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:28,161 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:28,163 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_2
+2017-11-07 11:30:28,176 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,180 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:28,183 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:28,186 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:28,188 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:28,191 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,204 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,207 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:28,210 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:28,212 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:28,215 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:28,217 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:28,222 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,227 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,230 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:28,239 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,254 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,257 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:28,260 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:28,262 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:28,265 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:28,267 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:28,270 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,277 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,280 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:28,282 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:28,285 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,308 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,311 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:28,314 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:28,316 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:28,319 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:28,322 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:28,324 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:28,327 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:28,330 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:28,333 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:28,336 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:28,339 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:28,342 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:28,345 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,367 [Thread-1] - INFO:Main.js:Alias :3
+2017-11-07 11:30:28,370 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:28,373 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:28,375 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:28,378 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:28,381 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:28,383 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:28,386 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:28,389 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:28,391 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:28,394 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:28,396 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:28,399 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_3
+2017-11-07 11:30:28,409 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,412 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:28,414 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:28,417 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:28,420 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:28,423 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,435 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,438 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:28,441 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:28,443 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:28,446 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:28,448 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:28,451 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,456 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,459 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:28,462 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,473 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,476 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:28,479 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:28,481 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:28,484 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:28,487 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:28,489 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,498 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,501 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:28,504 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:28,507 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,533 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,536 [Thread-1] - INFO:Main.js:InGoodOctets :47961
+2017-11-07 11:30:28,538 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:28,541 [Thread-1] - INFO:Main.js:InUnicasts :28
+2017-11-07 11:30:28,543 [Thread-1] - INFO:Main.js:InBroadCasts :92
+2017-11-07 11:30:28,546 [Thread-1] - INFO:Main.js:InMultiCasts :214
+2017-11-07 11:30:28,549 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:28,551 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:28,554 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:28,556 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:28,559 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:28,561 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:28,564 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:28,567 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,589 [Thread-1] - INFO:Main.js:Alias :4
+2017-11-07 11:30:28,591 [Thread-1] - INFO:Main.js:OutOctets :6097
+2017-11-07 11:30:28,594 [Thread-1] - INFO:Main.js:OutUnicast :38
+2017-11-07 11:30:28,597 [Thread-1] - INFO:Main.js:OutBroadCasts :7
+2017-11-07 11:30:28,599 [Thread-1] - INFO:Main.js:OutMulticasts :16
+2017-11-07 11:30:28,603 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:28,605 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:28,608 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:28,610 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:28,613 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:28,616 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:28,618 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:28,621 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_4
+2017-11-07 11:30:28,631 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,634 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:28,636 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:28,639 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:28,641 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:28,644 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,656 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,659 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:28,661 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:28,664 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:28,666 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:28,669 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:28,671 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,677 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,680 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:28,682 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,694 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,696 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:28,699 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:28,702 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:28,704 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:28,708 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:28,711 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,720 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,722 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:28,725 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:28,727 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,751 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,753 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:28,756 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:28,759 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:28,761 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:28,764 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:28,767 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:28,769 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:28,772 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:28,774 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:28,777 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:28,780 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:28,782 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:28,785 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,807 [Thread-1] - INFO:Main.js:Alias :5
+2017-11-07 11:30:28,810 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:28,813 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:28,816 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:28,818 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:28,821 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:28,824 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:28,826 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:28,829 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:28,831 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:28,834 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:28,837 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:28,839 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_5
+2017-11-07 11:30:28,850 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,853 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:28,856 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:28,859 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:28,862 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:28,866 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:28,889 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,891 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:28,894 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:28,896 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:28,899 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:28,902 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:28,904 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:28,910 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,913 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:28,915 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:28,929 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,933 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:28,936 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:28,938 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:28,941 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:28,944 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:28,946 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:28,954 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,956 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:28,959 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:28,962 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:28,995 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:28,997 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:29,000 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:29,002 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:29,005 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:29,008 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:29,010 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:29,013 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:29,015 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:29,018 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:29,020 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:29,023 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:29,026 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:29,029 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:29,050 [Thread-1] - INFO:Main.js:Alias :6
+2017-11-07 11:30:29,053 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:29,056 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:29,059 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:29,062 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:29,064 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:29,067 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:29,069 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:29,072 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:29,076 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:29,079 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:29,081 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:29,084 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_6
+2017-11-07 11:30:29,095 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,098 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:29,101 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:29,103 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:29,106 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:29,108 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,121 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,124 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:29,126 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:29,129 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:29,131 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:29,134 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:29,137 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,143 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,146 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:29,148 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,164 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,167 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:29,169 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:29,172 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:29,175 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:29,178 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:29,180 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,188 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,190 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:29,193 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:29,196 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,220 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,223 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:29,226 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:29,228 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:29,231 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:29,233 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:29,236 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:29,238 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:29,241 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:29,244 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:29,247 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:29,250 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:29,253 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:29,255 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,281 [Thread-1] - INFO:Main.js:Alias :7
+2017-11-07 11:30:29,284 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:29,287 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:29,290 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:29,294 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:29,297 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:29,299 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:29,302 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:29,305 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:29,309 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:29,311 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:29,314 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:29,317 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_7
+2017-11-07 11:30:29,331 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,334 [Thread-1] - INFO:Main.js:LinkStatus :0
+2017-11-07 11:30:29,336 [Thread-1] - INFO:Main.js:DuplexStatus :0
+2017-11-07 11:30:29,339 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-11-07 11:30:29,341 [Thread-1] - INFO:Main.js:PortMedia :0
+2017-11-07 11:30:29,344 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,355 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,359 [Thread-1] - INFO:Main.js:MediaMode :0
+2017-11-07 11:30:29,362 [Thread-1] - INFO:Main.js:SpeedMode :0
+2017-11-07 11:30:29,364 [Thread-1] - INFO:Main.js:DuplexMode :0
+2017-11-07 11:30:29,366 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:29,369 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:29,371 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,378 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,381 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:29,383 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,397 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,400 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:29,402 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:29,405 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:29,408 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:29,411 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:29,414 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,421 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,424 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:29,427 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:29,430 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,455 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,458 [Thread-1] - INFO:Main.js:InGoodOctets :0
+2017-11-07 11:30:29,462 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:29,466 [Thread-1] - INFO:Main.js:InUnicasts :0
+2017-11-07 11:30:29,469 [Thread-1] - INFO:Main.js:InBroadCasts :0
+2017-11-07 11:30:29,472 [Thread-1] - INFO:Main.js:InMultiCasts :0
+2017-11-07 11:30:29,476 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:29,479 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:29,481 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:29,484 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:29,487 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:29,489 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:29,492 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:29,495 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,519 [Thread-1] - INFO:Main.js:Alias :8
+2017-11-07 11:30:29,522 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-11-07 11:30:29,525 [Thread-1] - INFO:Main.js:OutUnicast :0
+2017-11-07 11:30:29,527 [Thread-1] - INFO:Main.js:OutBroadCasts :0
+2017-11-07 11:30:29,530 [Thread-1] - INFO:Main.js:OutMulticasts :0
+2017-11-07 11:30:29,533 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:29,535 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:29,538 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:29,541 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:29,543 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:29,546 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:29,548 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:29,551 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_8
+2017-11-07 11:30:29,562 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,564 [Thread-1] - INFO:Main.js:LinkStatus :1
+2017-11-07 11:30:29,567 [Thread-1] - INFO:Main.js:DuplexStatus :1
+2017-11-07 11:30:29,569 [Thread-1] - INFO:Main.js:PortSpeed :2
+2017-11-07 11:30:29,574 [Thread-1] - INFO:Main.js:PortMedia :1
+2017-11-07 11:30:29,577 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,592 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,595 [Thread-1] - INFO:Main.js:MediaMode :1
+2017-11-07 11:30:29,597 [Thread-1] - INFO:Main.js:SpeedMode :3
+2017-11-07 11:30:29,600 [Thread-1] - INFO:Main.js:DuplexMode :1
+2017-11-07 11:30:29,603 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:29,605 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:29,608 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,614 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,617 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:29,619 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,635 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,638 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:29,641 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:29,644 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:29,647 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:29,650 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:29,652 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,660 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,663 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:29,665 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:29,668 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,693 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,698 [Thread-1] - INFO:Main.js:InGoodOctets :4076502795
+2017-11-07 11:30:29,700 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:29,703 [Thread-1] - INFO:Main.js:InUnicasts :18210171
+2017-11-07 11:30:29,706 [Thread-1] - INFO:Main.js:InBroadCasts :165019020
+2017-11-07 11:30:29,708 [Thread-1] - INFO:Main.js:InMultiCasts :131705243
+2017-11-07 11:30:29,711 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:29,714 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:29,716 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:29,719 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:29,722 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:29,724 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:29,727 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:29,730 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,758 [Thread-1] - INFO:Main.js:Alias :9
+2017-11-07 11:30:29,761 [Thread-1] - INFO:Main.js:OutOctets :1126326374
+2017-11-07 11:30:29,764 [Thread-1] - INFO:Main.js:OutUnicast :11934359
+2017-11-07 11:30:29,766 [Thread-1] - INFO:Main.js:OutBroadCasts :71921884
+2017-11-07 11:30:29,769 [Thread-1] - INFO:Main.js:OutMulticasts :90332
+2017-11-07 11:30:29,772 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:29,775 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:29,777 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:29,780 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:29,782 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:29,785 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:29,787 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:29,790 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_9
+2017-11-07 11:30:29,800 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,803 [Thread-1] - INFO:Main.js:LinkStatus :1
+2017-11-07 11:30:29,806 [Thread-1] - INFO:Main.js:DuplexStatus :1
+2017-11-07 11:30:29,808 [Thread-1] - INFO:Main.js:PortSpeed :2
+2017-11-07 11:30:29,811 [Thread-1] - INFO:Main.js:PortMedia :1
+2017-11-07 11:30:29,813 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,826 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,829 [Thread-1] - INFO:Main.js:MediaMode :1
+2017-11-07 11:30:29,832 [Thread-1] - INFO:Main.js:SpeedMode :3
+2017-11-07 11:30:29,834 [Thread-1] - INFO:Main.js:DuplexMode :1
+2017-11-07 11:30:29,837 [Thread-1] - INFO:Main.js:PortDisable :1
+2017-11-07 11:30:29,840 [Thread-1] - INFO:Main.js:FlowCtrl :0
+2017-11-07 11:30:29,843 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,848 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,852 [Thread-1] - INFO:Main.js:EgressRate :0
+2017-11-07 11:30:29,856 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,879 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,882 [Thread-1] - INFO:Main.js:PackType :3
+2017-11-07 11:30:29,885 [Thread-1] - INFO:Main.js:LowProbandwidth :0
+2017-11-07 11:30:29,888 [Thread-1] - INFO:Main.js:NormalProbandwidth :0
+2017-11-07 11:30:29,890 [Thread-1] - INFO:Main.js:MediumProbandwidth :0
+2017-11-07 11:30:29,893 [Thread-1] - INFO:Main.js:HighProbandwidth :0
+2017-11-07 11:30:29,896 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,904 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,906 [Thread-1] - INFO:Main.js:PortType :0
+2017-11-07 11:30:29,909 [Thread-1] - INFO:Main.js:PortVID :0
+2017-11-07 11:30:29,912 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,939 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,942 [Thread-1] - INFO:Main.js:InGoodOctets :1125124097
+2017-11-07 11:30:29,944 [Thread-1] - INFO:Main.js:InBadOctets :0
+2017-11-07 11:30:29,947 [Thread-1] - INFO:Main.js:InUnicasts :11924294
+2017-11-07 11:30:29,950 [Thread-1] - INFO:Main.js:InBroadCasts :71921884
+2017-11-07 11:30:29,953 [Thread-1] - INFO:Main.js:InMultiCasts :90365
+2017-11-07 11:30:29,956 [Thread-1] - INFO:Main.js:InPause :0
+2017-11-07 11:30:29,959 [Thread-1] - INFO:Main.js:InUndersize :0
+2017-11-07 11:30:29,961 [Thread-1] - INFO:Main.js:InFragments :0
+2017-11-07 11:30:29,964 [Thread-1] - INFO:Main.js:InOversize :0
+2017-11-07 11:30:29,967 [Thread-1] - INFO:Main.js:InJabber :0
+2017-11-07 11:30:29,969 [Thread-1] - INFO:Main.js:InRxErr :0
+2017-11-07 11:30:29,972 [Thread-1] - INFO:Main.js:InFCSErr :0
+2017-11-07 11:30:29,974 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:29,996 [Thread-1] - INFO:Main.js:Alias :10
+2017-11-07 11:30:29,999 [Thread-1] - INFO:Main.js:OutOctets :4075632543
+2017-11-07 11:30:30,002 [Thread-1] - INFO:Main.js:OutUnicast :18198578
+2017-11-07 11:30:30,004 [Thread-1] - INFO:Main.js:OutBroadCasts :165019073
+2017-11-07 11:30:30,007 [Thread-1] - INFO:Main.js:OutMulticasts :131705354
+2017-11-07 11:30:30,009 [Thread-1] - INFO:Main.js:OutPause :0
+2017-11-07 11:30:30,012 [Thread-1] - INFO:Main.js:Excessive :0
+2017-11-07 11:30:30,015 [Thread-1] - INFO:Main.js:Collisions :0
+2017-11-07 11:30:30,017 [Thread-1] - INFO:Main.js:Deferred :0
+2017-11-07 11:30:30,020 [Thread-1] - INFO:Main.js:Single :0
+2017-11-07 11:30:30,022 [Thread-1] - INFO:Main.js:Multple :0
+2017-11-07 11:30:30,025 [Thread-1] - INFO:Main.js:Late :0
+2017-11-07 11:30:30,028 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Port_10
+2017-11-07 11:30:30,037 [Thread-1] - INFO:Main.js:Alias :1
+2017-11-07 11:30:30,039 [Thread-1] - INFO:Main.js:portVlanID :1
+2017-11-07 11:30:30,042 [Thread-1] - INFO:Main.js:portMember :1023
+2017-11-07 11:30:30,045 [Thread-1] - INFO:Main.js:portvlanstatus :1
+2017-11-07 11:30:30,047 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Vlan_1
+2017-11-07 11:30:30,050 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-11-07 11:30:30,053 [Thread-1] - 
+2017-11-07 11:30:30,056 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-11-07 11:30:30,057 [Thread-1] - get(key = SnmpHandler)
+2017-11-07 11:30:30,060 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-11-07 11:30:30,063 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-11-07 11:30:30,067 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-11-07 11:30:30,070 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Alarm;return= Success
+2017-11-07 11:30:30,073 [Thread-1] - INFO:InstrumentationManager :: reconcileAlarms():Clearing 0 alerts
+2017-11-07 11:30:30,076 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-11-07 11:30:30,079 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-11-07 11:30:30,082 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success

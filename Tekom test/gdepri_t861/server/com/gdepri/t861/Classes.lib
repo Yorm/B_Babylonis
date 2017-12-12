@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:awi="http:///com/harris/netboss/agentworkshop/inheritance.ecore">
+  <awi:ClassDefinition name="UIM_GDEpriT861NetworkElement">
+    <properties name="Script" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="true"/>
+      <qualifiers name="Required" type="boolean" value="true"/>
+    </properties>
+    <properties name="SystemUpTimeTxt" type="string">
+      <qualifiers name="Description" type="string" value="A textual representation of the SystemUpTime field."/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties name="HardwareVersion" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="" name="SoftwareVersion" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="StackFlag" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties name="BootImgPrimary" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties name="BootImgSecondary" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties name="BootStartUpCfg" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="StartUpStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="NumberOfPorts" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="false" name="Diagramm" type="boolean">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericNetworkElement"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861MgmtInterface">
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_SNMPDeviceMgmtInterface"/>
+    <methods name="SynchronizePerformance" type="string">
+      <qualifiers name="Description" type="string" value="This command starts the polling of the device in order to update performance values"/>
+    </methods>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="HNSD_GDEpriT861Provider">
+    <properties defaultValue="T861" name="CustomAgentName" type="string"/>
+    <properties defaultValue="GDEpri" name="CustomAgentVendor" type="string"/>
+    <qualifiers name="UmlPackagePath" type="string" value="classes::cim"/>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#HNSD_GenericProvider"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861InstComponent">
+    <properties name="CustomAgentHome" type="string"/>
+    <properties defaultValue="T861" name="CustomAgentName" type="string"/>
+    <properties defaultValue="GDEpri" name="CustomAgentVendor" type="string"/>
+    <properties defaultValue="GDEpriT861" name="ElementType" type="string"/>
+    <properties defaultValue="Main.js" name="Script" type="string">
+      <qualifiers name="Description" type="string" value="Location of the script  for parsing and updating agent"/>
+      <qualifiers name="Required" type="boolean" value="true"/>
+      <qualifiers name="Write" type="boolean" value="true"/>
+    </properties>
+    <qualifiers name="UmlPackagePath" type="string" value="components"/>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_SNMPDeviceInstComponent"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861MonInterface">
+    <properties defaultValue="T861" name="CustomAgentName" type="string">
+      <qualifiers name="Description" type="string" value="Name of the the custom agent. This MUST match references to the agent name under the agent home area."/>
+      <qualifiers name="Read" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="GDEpri" name="CustomAgentVendor" type="string">
+      <qualifiers name="Description" type="string" value="Vendor of the the custom agent. This MUST match references to the agent vendor under the agent home area."/>
+      <qualifiers name="Read" type="boolean" value="false"/>
+    </properties>
+    <properties name="CustomAgentHome" type="string">
+      <qualifiers name="Description" type="string" value="Home of the the custom agent. This MUST match the home path below the custom agent vendor directory."/>
+      <qualifiers name="Read" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PerformancePollingTime" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="true"/>
+      <qualifiers name="ValueMap" type="string" value="0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23"/>
+      <qualifiers name="Values" type="string" value="12:00 AM;1:00 AM;2:00 AM;3:00 AM;4:00 AM;5:00 AM;6:00 AM;7:00 AM;8:00 AM;9:00 AM;10:00 AM;11:00 AM;12:00 PM;1:00 PM;2:00 PM;3:00 PM;4:00 PM;5:00 PM;6:00 PM;7:00 PM;8:00 PM;9:00 PM;10:00 PM;11:00 PM"/>
+    </properties>
+    <properties defaultValue="Never" name="PerformancePollingFrequency" type="string">
+      <qualifiers name="Description" type="string" value="Performance Polling Frequency"/>
+      <qualifiers name="Write" type="boolean" value="true"/>
+      <qualifiers name="ValueMap" type="string" value="Never;15 minutes;30 minutes;1 hours;6 hours;12 hours;Daily;Weekly - Sunday;Weekly - Monday;Weekly - Tuesday;Weekly - Wednesday;Weekly - Thursday;Weekly - Friday;Weekly - Saturday;Monthly"/>
+      <qualifiers name="Values" type="string" value="Never;15 minutes;30 minutes;1 hours;6 hours;12 hours;Daily;Weekly - Sunday;Weekly - Monday;Weekly - Tuesday;Weekly - Wednesday;Weekly - Thursday;Weekly - Friday;Weekly - Saturday;Monthly"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericSNMPDeviceMonInterface"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861VlansGrouping">
+    <properties defaultValue="false" name="Diagramm" type="boolean">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericGrouping"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861EthernetGrouping">
+    <properties defaultValue="false" name="Diagramm" type="boolean">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericGrouping"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861EthernetPort">
+    <properties defaultValue="0" name="MTU" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortSpeed" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="n/a" name="PhysicalAddress" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="1" name="AdminStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="1" name="OperStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="n/a" name="LastChange" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InOctets" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InUcastPkts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InNUcastPkts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InDiscards" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InErrors" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InUnknownProtos" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutOctets" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutUcastPkts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutNUcastPkts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutDiscards" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutErrors" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutQLen" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="n/a" name="Alias" type="string">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="false" name="Diagramm" type="boolean">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericPort"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861Port">
+    <properties defaultValue="false" name="Diagramm" type="boolean">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="LinkStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="DuplexStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortSpeed" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortMedia" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="MediaMode" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="SpeedMode" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="DuplexMode" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortDisable" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="FlowCtrl" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="EgressRate" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PackType" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="LowProbandwidth" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="NormalProbandwidth" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="MediumProbandwidth" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="HighProbandwidth" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortType" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortVID" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InGoodOctets" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InBadOctets" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InUnicasts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InBroadCasts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InMultiCasts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InPause" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InUndersize" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InFragments" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InOversize" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InJabber" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InRxErr" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="InFCSErr" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutOctets" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutUnicast" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutBroadCasts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutMulticasts" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="OutPause" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Excessive" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Collisions" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Deferred" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Single" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Multple" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="Late" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericLogicalDevice"/>
+  </awi:ClassDefinition>
+  <awi:ClassDefinition name="UIM_GDEpriT861Vlans">
+    <properties defaultValue="0" name="PortVlanID" type="sint32">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortMember" type="uint64">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <properties defaultValue="0" name="PortVlanStatus" type="uint16">
+      <qualifiers name="Description" type="string" value="Input property description"/>
+      <qualifiers name="Write" type="boolean" value="false"/>
+    </properties>
+    <superclass href="file:/C:/Users/golovin.d/AppData/Local/Temp/ADT_1488972877419602718.lib#UIM_GenericLogicalDevice"/>
+  </awi:ClassDefinition>
+</xmi:XMI>

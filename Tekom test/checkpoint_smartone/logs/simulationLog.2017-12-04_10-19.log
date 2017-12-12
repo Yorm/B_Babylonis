@@ -1,0 +1,366 @@
+2017-12-04 10:19:32,567 [main] - args 0 C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js
+2017-12-04 10:19:32,568 [main] - args 1 localhost
+2017-12-04 10:19:32,568 [main] - args 2 161
+2017-12-04 10:19:32,568 [main] - args 3 public
+2017-12-04 10:19:32,568 [main] - args 4 public
+2017-12-04 10:19:32,568 [main] - args 5 162
+2017-12-04 10:19:32,568 [main] - args 6 0
+2017-12-04 10:19:32,568 [main] - args 7 com.checkpoint.smartone.file.instrumentation.InstrumentationManager
+2017-12-04 10:19:32,569 [main] - /C:/Users/golovin.d/workspace/checkpoint_smartone/
+2017-12-04 10:19:32,572 [main] - /C:/Users/golovin.d/workspace/checkpoint_smartone/server/
+2017-12-04 10:19:32,572 [main] - /C:/Users/golovin.d/workspace/checkpoint_smartone/classes/server/
+2017-12-04 10:19:32,572 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-04 10:19:32,572 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-12-04 10:19:32,572 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-12-04 10:19:32,572 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-12-04 10:19:32,572 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-12-04 10:19:32,573 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-12-04 10:19:32,573 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-04 10:19:32,573 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-12-04 10:19:32,573 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-12-04 10:19:32,573 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-12-04 10:19:32,574 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-12-04 10:19:32,575 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-12-04 10:19:32,576 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-12-04 10:19:32,577 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-12-04 10:19:32,577 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/agentruntimeserver.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/common.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/core.jar
+2017-12-04 10:19:32,578 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/integration.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/legacycommon.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/metadata.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/schema-generation.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/server.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_metadata.jar
+2017-12-04 10:19:32,579 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_server.jar
+2017-12-04 10:19:32,603 [main] - Script = C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-12-04 10:19:32,641 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-04 10:19:32,642 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-04 10:19:32,642 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-04 10:19:32,731 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@76768931)
+2017-12-04 10:19:32,732 [main] - put(key = summAlarmOidsDict, value = {})
+2017-12-04 10:19:32,732 [main] - put(key = configDict, value = {})
+2017-12-04 10:19:32,733 [main] - put(key = attributeDict, value = {})
+2017-12-04 10:19:32,733 [main] - put(key = alarmDict, value = {})
+2017-12-04 10:19:32,733 [main] - put(key = alarmOidsDict, value = {})
+2017-12-04 10:19:32,733 [main] - put(key = InstrumentationManager, value = com.checkpoint.smartone.file.instrumentation.InstrumentationManager@60292cb9)
+2017-12-04 10:19:32,733 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@2f375701)
+2017-12-04 10:19:32,733 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@2f375701)
+2017-12-04 10:19:32,733 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@5a311ade)
+2017-12-04 10:19:33,741 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-04 10:19:33,742 [main] - ERROR::Secondary attribute = IPAddress
+2017-12-04 10:19:33,744 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-04 10:19:33,747 [main] - get(key = Logger)
+2017-12-04 10:19:33,747 [main] - get(key = ContextHelper)
+2017-12-04 10:19:33,747 [main] - get(key = IndicationHandler)
+2017-12-04 10:19:33,747 [main] - put(key = ConfigHandler, value = com.checkpoint.smartone.file.instrumentation.InstrumentationManager$ConfigHandler@7ec0762)
+2017-12-04 10:19:33,750 [main] - get(key = Logger)
+2017-12-04 10:19:33,751 [main] - get(key = ContextHelper)
+2017-12-04 10:19:33,751 [main] - get(key = IndicationHandler)
+2017-12-04 10:19:33,751 [main] - put(key = AlarmHandler, value = com.checkpoint.smartone.file.instrumentation.InstrumentationManager$AlarmHandler@14f59cef)
+2017-12-04 10:19:33,754 [main] - get(key = Logger)
+2017-12-04 10:19:33,754 [main] - get(key = ContextHelper)
+2017-12-04 10:19:33,755 [main] - get(key = IndicationHandler)
+2017-12-04 10:19:33,755 [main] - put(key = AttributeHandler, value = com.checkpoint.smartone.file.instrumentation.InstrumentationManager$AttributeHandler@36bc6f46)
+2017-12-04 10:19:33,757 [main] - DEBUG:com.checkpoint.smartone.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js
+2017-12-04 10:19:33,856 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-12-04 10:19:33,860 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-12-04 10:19:33,863 [main] - current script = this C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-12-04 10:19:34,254 [main] - Failed to create a trap listener on port .
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(Unknown Source)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(Unknown Source)
+	at java.net.DatagramSocket.bind(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at org.snmp4j.transport.DefaultUdpTransportMapping.<init>(DefaultUdpTransportMapping.java:100)
+	at com.netboss.adt.ide.eclipse.simulation.js.TrapReceiver.<init>(TrapReceiver.java:150)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.<init>(JsSimulationManager.java:753)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.main(JsSimulationManager.java:426)
+2017-12-04 10:19:34,303 [Thread-1] - get(key = SnmpHandler)
+2017-12-04 10:19:34,328 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-12-04 10:19:34,330 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-12-04 10:19:34,590 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-12-04 10:19:34,591 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-12-04 10:19:34,592 [Thread-1] - INFO:Main.js:ElementType :SmartOneEthernetGrouping
+2017-12-04 10:19:34,592 [Thread-1] - INFO:Main.js:CustomClassName :UIM_SmartOneEthernetGrouping
+2017-12-04 10:19:34,593 [Thread-1] - INFO:Main.js:Parent :
+2017-12-04 10:19:34,597 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-04 10:19:34,597 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-12-04 10:19:34,598 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-12-04 10:19:34,598 [Thread-1] - INFO:Main.js:Name :Interface_1
+2017-12-04 10:19:34,599 [Thread-1] - INFO:Main.js:DisplayName :Interface_1
+2017-12-04 10:19:34,599 [Thread-1] - INFO:Main.js:ElementType :SmartOneEthernetPort
+2017-12-04 10:19:34,600 [Thread-1] - INFO:Main.js:CustomClassName :UIM_SmartOneEthernetPort
+2017-12-04 10:19:34,600 [Thread-1] - INFO:Main.js:Parent :EthernetInterfaces
+2017-12-04 10:19:34,601 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-04 10:19:34,601 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-12-04 10:19:34,602 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Interface_1 did not resolve to instance id
+2017-12-04 10:19:34,603 [Thread-1] - INFO:Main.js:Name :Routes
+2017-12-04 10:19:34,603 [Thread-1] - INFO:Main.js:DisplayName :Routes
+2017-12-04 10:19:34,603 [Thread-1] - INFO:Main.js:ElementType :SmartOneRouteGrouping
+2017-12-04 10:19:34,605 [Thread-1] - INFO:Main.js:CustomClassName :UIM_SmartOneRouteGrouping
+2017-12-04 10:19:34,606 [Thread-1] - INFO:Main.js:Parent :
+2017-12-04 10:19:34,606 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-04 10:19:34,606 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Vlans was null
+2017-12-04 10:19:34,610 [Thread-1] - INFO:Main.js:Name :EthernetInterfaces
+2017-12-04 10:19:34,611 [Thread-1] - INFO:Main.js:DisplayName :Ethernet Interfaces
+2017-12-04 10:19:34,611 [Thread-1] - INFO:Main.js:ElementType :SmartOneEthernetGrouping
+2017-12-04 10:19:34,612 [Thread-1] - INFO:Main.js:CustomClassName :UIM_SmartOneEthernetGrouping
+2017-12-04 10:19:34,612 [Thread-1] - INFO:Main.js:Parent :
+2017-12-04 10:19:34,612 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-04 10:19:34,613 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-12-04 10:19:34,613 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name EthernetInterfaces did not resolve to instance id
+2017-12-04 10:19:34,628 [Thread-1] - TypeError: Cannot read property "portIndex" from undefined (C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js#18)
+2017-12-04 10:19:34,630 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Exception occured calling Error Handler function call for  Configuration
+2017-12-04 10:19:34,640 [Thread-1] - Instantiation component for UIM_SmartOneEthernetGrouping is not found, use the default one. WARN
+2017-12-04 10:19:34,641 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-12-04 10:19:34,642 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-04 10:19:34,642 [Thread-1] - MO id = test 
+2017-12-04 10:19:34,643 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for EthernetInterfaces
+2017-12-04 10:19:34,643 [Thread-1] - createActualElement :: Instance = EthernetInterfacesParent ID  = 0 null
+2017-12-04 10:19:34,643 [Thread-1] - MO id = 2 
+2017-12-04 10:19:34,646 [Thread-1] - Instantiation component for UIM_SmartOneRouteGrouping is not found, use the default one. WARN
+2017-12-04 10:19:34,647 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-12-04 10:19:34,647 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-04 10:19:34,648 [Thread-1] - MO id = test 
+2017-12-04 10:19:34,649 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Routes
+2017-12-04 10:19:34,649 [Thread-1] - createActualElement :: Instance = RoutesParent ID  = 0 null
+2017-12-04 10:19:34,649 [Thread-1] - MO id = 3 
+2017-12-04 10:19:34,650 [Thread-1] - Instantiation component for UIM_SmartOneEthernetGrouping is not found, use the default one. WARN
+2017-12-04 10:19:34,651 [Thread-1] - Instantiation component for UIM_SmartOneEthernetPort is not found, use the default one. WARN
+2017-12-04 10:19:34,651 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for EthernetInterfaces
+2017-12-04 10:19:34,652 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-12-04 10:19:34,652 [Thread-1] - MO id = test 
+2017-12-04 10:19:34,653 [Thread-1] - createActualElement :: Instance = Interface_1Parent ID  = 2 EthernetInterfaces
+2017-12-04 10:19:34,653 [Thread-1] - MO id = 4 
+2017-12-04 10:19:34,654 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Configuration return was null
+2017-12-04 10:19:34,655 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Configuration
+2017-12-04 10:19:34,655 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@689a1f91
+2017-12-04 10:19:34,672 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 org.mozilla.javascript.EcmaError: TypeError: Cannot read property "portIndex" from undefined (C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js#18)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3687)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3665)
+	at org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3693)
+	at org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3712)
+	at org.mozilla.javascript.ScriptRuntime.undefReadError(ScriptRuntime.java:3725)
+	at org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1483)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_checkpoint_smartone_server_com_checkpoint_smartone_file_instrumentation_Main_js_1._c_Configuration_1(C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js:18)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_checkpoint_smartone_server_com_checkpoint_smartone_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.mozilla.javascript.gen.C__Users_golovin_d_workspace_checkpoint_smartone_server_com_checkpoint_smartone_file_instrumentation_Main_js_1.call(C:\Users\golovin.d\workspace\checkpoint_smartone\server\com\checkpoint\smartone/file/instrumentation/Main.js)
+	at com.checkpoint.smartone.file.instrumentation.InstrumentationManager.executeFunction(InstrumentationManager.java:1060)
+	at com.checkpoint.smartone.file.instrumentation.InstrumentationManager$ConfigHandler.pollConfig(InstrumentationManager.java:158)
+	at com.checkpoint.smartone.file.instrumentation.InstrumentationManager$ConfigHandler.pollConfig(InstrumentationManager.java:149)
+	at com.checkpoint.smartone.file.instrumentation.InstrumentationManager.invoke(InstrumentationManager.java:1634)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.instrumentationManagerInvoke(JsSimulationManager.java:2723)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeConfiguration(JsSimulationManager.java:3475)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.synchronizeDevice(JsSimulationManager.java:3484)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.invoke(JsSimulationManager.java:2739)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$4.run(JsSimulationManager.java:769)
+	at java.lang.Thread.run(Unknown Source)
+
+2017-12-04 10:19:34,673 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-12-04 10:19:34,673 [Thread-1] - DEBUG:Main.js:Handling Error on Configuration
+2017-12-04 10:19:34,674 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function ErrorHandler;return= success
+2017-12-04 10:19:34,675 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-12-04 10:19:34,676 [Thread-1] - get(key = SnmpHandler)
+2017-12-04 10:19:34,676 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-12-04 10:19:34,678 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-12-04 10:19:34,683 [Thread-1] - INFO:Main.js:SvnProdName :SVN Foundation
+2017-12-04 10:19:34,688 [Thread-1] - INFO:Main.js:SvnProdVerMajor :9
+2017-12-04 10:19:34,692 [Thread-1] - INFO:Main.js:SvnProdVerMinor :9
+2017-12-04 10:19:34,698 [Thread-1] - INFO:Main.js:SvnVersion :R77.30
+2017-12-04 10:19:34,707 [Thread-1] - INFO:Main.js:SvnBuild :990180695
+2017-12-04 10:19:34,711 [Thread-1] - INFO:Main.js:OsName :Gaia
+2017-12-04 10:19:34,715 [Thread-1] - INFO:Main.js:OsMajorVer :2
+2017-12-04 10:19:34,720 [Thread-1] - INFO:Main.js:OsMinorVer :6
+2017-12-04 10:19:34,725 [Thread-1] - INFO:Main.js:OsVersionLevel :null
+2017-12-04 10:19:34,823 [Thread-1] - INFO:Main.js:Alias :1
+2017-12-04 10:19:34,824 [Thread-1] - INFO:Main.js:Description :lo
+2017-12-04 10:19:34,825 [Thread-1] - INFO:Main.js:TrafficType :24
+2017-12-04 10:19:34,825 [Thread-1] - INFO:Main.js:MTU :16436
+2017-12-04 10:19:34,825 [Thread-1] - INFO:Main.js:PortSpeed :10000000
+2017-12-04 10:19:34,826 [Thread-1] - INFO:Main.js:PhysicalAddress :
+2017-12-04 10:19:34,826 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-12-04 10:19:34,827 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-12-04 10:19:34,827 [Thread-1] - INFO:Main.js:LastChange :0
+2017-12-04 10:19:34,828 [Thread-1] - INFO:Main.js:InOctets :1470535839
+2017-12-04 10:19:34,828 [Thread-1] - INFO:Main.js:InUcastPkts :2708967
+2017-12-04 10:19:34,829 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-12-04 10:19:34,829 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-12-04 10:19:34,829 [Thread-1] - INFO:Main.js:InErrors :0
+2017-12-04 10:19:34,830 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-12-04 10:19:34,830 [Thread-1] - INFO:Main.js:OutOctets :1470535839
+2017-12-04 10:19:34,831 [Thread-1] - INFO:Main.js:OutUcastPkts :2708967
+2017-12-04 10:19:34,831 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-12-04 10:19:34,831 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-12-04 10:19:34,832 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-12-04 10:19:34,832 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-12-04 10:19:34,833 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-12-04 10:19:34,895 [Thread-1] - INFO:Main.js:Alias :2
+2017-12-04 10:19:34,896 [Thread-1] - INFO:Main.js:Description :eth1
+2017-12-04 10:19:34,897 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-12-04 10:19:34,897 [Thread-1] - INFO:Main.js:MTU :1500
+2017-12-04 10:19:34,897 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-12-04 10:19:34,898 [Thread-1] - INFO:Main.js:PhysicalAddress :0:1c:7f:43:45:c0
+2017-12-04 10:19:34,898 [Thread-1] - INFO:Main.js:AdminStatus :2
+2017-12-04 10:19:34,899 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-12-04 10:19:34,899 [Thread-1] - INFO:Main.js:LastChange :0
+2017-12-04 10:19:34,900 [Thread-1] - INFO:Main.js:InOctets :0
+2017-12-04 10:19:34,900 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-12-04 10:19:34,901 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-12-04 10:19:34,901 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-12-04 10:19:34,902 [Thread-1] - INFO:Main.js:InErrors :0
+2017-12-04 10:19:34,902 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-12-04 10:19:34,903 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-12-04 10:19:34,903 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-12-04 10:19:34,904 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-12-04 10:19:34,904 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-12-04 10:19:34,905 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-12-04 10:19:34,905 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-12-04 10:19:34,906 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Interface_2 was null
+2017-12-04 10:19:34,966 [Thread-1] - INFO:Main.js:Alias :3
+2017-12-04 10:19:34,966 [Thread-1] - INFO:Main.js:Description :eth2
+2017-12-04 10:19:34,967 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-12-04 10:19:34,967 [Thread-1] - INFO:Main.js:MTU :1500
+2017-12-04 10:19:34,968 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-12-04 10:19:34,968 [Thread-1] - INFO:Main.js:PhysicalAddress :0:1c:7f:43:45:c1
+2017-12-04 10:19:34,969 [Thread-1] - INFO:Main.js:AdminStatus :2
+2017-12-04 10:19:34,969 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-12-04 10:19:34,970 [Thread-1] - INFO:Main.js:LastChange :0
+2017-12-04 10:19:34,970 [Thread-1] - INFO:Main.js:InOctets :0
+2017-12-04 10:19:34,971 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-12-04 10:19:34,971 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-12-04 10:19:34,971 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-12-04 10:19:34,972 [Thread-1] - INFO:Main.js:InErrors :0
+2017-12-04 10:19:34,972 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-12-04 10:19:34,973 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-12-04 10:19:34,973 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-12-04 10:19:34,973 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-12-04 10:19:34,974 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-12-04 10:19:34,974 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-12-04 10:19:34,975 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-12-04 10:19:34,977 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Interface_3 was null
+2017-12-04 10:19:35,047 [Thread-1] - INFO:Main.js:Alias :4
+2017-12-04 10:19:35,047 [Thread-1] - INFO:Main.js:Description :eth3
+2017-12-04 10:19:35,048 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-12-04 10:19:35,048 [Thread-1] - INFO:Main.js:MTU :1500
+2017-12-04 10:19:35,048 [Thread-1] - INFO:Main.js:PortSpeed :0
+2017-12-04 10:19:35,049 [Thread-1] - INFO:Main.js:PhysicalAddress :0:1c:7f:43:45:c2
+2017-12-04 10:19:35,049 [Thread-1] - INFO:Main.js:AdminStatus :2
+2017-12-04 10:19:35,050 [Thread-1] - INFO:Main.js:OperStatus :2
+2017-12-04 10:19:35,050 [Thread-1] - INFO:Main.js:LastChange :0
+2017-12-04 10:19:35,051 [Thread-1] - INFO:Main.js:InOctets :0
+2017-12-04 10:19:35,051 [Thread-1] - INFO:Main.js:InUcastPkts :0
+2017-12-04 10:19:35,052 [Thread-1] - INFO:Main.js:InNUcastPkts :0
+2017-12-04 10:19:35,052 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-12-04 10:19:35,053 [Thread-1] - INFO:Main.js:InErrors :0
+2017-12-04 10:19:35,053 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-12-04 10:19:35,054 [Thread-1] - INFO:Main.js:OutOctets :0
+2017-12-04 10:19:35,054 [Thread-1] - INFO:Main.js:OutUcastPkts :0
+2017-12-04 10:19:35,054 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-12-04 10:19:35,055 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-12-04 10:19:35,055 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-12-04 10:19:35,056 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-12-04 10:19:35,057 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Interface_4 was null
+2017-12-04 10:19:35,165 [Thread-1] - INFO:Main.js:Alias :5
+2017-12-04 10:19:35,165 [Thread-1] - INFO:Main.js:Description :Mgmt
+2017-12-04 10:19:35,166 [Thread-1] - INFO:Main.js:TrafficType :6
+2017-12-04 10:19:35,166 [Thread-1] - INFO:Main.js:MTU :1500
+2017-12-04 10:19:35,167 [Thread-1] - INFO:Main.js:PortSpeed :1000000000
+2017-12-04 10:19:35,179 [Thread-1] - INFO:Main.js:PhysicalAddress :0:1c:7f:43:45:c3
+2017-12-04 10:19:35,179 [Thread-1] - INFO:Main.js:AdminStatus :1
+2017-12-04 10:19:35,180 [Thread-1] - INFO:Main.js:OperStatus :1
+2017-12-04 10:19:35,180 [Thread-1] - INFO:Main.js:LastChange :0
+2017-12-04 10:19:35,181 [Thread-1] - INFO:Main.js:InOctets :1226726016
+2017-12-04 10:19:35,181 [Thread-1] - INFO:Main.js:InUcastPkts :1187797156
+2017-12-04 10:19:35,182 [Thread-1] - INFO:Main.js:InNUcastPkts :12593440
+2017-12-04 10:19:35,182 [Thread-1] - INFO:Main.js:InDiscards :0
+2017-12-04 10:19:35,183 [Thread-1] - INFO:Main.js:InErrors :0
+2017-12-04 10:19:35,183 [Thread-1] - INFO:Main.js:InUnknownProtos :0
+2017-12-04 10:19:35,184 [Thread-1] - INFO:Main.js:OutOctets :3246531124
+2017-12-04 10:19:35,184 [Thread-1] - INFO:Main.js:OutUcastPkts :416080803
+2017-12-04 10:19:35,185 [Thread-1] - INFO:Main.js:OutNUcastPkts :0
+2017-12-04 10:19:35,186 [Thread-1] - INFO:Main.js:OutDiscards :0
+2017-12-04 10:19:35,186 [Thread-1] - INFO:Main.js:OutErrors :0
+2017-12-04 10:19:35,186 [Thread-1] - INFO:Main.js:OutQLen :0
+2017-12-04 10:19:35,187 [Thread-1] - ERROR:InstrumentationManager :: updateElement():ClassName from name Interface_5 was null
+2017-12-04 10:19:35,188 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-12-04 10:19:35,189 [Thread-1] - 
+2017-12-04 10:19:35,190 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-12-04 10:19:35,190 [Thread-1] - get(key = SnmpHandler)
+2017-12-04 10:19:35,190 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-12-04 10:19:35,191 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-12-04 10:19:35,192 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-12-04 10:19:35,193 [Thread-1] - DEBUG:Main.js:!!!!!linkAlarm()!!!!!
+2017-12-04 10:19:35,237 [Thread-1] - DEBUG:Main.js:__AS__1__
+2017-12-04 10:19:35,237 [Thread-1] - DEBUG:Main.js:__OS__1__
+2017-12-04 10:19:35,238 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-12-04 10:19:35,239 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-12-04 10:19:35,239 [Thread-1] - DEBUG:Main.js:Name :operStatus
+2017-12-04 10:19:35,247 [Thread-1] - DEBUG:Main.js:ProbableCause :1
+2017-12-04 10:19:35,248 [Thread-1] - DEBUG:Main.js:DisplayName :Interface_1
+2017-12-04 10:19:35,248 [Thread-1] - DEBUG:Main.js:AlertType :1
+2017-12-04 10:19:35,249 [Thread-1] - DEBUG:Main.js:PerceivedSeverity :2
+2017-12-04 10:19:35,249 [Thread-1] - DEBUG:Main.js:SpecificCause :UIM_SmartOneEthernetPort
+2017-12-04 10:19:35,250 [Thread-1] - DEBUG:Main.js:Description :Address=, Description=lo
+2017-12-04 10:19:35,250 [Thread-1] - DEBUG:Main.js:State :3
+2017-12-04 10:19:35,250 [Thread-1] - DEBUG:Main.js:Caption :OperStatus
+2017-12-04 10:19:35,251 [Thread-1] - DEBUG:Main.js:UserResponsible :Device
+2017-12-04 10:19:35,251 [Thread-1] - DEBUG:Main.js:Clearable :false
+2017-12-04 10:19:35,252 [Thread-1] - DEBUG:Main.js:RemoteId :1234
+2017-12-04 10:19:35,253 [Thread-1] - DEBUG:Main.js:ManagedObject :Interface_1
+2017-12-04 10:19:35,253 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_1
+2017-12-04 10:19:35,269 [Thread-1] - DEBUG:Main.js:__AS__2__
+2017-12-04 10:19:35,270 [Thread-1] - DEBUG:Main.js:__AS__2__
+2017-12-04 10:19:35,271 [Thread-1] - DEBUG:Main.js:__AS__2__
+2017-12-04 10:19:35,271 [Thread-1] - DEBUG:Main.js:__AS__1__
+2017-12-04 10:19:35,272 [Thread-1] - DEBUG:Main.js:__OS__1__
+2017-12-04 10:19:35,273 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_5
+2017-12-04 10:19:35,273 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Interface_5
+2017-12-04 10:19:35,274 [Thread-1] - DEBUG:Main.js:Name :operStatus
+2017-12-04 10:19:35,275 [Thread-1] - DEBUG:Main.js:ProbableCause :1
+2017-12-04 10:19:35,275 [Thread-1] - DEBUG:Main.js:DisplayName :Interface_5
+2017-12-04 10:19:35,276 [Thread-1] - DEBUG:Main.js:AlertType :1
+2017-12-04 10:19:35,277 [Thread-1] - DEBUG:Main.js:PerceivedSeverity :2
+2017-12-04 10:19:35,277 [Thread-1] - DEBUG:Main.js:SpecificCause :UIM_SmartOneEthernetPort
+2017-12-04 10:19:35,278 [Thread-1] - DEBUG:Main.js:Description :Address=null, Description=null
+2017-12-04 10:19:35,278 [Thread-1] - DEBUG:Main.js:State :3
+2017-12-04 10:19:35,279 [Thread-1] - DEBUG:Main.js:Caption :OperStatus
+2017-12-04 10:19:35,279 [Thread-1] - DEBUG:Main.js:UserResponsible :Device
+2017-12-04 10:19:35,280 [Thread-1] - DEBUG:Main.js:Clearable :false
+2017-12-04 10:19:35,280 [Thread-1] - DEBUG:Main.js:RemoteId :1234
+2017-12-04 10:19:35,281 [Thread-1] - DEBUG:Main.js:ManagedObject :Interface_5
+2017-12-04 10:19:35,282 [Thread-1] - WARN:InstrumentationManager :: sendAlarm():Lookup of ManagedObject did not return  an instance id
+2017-12-04 10:19:35,290 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Alarm;return= Success
+2017-12-04 10:19:35,291 [Thread-1] - INFO:InstrumentationManager :: reconcileAlarms():Clearing 0 alerts
+2017-12-04 10:19:35,292 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-12-04 10:19:35,293 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-12-04 10:19:35,293 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_SNMPDeviceInstComponent" name="UIM_GDEpriT861InstComponent" discriminator-value="UIM_GDEpriT861InstComponent">
+    <meta attribute="class-description">Generated Javadocs for UIM_GDEpriT861InstComponent
+	@author jkonicki</meta>
+    <join table="UIM_GDEpriT861InstComponent">
+      <key column="id"/>
+      <property name="CustomAgentHome" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentHome" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="CustomAgentName" type="java.lang.String">
+        <meta attribute="default-value">"T861"</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="CustomAgentVendor" type="java.lang.String">
+        <meta attribute="default-value">"GDEpri"</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentVendor" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="ElementType" type="java.lang.String">
+        <meta attribute="default-value">"GDEpriT861"</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="ElementType" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="Script" type="java.lang.String">
+        <meta attribute="default-value">"Main.js"</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Script" sql-type="varchar2(3000)"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

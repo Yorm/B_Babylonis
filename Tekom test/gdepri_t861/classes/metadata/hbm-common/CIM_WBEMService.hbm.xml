@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="CIM_Service" name="CIM_WBEMService" discriminator-value="CIM_WBEMService">
+    <meta attribute="class-description">Generated Javadocs for CIM_WBEMService
+	@author jkonicki</meta>
+    <join table="CIM_WBEMService">
+      <key column="id"/>
+    </join>
+  </subclass>
+</hibernate-mapping>

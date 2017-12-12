@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_GenericLogicalDevice" name="UIM_GDEpriT861Port" discriminator-value="UIM_GDEpriT861Port">
+    <meta attribute="class-description">Generated Javadocs for UIM_GDEpriT861Port
+	@author jkonicki</meta>
+    <join table="UIM_GDEpriT861Port">
+      <key column="id"/>
+      <property name="Diagramm" type="java.lang.Boolean">
+        <meta attribute="default-value">new java.lang.Boolean(false)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Diagramm"/>
+      </property>
+      <property name="LinkStatus" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="LinkStatus"/>
+      </property>
+      <property name="DuplexStatus" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="DuplexStatus"/>
+      </property>
+      <property name="PortSpeed" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PortSpeed"/>
+      </property>
+      <property name="PortMedia" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PortMedia"/>
+      </property>
+      <property name="MediaMode" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="MediaMode"/>
+      </property>
+      <property name="SpeedMode" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SpeedMode"/>
+      </property>
+      <property name="DuplexMode" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="DuplexMode"/>
+      </property>
+      <property name="PortDisable" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PortDisable"/>
+      </property>
+      <property name="FlowCtrl" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="FlowCtrl"/>
+      </property>
+      <property name="EgressRate" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="EgressRate"/>
+      </property>
+      <property name="PackType" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PackType"/>
+      </property>
+      <property name="LowProbandwidth" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="LowProbandwidth"/>
+      </property>
+      <property name="NormalProbandwidth" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="NormalProbandwidth"/>
+      </property>
+      <property name="MediumProbandwidth" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="MediumProbandwidth"/>
+      </property>
+      <property name="HighProbandwidth" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="HighProbandwidth"/>
+      </property>
+      <property name="PortType" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PortType"/>
+      </property>
+      <property name="PortVID" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PortVID"/>
+      </property>
+      <property name="InGoodOctets" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InGoodOctets"/>
+      </property>
+      <property name="InBadOctets" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InBadOctets"/>
+      </property>
+      <property name="InUnicasts" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InUnicasts"/>
+      </property>
+      <property name="InBroadCasts" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InBroadCasts"/>
+      </property>
+      <property name="InMultiCasts" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InMultiCasts"/>
+      </property>
+      <property name="InPause" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InPause"/>
+      </property>
+      <property name="InUndersize" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InUndersize"/>
+      </property>
+      <property name="InFragments" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InFragments"/>
+      </property>
+      <property name="InOversize" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InOversize"/>
+      </property>
+      <property name="InJabber" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InJabber"/>
+      </property>
+      <property name="InRxErr" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InRxErr"/>
+      </property>
+      <property name="InFCSErr" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InFCSErr"/>
+      </property>
+      <property name="OutOctets" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="OutOctets"/>
+      </property>
+      <property name="OutUnicast" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="OutUnicast"/>
+      </property>
+      <property name="OutBroadCasts" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="OutBroadCasts"/>
+      </property>
+      <property name="OutMulticasts" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="OutMulticasts"/>
+      </property>
+      <property name="OutPause" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="OutPause"/>
+      </property>
+      <property name="Excessive" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Excessive"/>
+      </property>
+      <property name="Collisions" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Collisions"/>
+      </property>
+      <property name="Deferred" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Deferred"/>
+      </property>
+      <property name="Single" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Single"/>
+      </property>
+      <property name="Multple" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Multple"/>
+      </property>
+      <property name="Late" type="java.math.BigInteger">
+        <meta attribute="default-value">new BigInteger("0", 10)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Late"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2010 Harris Corporation. All Rights Reserved. -->
+<ManagedObject>
+    <UIMClass>UIM_GDEpriT861NetworkElement</UIMClass>
+    <DisplayName>T861 GDEpri</DisplayName>
+    <ElementType>GDEpriT861</ElementType>
+    <Version>2.8</Version>
+</ManagedObject>

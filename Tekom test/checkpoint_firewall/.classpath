@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/*.lib|**/*.agent|**/*.aig|mibs/*" kind="src" output="classes/server" path="server"/>
+	<classpathentry excluding="**/*.model" kind="src" output="classes/client" path="client"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.netboss.adt.ide.eclipse.AGENT_FRAMEWORK">
+		<attributes>
+			<attribute name="js.jar" value="agent-classpath"/>
+			<attribute name="org.eclipse.wst.jsdt.debug.rhino.jar" value="agent-classpath"/>
+			<attribute name="org.eclipse.wst.jsdt.debug.rhino.debugger.jar" value="agent-classpath"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="CIM_WBEMService" name="HNSD_Provider" discriminator-value="HNSD_Provider">
+    <meta attribute="class-description">Generated Javadocs for HNSD_Provider
+	@author jkonicki</meta>
+    <join table="HNSD_Provider">
+      <key column="id"/>
+      <property name="AutoStart" type="java.lang.Boolean">
+        <meta attribute="default-value">new java.lang.Boolean(false)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="AutoStart"/>
+      </property>
+      <property name="ServerId" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="ServerId" sql-type="varchar2(3000)"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

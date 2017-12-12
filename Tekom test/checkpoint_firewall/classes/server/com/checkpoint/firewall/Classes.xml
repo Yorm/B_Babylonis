@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2010 Harris Corporation. All Rights Reserved. -->
+<CIM xmlns:packbuild="com.harris.netboss.graphomclient.agentworkshop.util.transform" xmlns:xmi="http://www.omg.org/XMI" CIMVERSION="2.2" DTDVERSION="2.1">
+    <DECLARATION>
+        <DECLGROUP>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="HNSD_GenericProvider" NAME="HNSD_CheckPointFirewallProvider">
+                    <QUALIFIER NAME="UmlPackagePath" TYPE="string">
+                        <VALUE>classes::cim</VALUE>
+                    </QUALIFIER>
+                    <PROPERTY CLASSORIGIN="HNSD_CheckPointFirewallProvider" NAME="CustomAgentName" TYPE="string">
+                        <VALUE>Firewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="HNSD_CheckPointFirewallProvider" NAME="CustomAgentVendor" TYPE="string">
+                        <VALUE>CheckPoint</VALUE>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericSNMPDeviceMonInterface" NAME="UIM_CheckPFirewallMonInterface">
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallMonInterface" NAME="CustomAgentName" TYPE="string">
+                        <VALUE>Firewall</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Name of the the custom agent. This MUST match references to the agent name under the agent home area.</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Read" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallMonInterface" NAME="CustomAgentVendor" TYPE="string">
+                        <VALUE>CheckPoint</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Vendor of the the custom agent. This MUST match references to the agent vendor under the agent home area.</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Read" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallMonInterface" NAME="CustomAgentHome" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Home of the the custom agent. This MUST match the home path below the custom agent vendor directory.</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Read" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallMonInterface" NAME="PerformancePollingTime" TYPE="uint16">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="ValueMap" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>0</VALUE>
+                                <VALUE>1</VALUE>
+                                <VALUE>2</VALUE>
+                                <VALUE>3</VALUE>
+                                <VALUE>4</VALUE>
+                                <VALUE>5</VALUE>
+                                <VALUE>6</VALUE>
+                                <VALUE>7</VALUE>
+                                <VALUE>8</VALUE>
+                                <VALUE>9</VALUE>
+                                <VALUE>10</VALUE>
+                                <VALUE>11</VALUE>
+                                <VALUE>12</VALUE>
+                                <VALUE>13</VALUE>
+                                <VALUE>14</VALUE>
+                                <VALUE>15</VALUE>
+                                <VALUE>16</VALUE>
+                                <VALUE>17</VALUE>
+                                <VALUE>18</VALUE>
+                                <VALUE>19</VALUE>
+                                <VALUE>20</VALUE>
+                                <VALUE>21</VALUE>
+                                <VALUE>22</VALUE>
+                                <VALUE>23</VALUE>
+                            </VALUE.ARRAY>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Values" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>12:00 AM</VALUE>
+                                <VALUE>1:00 AM</VALUE>
+                                <VALUE>2:00 AM</VALUE>
+                                <VALUE>3:00 AM</VALUE>
+                                <VALUE>4:00 AM</VALUE>
+                                <VALUE>5:00 AM</VALUE>
+                                <VALUE>6:00 AM</VALUE>
+                                <VALUE>7:00 AM</VALUE>
+                                <VALUE>8:00 AM</VALUE>
+                                <VALUE>9:00 AM</VALUE>
+                                <VALUE>10:00 AM</VALUE>
+                                <VALUE>11:00 AM</VALUE>
+                                <VALUE>12:00 PM</VALUE>
+                                <VALUE>1:00 PM</VALUE>
+                                <VALUE>2:00 PM</VALUE>
+                                <VALUE>3:00 PM</VALUE>
+                                <VALUE>4:00 PM</VALUE>
+                                <VALUE>5:00 PM</VALUE>
+                                <VALUE>6:00 PM</VALUE>
+                                <VALUE>7:00 PM</VALUE>
+                                <VALUE>8:00 PM</VALUE>
+                                <VALUE>9:00 PM</VALUE>
+                                <VALUE>10:00 PM</VALUE>
+                                <VALUE>11:00 PM</VALUE>
+                            </VALUE.ARRAY>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallMonInterface" NAME="PerformancePollingFrequency" TYPE="string">
+                        <VALUE>Never</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Performance Polling Frequency</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="ValueMap" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>Never</VALUE>
+                                <VALUE>15 minutes</VALUE>
+                                <VALUE>30 minutes</VALUE>
+                                <VALUE>1 hours</VALUE>
+                                <VALUE>6 hours</VALUE>
+                                <VALUE>12 hours</VALUE>
+                                <VALUE>Daily</VALUE>
+                                <VALUE>Weekly - Sunday</VALUE>
+                                <VALUE>Weekly - Monday</VALUE>
+                                <VALUE>Weekly - Tuesday</VALUE>
+                                <VALUE>Weekly - Wednesday</VALUE>
+                                <VALUE>Weekly - Thursday</VALUE>
+                                <VALUE>Weekly - Friday</VALUE>
+                                <VALUE>Weekly - Saturday</VALUE>
+                                <VALUE>Monthly</VALUE>
+                            </VALUE.ARRAY>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Values" TYPE="string">
+                            <VALUE.ARRAY>
+                                <VALUE>Never</VALUE>
+                                <VALUE>15 minutes</VALUE>
+                                <VALUE>30 minutes</VALUE>
+                                <VALUE>1 hours</VALUE>
+                                <VALUE>6 hours</VALUE>
+                                <VALUE>12 hours</VALUE>
+                                <VALUE>Daily</VALUE>
+                                <VALUE>Weekly - Sunday</VALUE>
+                                <VALUE>Weekly - Monday</VALUE>
+                                <VALUE>Weekly - Tuesday</VALUE>
+                                <VALUE>Weekly - Wednesday</VALUE>
+                                <VALUE>Weekly - Thursday</VALUE>
+                                <VALUE>Weekly - Friday</VALUE>
+                                <VALUE>Weekly - Saturday</VALUE>
+                                <VALUE>Monthly</VALUE>
+                            </VALUE.ARRAY>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_SNMPDeviceMgmtInterface" NAME="UIM_CheckPFirewallMgmtInterface">
+                    <METHOD CLASSORIGIN="UIM_CheckPFirewallMgmtInterface" NAME="SynchronizePerformance" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>This command starts the polling of the device in order to update performance values</VALUE>
+                        </QUALIFIER>
+                    </METHOD>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_SNMPDeviceInstComponent" NAME="UIM_CheckPFirewallInstComponent">
+                    <QUALIFIER NAME="UmlPackagePath" TYPE="string">
+                        <VALUE>components</VALUE>
+                    </QUALIFIER>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallInstComponent" NAME="CustomAgentHome" TYPE="string"></PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallInstComponent" NAME="CustomAgentName" TYPE="string">
+                        <VALUE>Firewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallInstComponent" NAME="CustomAgentVendor" TYPE="string">
+                        <VALUE>CheckPoint</VALUE>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallInstComponent" NAME="ElementType" TYPE="string">
+                        <VALUE>CheckPointFirewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallInstComponent" NAME="Script" TYPE="string">
+                        <VALUE>Main.js</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Location of the script for parsing and updating agent</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Required" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericNetworkElement" NAME="UIM_CheckPFirewallNetworkElement">
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallNetworkElement" NAME="Script" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Required" TYPE="boolean">
+                            <VALUE>true</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_CheckPFirewallNetworkElement" NAME="SystemUpTimeTxt" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>A textual representation of the SystemUpTime field.</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericLogicalDevice" NAME="UIM_FirewallFanSpeed">
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="Diagramm" TYPE="boolean">
+                        <VALUE>false</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanName" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanValue" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanUnit" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanType" TYPE="string">
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanStatus" TYPE="uint16">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanSpeed" NAME="FanIndex" TYPE="real64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericGrouping" NAME="UIM_FirewallFanGrouping">
+                    <PROPERTY CLASSORIGIN="UIM_FirewallFanGrouping" NAME="Diagramm" TYPE="boolean">
+                        <VALUE>false</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericGrouping" NAME="UIM_FirewallRouteGrouping">
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRouteGrouping" NAME="Diagramm" TYPE="boolean">
+                        <VALUE>false</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericLogicalDevice" NAME="UIM_FirewallRoutes">
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="Diagramm" TYPE="boolean">
+                        <VALUE>false</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="RoutingIndex" TYPE="uint16">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="RoutingDest" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="RoutingMask" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="RoutingGatweway" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallRoutes" NAME="RoutingIntrfName" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericGrouping" NAME="UIM_FirewallEthernetGrouping"></CLASS>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <CLASS SUPERCLASS="UIM_GenericPort" NAME="UIM_FirewallEthernetPort">
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="Diagramm" TYPE="boolean">
+                        <VALUE>false</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="MTU" TYPE="uint16">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="PortSpeed" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="PhysicalAddress" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="AdminStatus" TYPE="uint16">
+                        <VALUE>1</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OperStatus" TYPE="uint16">
+                        <VALUE>1</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="LastChange" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="Alias" TYPE="string">
+                        <VALUE>n/a</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InOctets" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InUcastPkts" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InNUcastPkts" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InDiscards" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InErrors" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="InUnknownProtos" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OutOctets" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OutUcastPkts" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OutNUcastPkts" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OutDiscards" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                    <PROPERTY CLASSORIGIN="UIM_FirewallEthernetPort" NAME="OutErrors" TYPE="uint64">
+                        <VALUE>0</VALUE>
+                        <QUALIFIER NAME="Description" TYPE="string">
+                            <VALUE>Input property description</VALUE>
+                        </QUALIFIER>
+                        <QUALIFIER NAME="Write" TYPE="boolean">
+                            <VALUE>false</VALUE>
+                        </QUALIFIER>
+                    </PROPERTY>
+                </CLASS>
+            </VALUE.OBJECT>
+        </DECLGROUP>
+    </DECLARATION>
+</CIM>

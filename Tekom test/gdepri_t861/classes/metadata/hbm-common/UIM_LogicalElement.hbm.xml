@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_ManagedSystemElement" name="UIM_LogicalElement" discriminator-value="UIM_LogicalElement">
+    <meta attribute="class-description">Generated Javadocs for UIM_LogicalElement
+	@author jkonicki</meta>
+    <join table="UIM_LogicalElement">
+      <key column="id"/>
+    </join>
+  </subclass>
+</hibernate-mapping>

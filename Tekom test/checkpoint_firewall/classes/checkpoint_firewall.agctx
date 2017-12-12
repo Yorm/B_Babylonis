@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AgentContext>
+<MOTypeModel>client/com/checkpoint/firewall/MOTypeModel.xml</MOTypeModel>
+<MgmtModel>server/com/checkpoint/firewall/MgmtModel.xml</MgmtModel>
+<CIMInstances>server/com/checkpoint/firewall/instances.xml</CIMInstances>
+<CIMClasses>
+<CIMClass>server/com/checkpoint/firewall/Classes.xml</CIMClass>
+</CIMClasses>
+</AgentContext>

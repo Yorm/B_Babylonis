@@ -1,0 +1,125 @@
+2017-12-07 12:49:16,117 [main] - args 0 C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-07 12:49:16,118 [main] - args 1 localhost
+2017-12-07 12:49:16,118 [main] - args 2 161
+2017-12-07 12:49:16,118 [main] - args 3 public
+2017-12-07 12:49:16,118 [main] - args 4 public
+2017-12-07 12:49:16,119 [main] - args 5 162
+2017-12-07 12:49:16,119 [main] - args 6 0
+2017-12-07 12:49:16,119 [main] - args 7 com.checkpoint.firewall.file.instrumentation.InstrumentationManager
+2017-12-07 12:49:16,119 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/
+2017-12-07 12:49:16,119 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/server/
+2017-12-07 12:49:16,119 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/classes/server/
+2017-12-07 12:49:16,119 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-07 12:49:16,119 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-12-07 12:49:16,119 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-12-07 12:49:16,119 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-12-07 12:49:16,119 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-12-07 12:49:16,119 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-12-07 12:49:16,120 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-12-07 12:49:16,121 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/agentruntimeserver.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/common.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/core.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/integration.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/legacycommon.jar
+2017-12-07 12:49:16,128 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/metadata.jar
+2017-12-07 12:49:16,129 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/schema-generation.jar
+2017-12-07 12:49:16,129 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/server.jar
+2017-12-07 12:49:16,129 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_metadata.jar
+2017-12-07 12:49:16,129 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_server.jar
+2017-12-07 12:49:16,153 [main] - Script = C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-12-07 12:49:16,251 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 12:49:16,251 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 12:49:16,251 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@5c084322, signature = null)
+2017-12-07 12:49:16,399 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@164c786e)
+2017-12-07 12:49:16,399 [main] - put(key = summAlarmOidsDict, value = {})
+2017-12-07 12:49:16,399 [main] - put(key = configDict, value = {})
+2017-12-07 12:49:16,399 [main] - put(key = attributeDict, value = {})
+2017-12-07 12:49:16,399 [main] - put(key = alarmDict, value = {})
+2017-12-07 12:49:16,399 [main] - put(key = alarmOidsDict, value = {})
+2017-12-07 12:49:16,399 [main] - put(key = InstrumentationManager, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager@76768931)
+2017-12-07 12:49:16,400 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@60292cb9)
+2017-12-07 12:49:16,400 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@60292cb9)
+2017-12-07 12:49:16,400 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@2f375701)
+2017-12-07 12:49:17,410 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-07 12:49:17,411 [main] - ERROR::Secondary attribute = IPAddress
+2017-12-07 12:49:17,412 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-07 12:49:17,414 [main] - get(key = Logger)
+2017-12-07 12:49:17,414 [main] - get(key = ContextHelper)
+2017-12-07 12:49:17,415 [main] - get(key = IndicationHandler)
+2017-12-07 12:49:17,415 [main] - put(key = ConfigHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$ConfigHandler@4a4b1761)
+2017-12-07 12:49:17,417 [main] - get(key = Logger)
+2017-12-07 12:49:17,417 [main] - get(key = ContextHelper)
+2017-12-07 12:49:17,417 [main] - get(key = IndicationHandler)
+2017-12-07 12:49:17,417 [main] - put(key = AlarmHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AlarmHandler@6b5cbaf2)
+2017-12-07 12:49:17,420 [main] - get(key = Logger)
+2017-12-07 12:49:17,420 [main] - get(key = ContextHelper)
+2017-12-07 12:49:17,420 [main] - get(key = IndicationHandler)
+2017-12-07 12:49:17,420 [main] - put(key = AttributeHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AttributeHandler@c97a0c7)
+2017-12-07 12:49:17,422 [main] - DEBUG:com.checkpoint.firewall.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-07 12:49:17,587 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-12-07 12:49:17,588 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-12-07 12:49:17,592 [main] - current script = this C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-12-07 12:49:17,876 [main] - Failed to create a trap listener on port .
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(Unknown Source)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(Unknown Source)
+	at java.net.DatagramSocket.bind(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at org.snmp4j.transport.DefaultUdpTransportMapping.<init>(DefaultUdpTransportMapping.java:100)
+	at com.netboss.adt.ide.eclipse.simulation.js.TrapReceiver.<init>(TrapReceiver.java:150)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.<init>(JsSimulationManager.java:753)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.main(JsSimulationManager.java:426)
+2017-12-07 12:49:17,881 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 12:49:17,882 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-12-07 12:49:17,883 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-12-07 12:49:17,884 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Configuration;return= 
+2017-12-07 12:49:17,886 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-12-07 12:49:17,886 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 12:49:17,887 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-12-07 12:49:17,888 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-12-07 12:49:17,888 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-12-07 12:49:17,888 [Thread-1] - 
+2017-12-07 12:49:17,889 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-12-07 12:49:17,889 [Thread-1] - get(key = SnmpHandler)
+2017-12-07 12:49:17,890 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-12-07 12:49:17,891 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-12-07 12:49:17,891 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-12-07 12:49:17,892 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Alarm;return= Success
+2017-12-07 12:49:17,892 [Thread-1] - INFO:InstrumentationManager :: reconcileAlarms():Clearing 0 alerts
+2017-12-07 12:49:17,893 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-12-07 12:49:17,894 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-12-07 12:49:17,894 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success

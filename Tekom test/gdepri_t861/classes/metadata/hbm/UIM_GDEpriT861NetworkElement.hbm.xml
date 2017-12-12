@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_GenericNetworkElement" name="UIM_GDEpriT861NetworkElement" discriminator-value="UIM_GDEpriT861NetworkElement">
+    <meta attribute="class-description">Generated Javadocs for UIM_GDEpriT861NetworkElement
+	@author jkonicki</meta>
+    <join table="UIM_GDEpriT861NetworkElement">
+      <key column="id"/>
+      <property name="Script" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Script" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="SystemUpTimeTxt" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemUpTimeTxt" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="HardwareVersion" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="HardwareVersion" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="SoftwareVersion" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SoftwareVersion" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="StackFlag" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="StackFlag"/>
+      </property>
+      <property name="BootImgPrimary" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="BootImgPrimary" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="BootImgSecondary" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="BootImgSecondary" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="BootStartUpCfg" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="BootStartUpCfg" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="StartUpStatus" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="StartUpStatus"/>
+      </property>
+      <property name="NumberOfPorts" type="java.lang.Integer">
+        <meta attribute="default-value">new java.lang.Integer(0)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="NumberOfPorts"/>
+      </property>
+      <property name="Diagramm" type="java.lang.Boolean">
+        <meta attribute="default-value">new java.lang.Boolean(false)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Diagramm"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

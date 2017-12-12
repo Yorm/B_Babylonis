@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<com.netboss.adt.ide.eclipse.instrumentation:Mapping xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.netboss.adt.ide.eclipse.instrumentation="http:///com/harris/netboss/agentworkshop/instrumentation.ecore" mappingNature="root" oID="root" oidFormat="custom" parsingFunc="">
+  <childMappings mappingNature="Alarms" oID="Alarms" oidFormat="custom" parsingFunc=""/>
+  <childMappings mappingNature="Attributes" oID="Attributes" oidFormat="custom" parsingFunc=""/>
+  <childMappings mappingNature="Configuration" oID="Configuration" oidFormat="custom" parsingFunc=""/>
+  <childMappings mappingNature="PollingGroupsContainer" oID="PollingGroupsContainer" oidFormat="custom" parsingFunc=""/>
+</com.netboss.adt.ide.eclipse.instrumentation:Mapping>

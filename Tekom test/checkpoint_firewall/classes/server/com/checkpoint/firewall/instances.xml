@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2010 Harris Corporation. All Rights Reserved. -->
+<CIM CIMVERSION="2.2" DTDVERSION="2.1">
+    <DECLARATION>
+        <DECLGROUP>
+            <LOCALNAMESPACEPATH>
+                <NAMESPACE NAME="/root/cimv2/HNSD_System/System"></NAMESPACE>
+            </LOCALNAMESPACEPATH>
+            <!--  INSTANCE DEFINITIONS   -->
+            <VALUE.OBJECT>
+                <INSTANCE CLASSNAME="UIM_CheckPFirewallMgmtInterface">
+                    <PROPERTY NAME="DisplayName" TYPE="string">
+                        <VALUE>Firewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="Name" TYPE="string">
+                        <VALUE>CheckPointFirewallMgmtInterface</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="CustomClassName" TYPE="string">
+                        <VALUE>UIM_CheckPFirewallNetworkElement</VALUE>
+                    </PROPERTY>
+                </INSTANCE>
+            </VALUE.OBJECT>
+            <VALUE.OBJECT>
+                <INSTANCE CLASSNAME="UIM_CheckPFirewallInstComponent">
+                    <PROPERTY NAME="Autonomous" TYPE="boolean">
+                        <VALUE>true</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="DisplayName" TYPE="string">
+                        <VALUE>Firewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="ManagedElementType" TYPE="string">
+                        <VALUE>CheckPointFirewall</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="Package" TYPE="string">
+                        <VALUE>Agents.CheckPoint</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="ProviderClassName" TYPE="string">
+                        <VALUE>HNSD_CheckPointFirewallProvider</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="UIMClassName" TYPE="string">
+                        <VALUE>UIM_CheckPFirewallNetworkElement</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="Version" TYPE="string">
+                        <VALUE>2.7</VALUE>
+                    </PROPERTY>
+                    <PROPERTY NAME="CustomClassName" TYPE="string">
+                        <VALUE>UIM_CheckPFirewallNetworkElement</VALUE>
+                    </PROPERTY>
+                </INSTANCE>
+            </VALUE.OBJECT>
+        </DECLGROUP>
+    </DECLARATION>
+</CIM>

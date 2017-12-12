@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="UIM_ManagedElement" name="UIM_ManagedSystemElement" discriminator-value="UIM_ManagedSystemElement">
+    <meta attribute="class-description">Generated Javadocs for UIM_ManagedSystemElement
+	@author jkonicki</meta>
+    <join table="UIM_ManagedSystemElement">
+      <key column="id"/>
+      <property name="ElementType" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="ElementType" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="Name" type="java.lang.String" index="index_1441058335175_Name">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Name" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="OperationalStatus" type="com.harris.netboss.metadata.cim.CimValueType">
+        <meta attribute="property-type">java.lang.Integer[]</meta>
+        <meta attribute="default-value">new java.lang.Integer[]{new java.lang.Integer(0)}</meta>
+        <column name="OperationalStatus_value" length="4000"/>
+        <column name="OperationalStatus_value_type"/>
+      </property>
+      <property name="MaintenanceOutageAllowed" type="java.lang.Boolean">
+        <meta attribute="default-value">new java.lang.Boolean(true)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="MaintenanceOutageAllowed"/>
+      </property>
+      <property name="SystemId" type="java.lang.Long">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemId"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

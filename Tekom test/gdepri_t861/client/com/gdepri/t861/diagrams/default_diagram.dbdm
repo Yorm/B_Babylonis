@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with NetBoss XT ACDBuilder-->
+<dashboardDiagram>
+<symbol id="TextLabelSquare_4" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="DeviceName" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="SystemId" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_6" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="IPAddress" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_15" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="SystemUpTimeTxt" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_16" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="SystemContact" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_17" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="SystemLocation" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_31" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="Description" symbolParameter="name"/>
+</symbol>
+<symbol id="IndicatorStatus_2" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<alertMapping changeBackground="true"/>
+</symbol>
+<symbol id="TextLabelSquare_4_3" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="ManagementStatus" symbolParameter="name"/>
+</symbol>
+<symbol id="sync_device_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<operationMapping operation="SynchronizeDevice"/>
+</symbol>
+<symbol id="sync_config_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<operationMapping operation="SynchronizeConfiguration"/>
+</symbol>
+<symbol id="sync_alarms_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<operationMapping operation="SynchronizeAlarms"/>
+</symbol>
+<symbol id="sync_connect_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<operationMapping operation="CheckConnectivity"/>
+</symbol>
+<symbol id="sync_attrs_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<operationMapping operation="SynchronizeAttributes"/>
+</symbol>
+<symbol id="TextLabelSquare_4_3_2" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_GDEpriT861NetworkElement[ElementType=GDEpriT861]">
+<propertyMapping metadataProperty="NumberOfPorts" symbolParameter="name"/>
+</symbol>
+</dashboardDiagram>

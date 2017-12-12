@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created with NetBoss XT ACDBuilder-->
+<dashboardDiagram>
+<symbol id="sync_device_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<operationMapping operation="SynchronizeDevice"/>
+</symbol>
+<symbol id="sync_config_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<operationMapping operation="SynchronizeConfiguration"/>
+</symbol>
+<symbol id="sync_alarms_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<operationMapping operation="SynchronizeAlarms"/>
+</symbol>
+<symbol id="sync_connect_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<operationMapping operation="CheckConnectivity"/>
+</symbol>
+<symbol id="sync_attrs_btn" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<operationMapping operation="SynchronizeAttributes"/>
+</symbol>
+<symbol id="TextLabelSquare_4" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="DeviceName" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="SystemId" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_3" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="ManagementStatus" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_6" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="IPAddress" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_15" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="SystemUpTimeTxt" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_16" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="SystemContact" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_9_17" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="SystemLocation" symbolParameter="name"/>
+</symbol>
+<symbol id="TextLabelSquare_4_2_31" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<propertyMapping metadataProperty="Description" symbolParameter="name"/>
+</symbol>
+<symbol id="IndicatorStatus_2" layoutColumnCount="10" layoutHGap="5" layoutRowCount="10" layoutVGap="5" modelObject="/UIM_CheckPointFirewallNetworkElement[ElementType=CheckPointFirewall]">
+<alertMapping changeBackground="true"/>
+</symbol>
+</dashboardDiagram>

@@ -1,0 +1,503 @@
+2017-12-08 13:25:58,131 [main] - args 0 C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-08 13:25:58,132 [main] - args 1 localhost
+2017-12-08 13:25:58,132 [main] - args 2 161
+2017-12-08 13:25:58,132 [main] - args 3 public
+2017-12-08 13:25:58,132 [main] - args 4 public
+2017-12-08 13:25:58,132 [main] - args 5 162
+2017-12-08 13:25:58,133 [main] - args 6 0
+2017-12-08 13:25:58,133 [main] - args 7 com.checkpoint.firewall.file.instrumentation.InstrumentationManager
+2017-12-08 13:25:58,133 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/
+2017-12-08 13:25:58,133 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/server/
+2017-12-08 13:25:58,133 [main] - /C:/Users/golovin.d/workspace/checkpoint_firewall/classes/server/
+2017-12-08 13:25:58,133 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-08 13:25:58,134 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-12-08 13:25:58,134 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-12-08 13:25:58,134 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-12-08 13:25:58,134 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-12-08 13:25:58,134 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-12-08 13:25:58,134 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-12-08 13:25:58,134 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-12-08 13:25:58,134 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-12-08 13:25:58,134 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-12-08 13:25:58,135 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-12-08 13:25:58,136 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-12-08 13:25:58,137 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/agentruntimeserver.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/common.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/core.jar
+2017-12-08 13:25:58,138 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/integration.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/legacycommon.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/metadata.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/schema-generation.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/server.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_metadata.jar
+2017-12-08 13:25:58,139 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.7/lib/shared_server.jar
+2017-12-08 13:25:58,154 [main] - Script = C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-12-08 13:25:58,184 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-08 13:25:58,184 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-08 13:25:58,184 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@226f9c62, signature = null)
+2017-12-08 13:25:58,229 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@76768931)
+2017-12-08 13:25:58,229 [main] - put(key = summAlarmOidsDict, value = {})
+2017-12-08 13:25:58,229 [main] - put(key = configDict, value = {})
+2017-12-08 13:25:58,229 [main] - put(key = attributeDict, value = {})
+2017-12-08 13:25:58,229 [main] - put(key = alarmDict, value = {})
+2017-12-08 13:25:58,229 [main] - put(key = alarmOidsDict, value = {})
+2017-12-08 13:25:58,229 [main] - put(key = InstrumentationManager, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager@60292cb9)
+2017-12-08 13:25:58,230 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@2f375701)
+2017-12-08 13:25:58,230 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@2f375701)
+2017-12-08 13:25:58,230 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@5a311ade)
+2017-12-08 13:25:59,236 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-08 13:25:59,238 [main] - ERROR::Secondary attribute = IPAddress
+2017-12-08 13:25:59,242 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-12-08 13:25:59,246 [main] - get(key = Logger)
+2017-12-08 13:25:59,246 [main] - get(key = ContextHelper)
+2017-12-08 13:25:59,246 [main] - get(key = IndicationHandler)
+2017-12-08 13:25:59,246 [main] - put(key = ConfigHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$ConfigHandler@14b746c8)
+2017-12-08 13:25:59,250 [main] - get(key = Logger)
+2017-12-08 13:25:59,250 [main] - get(key = ContextHelper)
+2017-12-08 13:25:59,250 [main] - get(key = IndicationHandler)
+2017-12-08 13:25:59,250 [main] - put(key = AlarmHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AlarmHandler@5db6fa62)
+2017-12-08 13:25:59,253 [main] - get(key = Logger)
+2017-12-08 13:25:59,253 [main] - get(key = ContextHelper)
+2017-12-08 13:25:59,253 [main] - get(key = IndicationHandler)
+2017-12-08 13:25:59,253 [main] - put(key = AttributeHandler, value = com.checkpoint.firewall.file.instrumentation.InstrumentationManager$AttributeHandler@998b16b)
+2017-12-08 13:25:59,255 [main] - DEBUG:com.checkpoint.firewall.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js
+2017-12-08 13:25:59,321 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-12-08 13:25:59,321 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-12-08 13:25:59,324 [main] - current script = this C:\Users\golovin.d\workspace\checkpoint_firewall\server\com\checkpoint\firewall/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-12-08 13:25:59,620 [main] - Failed to create a trap listener on port .
+java.net.BindException: Address already in use: Cannot bind
+	at java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.bind0(Unknown Source)
+	at java.net.AbstractPlainDatagramSocketImpl.bind(Unknown Source)
+	at java.net.DatagramSocket.bind(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at java.net.DatagramSocket.<init>(Unknown Source)
+	at org.snmp4j.transport.DefaultUdpTransportMapping.<init>(DefaultUdpTransportMapping.java:100)
+	at com.netboss.adt.ide.eclipse.simulation.js.TrapReceiver.<init>(TrapReceiver.java:150)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.<init>(JsSimulationManager.java:753)
+	at com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager.main(JsSimulationManager.java:426)
+2017-12-08 13:25:59,631 [Thread-1] - get(key = SnmpHandler)
+2017-12-08 13:25:59,632 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-12-08 13:25:59,634 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-12-08 13:25:59,648 [Thread-1] - INFO:Main.js:Name :FanSpeed
+2017-12-08 13:25:59,650 [Thread-1] - INFO:Main.js:DisplayName :FanSpeed
+2017-12-08 13:25:59,651 [Thread-1] - INFO:Main.js:ElementType :FirewallFanGrouping
+2017-12-08 13:25:59,652 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanGrouping
+2017-12-08 13:25:59,652 [Thread-1] - INFO:Main.js:Parent :
+2017-12-08 13:25:59,658 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,659 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-08 13:25:59,659 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name FanSpeed did not resolve to instance id
+2017-12-08 13:25:59,803 [Thread-1] - INFO:Main.js:Name :Sensor_1
+2017-12-08 13:25:59,805 [Thread-1] - INFO:Main.js:DisplayName :Sensor_1
+2017-12-08 13:25:59,807 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-08 13:25:59,807 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-08 13:25:59,808 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-08 13:25:59,809 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,809 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_1
+2017-12-08 13:25:59,810 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_1 did not resolve to instance id
+2017-12-08 13:25:59,811 [Thread-1] - INFO:Main.js:Name :Sensor_2
+2017-12-08 13:25:59,811 [Thread-1] - INFO:Main.js:DisplayName :Sensor_2
+2017-12-08 13:25:59,811 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-08 13:25:59,813 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-08 13:25:59,814 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-08 13:25:59,814 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,815 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_2
+2017-12-08 13:25:59,815 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_2 did not resolve to instance id
+2017-12-08 13:25:59,816 [Thread-1] - INFO:Main.js:Name :Sensor_3
+2017-12-08 13:25:59,817 [Thread-1] - INFO:Main.js:DisplayName :Sensor_3
+2017-12-08 13:25:59,818 [Thread-1] - INFO:Main.js:ElementType :FirewallFanSpeed
+2017-12-08 13:25:59,818 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallFanSpeed
+2017-12-08 13:25:59,818 [Thread-1] - INFO:Main.js:Parent :FanSpeed
+2017-12-08 13:25:59,819 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,819 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_3
+2017-12-08 13:25:59,820 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Sensor_3 did not resolve to instance id
+2017-12-08 13:25:59,821 [Thread-1] - INFO:Main.js:Name :Routes
+2017-12-08 13:25:59,821 [Thread-1] - INFO:Main.js:DisplayName :Routes
+2017-12-08 13:25:59,822 [Thread-1] - INFO:Main.js:ElementType :FirewallRouteGrouping
+2017-12-08 13:25:59,823 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRouteGrouping
+2017-12-08 13:25:59,824 [Thread-1] - INFO:Main.js:Parent :
+2017-12-08 13:25:59,824 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,825 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,826 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Routes did not resolve to instance id
+2017-12-08 13:25:59,894 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,895 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,896 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,897 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,897 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,898 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,899 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,900 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,901 [Thread-1] - INFO:Main.js:Name :Route_2
+2017-12-08 13:25:59,901 [Thread-1] - INFO:Main.js:DisplayName :Route_2
+2017-12-08 13:25:59,902 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,902 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,903 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,904 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,904 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_2
+2017-12-08 13:25:59,908 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_2 did not resolve to instance id
+2017-12-08 13:25:59,909 [Thread-1] - INFO:Main.js:Name :Route_3
+2017-12-08 13:25:59,909 [Thread-1] - INFO:Main.js:DisplayName :Route_3
+2017-12-08 13:25:59,910 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,910 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,911 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,913 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,914 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_3
+2017-12-08 13:25:59,914 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_3 did not resolve to instance id
+2017-12-08 13:25:59,915 [Thread-1] - INFO:Main.js:Name :Route_4
+2017-12-08 13:25:59,916 [Thread-1] - INFO:Main.js:DisplayName :Route_4
+2017-12-08 13:25:59,916 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,917 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,917 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,918 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,919 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_4
+2017-12-08 13:25:59,919 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_4 did not resolve to instance id
+2017-12-08 13:25:59,920 [Thread-1] - INFO:Main.js:Name :Route_5
+2017-12-08 13:25:59,920 [Thread-1] - INFO:Main.js:DisplayName :Route_5
+2017-12-08 13:25:59,920 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,921 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,921 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,922 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,922 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_5
+2017-12-08 13:25:59,923 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_5 did not resolve to instance id
+2017-12-08 13:25:59,923 [Thread-1] - INFO:Main.js:Name :Route_6
+2017-12-08 13:25:59,923 [Thread-1] - INFO:Main.js:DisplayName :Route_6
+2017-12-08 13:25:59,924 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,924 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,925 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,925 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,926 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_6
+2017-12-08 13:25:59,926 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_6 did not resolve to instance id
+2017-12-08 13:25:59,926 [Thread-1] - INFO:Main.js:Name :Route_7
+2017-12-08 13:25:59,927 [Thread-1] - INFO:Main.js:DisplayName :Route_7
+2017-12-08 13:25:59,927 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,928 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,928 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,929 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,929 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_7
+2017-12-08 13:25:59,930 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_7 did not resolve to instance id
+2017-12-08 13:25:59,930 [Thread-1] - INFO:Main.js:Name :Route_8
+2017-12-08 13:25:59,931 [Thread-1] - INFO:Main.js:DisplayName :Route_8
+2017-12-08 13:25:59,931 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,932 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,932 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,933 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,933 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_8
+2017-12-08 13:25:59,934 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_8 did not resolve to instance id
+2017-12-08 13:25:59,934 [Thread-1] - INFO:Main.js:Name :Route_9
+2017-12-08 13:25:59,935 [Thread-1] - INFO:Main.js:DisplayName :Route_9
+2017-12-08 13:25:59,935 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,936 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,936 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,937 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,937 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_9
+2017-12-08 13:25:59,938 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_9 did not resolve to instance id
+2017-12-08 13:25:59,938 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,939 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,939 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,940 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,940 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,941 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,942 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,943 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,943 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,944 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,944 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,945 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,945 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,947 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,948 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,949 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,949 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,949 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,950 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,950 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,951 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,951 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,952 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,952 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,952 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,953 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,953 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,953 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,954 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,954 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,955 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,955 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,956 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,956 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,956 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,957 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,957 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,957 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,958 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,958 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,959 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,959 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,959 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,960 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,960 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,960 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,961 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,962 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,962 [Thread-1] - INFO:Main.js:Name :Route_1
+2017-12-08 13:25:59,963 [Thread-1] - INFO:Main.js:DisplayName :Route_1
+2017-12-08 13:25:59,963 [Thread-1] - INFO:Main.js:ElementType :SmartOneRoute
+2017-12-08 13:25:59,963 [Thread-1] - INFO:Main.js:CustomClassName :UIM_FirewallRoutes
+2017-12-08 13:25:59,964 [Thread-1] - INFO:Main.js:Parent :Routes
+2017-12-08 13:25:59,964 [Thread-1] - INFO:Main.js:Diagramm :true
+2017-12-08 13:25:59,965 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:25:59,966 [Thread-1] - ERROR:InstrumentationManager :: updateElement():Name Route_1 did not resolve to instance id
+2017-12-08 13:25:59,966 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Configuration;return= 
+2017-12-08 13:25:59,967 [Thread-1] - Instantiation component for UIM_FirewallFanGrouping is not found, use the default one. WARN
+2017-12-08 13:25:59,969 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-12-08 13:25:59,969 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-08 13:25:59,970 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,972 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for FanSpeed
+2017-12-08 13:25:59,972 [Thread-1] - createActualElement :: Instance = FanSpeedParent ID  = 0 null
+2017-12-08 13:25:59,972 [Thread-1] - MO id = 2 
+2017-12-08 13:25:59,976 [Thread-1] - Instantiation component for UIM_FirewallRouteGrouping is not found, use the default one. WARN
+2017-12-08 13:25:59,977 [Thread-1] - DEBUG:InstrumentationManager :: createInstance():Properties did not contain a parent to create the managed object for
+2017-12-08 13:25:59,978 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 0
+2017-12-08 13:25:59,979 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,980 [Thread-1] - createActualElement ::Properties did not contain a parent to create the managed object for Routes
+2017-12-08 13:25:59,980 [Thread-1] - createActualElement :: Instance = RoutesParent ID  = 0 null
+2017-12-08 13:25:59,980 [Thread-1] - MO id = 3 
+2017-12-08 13:25:59,981 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-08 13:25:59,982 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-08 13:25:59,983 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-12-08 13:25:59,983 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,984 [Thread-1] - createActualElement :: Instance = Sensor_1Parent ID  = 2 FanSpeed
+2017-12-08 13:25:59,984 [Thread-1] - MO id = 4 
+2017-12-08 13:25:59,985 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-08 13:25:59,986 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-08 13:25:59,986 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-12-08 13:25:59,987 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,987 [Thread-1] - createActualElement :: Instance = Sensor_2Parent ID  = 2 FanSpeed
+2017-12-08 13:25:59,987 [Thread-1] - MO id = 5 
+2017-12-08 13:25:59,988 [Thread-1] - Instantiation component for UIM_FirewallFanSpeed is not found, use the default one. WARN
+2017-12-08 13:25:59,988 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for FanSpeed
+2017-12-08 13:25:59,989 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 2
+2017-12-08 13:25:59,989 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,989 [Thread-1] - createActualElement :: Instance = Sensor_3Parent ID  = 2 FanSpeed
+2017-12-08 13:25:59,990 [Thread-1] - MO id = 6 
+2017-12-08 13:25:59,990 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:25:59,991 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,991 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:25:59,991 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,991 [Thread-1] - createActualElement :: Instance = Route_1Parent ID  = 3 Routes
+2017-12-08 13:25:59,992 [Thread-1] - MO id = 7 
+2017-12-08 13:25:59,992 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:25:59,993 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,993 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:25:59,993 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,993 [Thread-1] - createActualElement :: Instance = Route_2Parent ID  = 3 Routes
+2017-12-08 13:25:59,994 [Thread-1] - MO id = 8 
+2017-12-08 13:25:59,994 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:25:59,995 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,995 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:25:59,996 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,996 [Thread-1] - createActualElement :: Instance = Route_3Parent ID  = 3 Routes
+2017-12-08 13:25:59,996 [Thread-1] - MO id = 9 
+2017-12-08 13:25:59,997 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:25:59,997 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,997 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:25:59,998 [Thread-1] - MO id = test 
+2017-12-08 13:25:59,998 [Thread-1] - createActualElement :: Instance = Route_4Parent ID  = 3 Routes
+2017-12-08 13:25:59,998 [Thread-1] - MO id = 10 
+2017-12-08 13:25:59,999 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:25:59,999 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:25:59,999 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:26:00,000 [Thread-1] - MO id = test 
+2017-12-08 13:26:00,000 [Thread-1] - createActualElement :: Instance = Route_5Parent ID  = 3 Routes
+2017-12-08 13:26:00,000 [Thread-1] - MO id = 11 
+2017-12-08 13:26:00,001 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,001 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:26:00,002 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:26:00,002 [Thread-1] - MO id = test 
+2017-12-08 13:26:00,002 [Thread-1] - createActualElement :: Instance = Route_6Parent ID  = 3 Routes
+2017-12-08 13:26:00,002 [Thread-1] - MO id = 12 
+2017-12-08 13:26:00,003 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,004 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:26:00,004 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:26:00,005 [Thread-1] - MO id = test 
+2017-12-08 13:26:00,005 [Thread-1] - createActualElement :: Instance = Route_7Parent ID  = 3 Routes
+2017-12-08 13:26:00,005 [Thread-1] - MO id = 13 
+2017-12-08 13:26:00,006 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,006 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:26:00,007 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:26:00,007 [Thread-1] - MO id = test 
+2017-12-08 13:26:00,007 [Thread-1] - createActualElement :: Instance = Route_8Parent ID  = 3 Routes
+2017-12-08 13:26:00,007 [Thread-1] - MO id = 14 
+2017-12-08 13:26:00,008 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,009 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Routes
+2017-12-08 13:26:00,009 [Thread-1] - INFO:InstrumentationManager :: createInstance():Parent ID  = 3
+2017-12-08 13:26:00,009 [Thread-1] - MO id = test 
+2017-12-08 13:26:00,010 [Thread-1] - createActualElement :: Instance = Route_9Parent ID  = 3 Routes
+2017-12-08 13:26:00,010 [Thread-1] - MO id = 15 
+2017-12-08 13:26:00,011 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,011 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,012 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,012 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,013 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,013 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,014 [Thread-1] - Instantiation component for UIM_FirewallRoutes is not found, use the default one. WARN
+2017-12-08 13:26:00,015 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-12-08 13:26:00,015 [Thread-1] - get(key = SnmpHandler)
+2017-12-08 13:26:00,016 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-12-08 13:26:00,016 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-12-08 13:26:00,042 [Thread-1] - INFO:Main.js:FanIndex :1.0
+2017-12-08 13:26:00,042 [Thread-1] - INFO:Main.js:FanName :System Fan 3
+2017-12-08 13:26:00,043 [Thread-1] - INFO:Main.js:FanValue :5113
+2017-12-08 13:26:00,043 [Thread-1] - INFO:Main.js:FanUnit :RPM
+2017-12-08 13:26:00,044 [Thread-1] - INFO:Main.js:FanType :Fan
+2017-12-08 13:26:00,044 [Thread-1] - INFO:Main.js:FanStatus :0
+2017-12-08 13:26:00,044 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_1
+2017-12-08 13:26:00,065 [Thread-1] - INFO:Main.js:FanIndex :2.0
+2017-12-08 13:26:00,065 [Thread-1] - INFO:Main.js:FanName :System Fan 2
+2017-12-08 13:26:00,065 [Thread-1] - INFO:Main.js:FanValue :5625
+2017-12-08 13:26:00,066 [Thread-1] - INFO:Main.js:FanUnit :RPM
+2017-12-08 13:26:00,066 [Thread-1] - INFO:Main.js:FanType :Fan
+2017-12-08 13:26:00,067 [Thread-1] - INFO:Main.js:FanStatus :0
+2017-12-08 13:26:00,067 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_2
+2017-12-08 13:26:00,079 [Thread-1] - INFO:Main.js:FanIndex :3.0
+2017-12-08 13:26:00,080 [Thread-1] - INFO:Main.js:FanName :System Fan 1
+2017-12-08 13:26:00,080 [Thread-1] - INFO:Main.js:FanValue :6250
+2017-12-08 13:26:00,081 [Thread-1] - INFO:Main.js:FanUnit :RPM
+2017-12-08 13:26:00,081 [Thread-1] - INFO:Main.js:FanType :Fan
+2017-12-08 13:26:00,082 [Thread-1] - INFO:Main.js:FanStatus :0
+2017-12-08 13:26:00,082 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Sensor_3
+2017-12-08 13:26:00,143 [Thread-1] - INFO:Main.js:RoutingIndex :1.0
+2017-12-08 13:26:00,144 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,144 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,145 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,145 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,146 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,155 [Thread-1] - INFO:Main.js:RoutingIndex :2.0
+2017-12-08 13:26:00,156 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,156 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,157 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,157 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,157 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_2
+2017-12-08 13:26:00,167 [Thread-1] - INFO:Main.js:RoutingIndex :3.0
+2017-12-08 13:26:00,168 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,168 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,168 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,169 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,169 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_3
+2017-12-08 13:26:00,178 [Thread-1] - INFO:Main.js:RoutingIndex :4.0
+2017-12-08 13:26:00,179 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,179 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,180 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,180 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,181 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_4
+2017-12-08 13:26:00,190 [Thread-1] - INFO:Main.js:RoutingIndex :5.0
+2017-12-08 13:26:00,190 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,191 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,191 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,192 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,192 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_5
+2017-12-08 13:26:00,205 [Thread-1] - INFO:Main.js:RoutingIndex :6.0
+2017-12-08 13:26:00,205 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,206 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,206 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,207 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,207 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_6
+2017-12-08 13:26:00,220 [Thread-1] - INFO:Main.js:RoutingIndex :7.0
+2017-12-08 13:26:00,221 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,221 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,222 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,222 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,223 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_7
+2017-12-08 13:26:00,236 [Thread-1] - INFO:Main.js:RoutingIndex :8.0
+2017-12-08 13:26:00,236 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,236 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,237 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,237 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,238 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_8
+2017-12-08 13:26:00,247 [Thread-1] - INFO:Main.js:RoutingIndex :9.0
+2017-12-08 13:26:00,248 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,248 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,249 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,249 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,249 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_9
+2017-12-08 13:26:00,260 [Thread-1] - INFO:Main.js:RoutingIndex :10.0
+2017-12-08 13:26:00,261 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,261 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,262 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,262 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,263 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,274 [Thread-1] - INFO:Main.js:RoutingIndex :11.0
+2017-12-08 13:26:00,275 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,275 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,275 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,276 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,276 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,287 [Thread-1] - INFO:Main.js:RoutingIndex :12.0
+2017-12-08 13:26:00,287 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,288 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,288 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,288 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,289 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,301 [Thread-1] - INFO:Main.js:RoutingIndex :13.0
+2017-12-08 13:26:00,302 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,302 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,303 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,303 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,304 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,326 [Thread-1] - INFO:Main.js:RoutingIndex :14.0
+2017-12-08 13:26:00,327 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,327 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,328 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,328 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,329 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,339 [Thread-1] - INFO:Main.js:RoutingIndex :15.0
+2017-12-08 13:26:00,339 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,340 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,340 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,341 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,341 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,359 [Thread-1] - INFO:Main.js:RoutingIndex :16.0
+2017-12-08 13:26:00,360 [Thread-1] - INFO:Main.js:RoutingDest :null
+2017-12-08 13:26:00,360 [Thread-1] - INFO:Main.js:RoutingMask :null
+2017-12-08 13:26:00,360 [Thread-1] - INFO:Main.js:RoutingGatweway :null
+2017-12-08 13:26:00,361 [Thread-1] - INFO:Main.js:RoutingIntrfName :null
+2017-12-08 13:26:00,362 [Thread-1] - INFO:InstrumentationManager :: getInstanceID():Name lookup for Route_1
+2017-12-08 13:26:00,362 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Attributes;return= Success
+2017-12-08 13:26:00,363 [Thread-1] - 
+2017-12-08 13:26:00,364 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-12-08 13:26:00,364 [Thread-1] - get(key = SnmpHandler)
+2017-12-08 13:26:00,364 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-12-08 13:26:00,365 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-12-08 13:26:00,366 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-12-08 13:26:00,367 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Alarm;return= Success
+2017-12-08 13:26:00,368 [Thread-1] - INFO:InstrumentationManager :: reconcileAlarms():Clearing 0 alerts
+2017-12-08 13:26:00,369 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-12-08 13:26:00,370 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():function Performance;return= Success
+2017-12-08 13:26:00,370 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned Success

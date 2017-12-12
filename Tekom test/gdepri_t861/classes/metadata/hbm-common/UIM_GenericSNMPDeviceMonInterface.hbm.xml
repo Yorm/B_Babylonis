@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <subclass extends="UIM_SNMPDeviceMonInterface" name="UIM_GenericSNMPDeviceMonInterface" discriminator-value="UIM_GenericSNMPDeviceMonInterface">
+    <meta attribute="class-description">Generated Javadocs for UIM_GenericSNMPDeviceMonInterface
+	@author jkonicki</meta>
+    <join table="UIM_GenericSNMPDeviceMonInterf">
+      <key column="id"/>
+      <property name="CustomAgentHome" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentHome" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="CustomAgentName" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="CustomAgentVendor" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CustomAgentVendor" sql-type="varchar2(3000)"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

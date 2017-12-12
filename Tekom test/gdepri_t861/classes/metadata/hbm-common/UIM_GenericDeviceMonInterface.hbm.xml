@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <subclass extends="UIM_GenericAgentMonInterface" name="UIM_GenericDeviceMonInterface" discriminator-value="UIM_GenericDeviceMonInterface">
+    <meta attribute="class-description">Generated Javadocs for UIM_GenericDeviceMonInterface
+	@author jkonicki</meta>
+    <join table="UIM_GenericDeviceMonInterface">
+      <key column="id"/>
+      <property name="StatusSleep" type="java.lang.Long">
+        <meta attribute="default-value">new java.lang.Long(900)</meta>
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="StatusSleep"/>
+      </property>
+      <property name="CheckConnectionTimeStamp" type="java.util.Date">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CheckConnectionTimeStamp"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

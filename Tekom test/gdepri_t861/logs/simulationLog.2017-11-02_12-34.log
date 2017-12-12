@@ -1,0 +1,138 @@
+2017-11-02 12:34:53,947 [main] - args 0 C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-02 12:34:53,948 [main] - args 1 localhost
+2017-11-02 12:34:53,948 [main] - args 2 161
+2017-11-02 12:34:53,948 [main] - args 3 public
+2017-11-02 12:34:53,948 [main] - args 4 public
+2017-11-02 12:34:53,948 [main] - args 5 162
+2017-11-02 12:34:53,948 [main] - args 6 0
+2017-11-02 12:34:53,948 [main] - args 7 com.gdepri.t861.file.instrumentation.InstrumentationManager
+2017-11-02 12:34:53,949 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/
+2017-11-02 12:34:53,949 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/server/
+2017-11-02 12:34:53,949 [main] - /C:/Users/golovin.d/workspace/gdepri_t861/classes/server/
+2017-11-02 12:34:53,949 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-02 12:34:53,949 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/res/config/log4j.xml
+2017-11-02 12:34:53,950 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar
+2017-11-02 12:34:53,950 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.transport_1.0.1.v201201112313.jar
+2017-11-02 12:34:53,950 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino.debugger_1.0.201.v201201112313.jar
+2017-11-02 12:34:53,950 [main] - /D:/Program/XADE/eclipse/plugins/org.eclipse.wst.jsdt.debug.rhino_1.0.101.v201201112313.jar
+2017-11-02 12:34:53,950 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.netboss.agentsdk.jar
+2017-11-02 12:34:53,950 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/com.springsource.com.jcraft.jsch.jar
+2017-11-02 12:34:53,950 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commands.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-collections.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-io.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-lang.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-logging.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/commons-net.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/dom4j.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/eclipse_osgi.jar
+2017-11-02 12:34:53,951 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/equinox_common.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/httpclient-osgi.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-hibernate3.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-spring2.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt-springsecurity2.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jasypt.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jface.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/js.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-framework-all.jar
+2017-11-02 12:34:53,952 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jviews-tgo-all.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/jython-standalone.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/log4j.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.osgi.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.debugger.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.rhino.jar
+2017-11-02 12:34:53,953 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/org.eclipse.wst.jsdt.debug.transport.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/poi.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/snmp4j.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-beans.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-core.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-core.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/spring-osgi-io.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/common/lib/workbench.jar
+2017-11-02 12:34:53,954 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/agentruntimeserver.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/common.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/core.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/integration.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/legacycommon.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/metadata.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/remoteagentruntime-api.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/schema-generation.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/server.jar
+2017-11-02 12:34:53,955 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_metadata.jar
+2017-11-02 12:34:53,956 [main] - /C:/Users/golovin.d/netboss-sdks/agentsdk/2.8/lib/shared_server.jar
+2017-11-02 12:34:53,966 [main] - Script = C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js, ip = localhost:161, read= public, write=public, debugport 0
+2017-11-02 12:34:54,003 [main] - invoke(actionName = setAgentService, params = [Ljava.lang.Object;@4bc5764e, signature = null)
+2017-11-02 12:34:54,004 [main] - invoke(actionName = setElementService, params = [Ljava.lang.Object;@4bc5764e, signature = null)
+2017-11-02 12:34:54,004 [main] - invoke(actionName = setAlertAccessor, params = [Ljava.lang.Object;@4bc5764e, signature = null)
+2017-11-02 12:34:54,049 [main] - put(key = SnmpHandler, value = com.netboss.adt.ide.eclipse.simulation.js.SimulatorSnmpHandler@721bdf30)
+2017-11-02 12:34:54,050 [main] - put(key = summAlarmOidsDict, value = {})
+2017-11-02 12:34:54,050 [main] - put(key = configDict, value = {})
+2017-11-02 12:34:54,050 [main] - put(key = attributeDict, value = {})
+2017-11-02 12:34:54,050 [main] - put(key = alarmDict, value = {})
+2017-11-02 12:34:54,050 [main] - put(key = alarmOidsDict, value = {})
+2017-11-02 12:34:54,050 [main] - put(key = InstrumentationManager, value = com.gdepri.t861.file.instrumentation.InstrumentationManager@3da02d7)
+2017-11-02 12:34:54,050 [main] - put(key = SystemHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@5df0733a)
+2017-11-02 12:34:54,050 [main] - put(key = IndicationHandler, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager@5df0733a)
+2017-11-02 12:34:54,050 [main] - put(key = Logger, value = com.netboss.adt.ide.eclipse.simulation.js.JsSimulationManager$Logger@551d1504)
+2017-11-02 12:34:55,055 [main] - DEBUG:called:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-02 12:34:55,057 [main] - ERROR::Secondary attribute = IPAddress
+2017-11-02 12:34:55,059 [main] - DEBUG:ASSOCIATED_IP=null:AbstractSharedEngineInstMgr::updateAssociatedIpAddresses()
+2017-11-02 12:34:55,063 [main] - get(key = Logger)
+2017-11-02 12:34:55,064 [main] - get(key = ContextHelper)
+2017-11-02 12:34:55,064 [main] - get(key = IndicationHandler)
+2017-11-02 12:34:55,064 [main] - put(key = ConfigHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$ConfigHandler@46612e66)
+2017-11-02 12:34:55,068 [main] - get(key = Logger)
+2017-11-02 12:34:55,068 [main] - get(key = ContextHelper)
+2017-11-02 12:34:55,068 [main] - get(key = IndicationHandler)
+2017-11-02 12:34:55,068 [main] - put(key = AlarmHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AlarmHandler@5ae5d885)
+2017-11-02 12:34:55,072 [main] - get(key = Logger)
+2017-11-02 12:34:55,072 [main] - get(key = ContextHelper)
+2017-11-02 12:34:55,072 [main] - get(key = IndicationHandler)
+2017-11-02 12:34:55,072 [main] - put(key = AttributeHandler, value = com.gdepri.t861.file.instrumentation.InstrumentationManager$AttributeHandler@32a19277)
+2017-11-02 12:34:55,075 [main] - DEBUG:com.gdepri.t861.file.instrumentation.InstrumentationManager::executeScript():Loading script =C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js
+2017-11-02 12:34:55,155 [main] - DEBUG:InstrumentationManager :: sendSystemAlarm():called
+2017-11-02 12:34:55,156 [main] - INFO:InstrumentationManager :: sendSystemAlarm():clearing Missing Script alarm
+2017-11-02 12:34:55,159 [main] - current script = this C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js currently it is at Main.js DEBUG
+2017-11-02 12:34:55,319 [main] - missing ; before statement (C:\Users\golovin.d\workspace\gdepri_t861\server\com\gdepri\t861/file/instrumentation/Main.js#5)
+2017-11-02 12:34:55,392 [Thread-1] - get(key = SnmpHandler)
+2017-11-02 12:34:55,393 [Thread-1] - WARN:DefaultConfigHandler :: pollConfig():Device isn't online. Stop polling config
+2017-11-02 12:34:55,394 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Configuration
+2017-11-02 12:34:55,395 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Configuration is undefined or not a function.
+2017-11-02 12:34:55,397 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Configuration return was null
+2017-11-02 12:34:55,398 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Configuration
+2017-11-02 12:34:55,399 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@60cf4da0
+2017-11-02 12:34:55,400 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 
+2017-11-02 12:34:55,400 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-11-02 12:34:55,401 [Thread-1] - WARN:InstrumentationManager :: executeFunction():ErrorHandler is undefined or not a function.
+2017-11-02 12:34:55,402 [Thread-1] - Polling Attributes Started DefaultAttributeHandler :: pollAttrs()
+2017-11-02 12:34:55,403 [Thread-1] - get(key = SnmpHandler)
+2017-11-02 12:34:55,403 [Thread-1] - WARN:DefaultAttributeHandler :: pollAttrs():Device isn't online. Stop polling attrs
+2017-11-02 12:34:55,404 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Attributes
+2017-11-02 12:34:55,405 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Attributes is undefined or not a function.
+2017-11-02 12:34:55,406 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Attributes return was null
+2017-11-02 12:34:55,407 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Attributes
+2017-11-02 12:34:55,407 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@49f17507
+2017-11-02 12:34:55,408 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 
+2017-11-02 12:34:55,409 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-11-02 12:34:55,410 [Thread-1] - WARN:InstrumentationManager :: executeFunction():ErrorHandler is undefined or not a function.
+2017-11-02 12:34:55,410 [Thread-1] - 
+2017-11-02 12:34:55,412 [Thread-1] - Polling Alarms Started DefaultAlarmHandler :: pollAllAlarms()
+2017-11-02 12:34:55,412 [Thread-1] - get(key = SnmpHandler)
+2017-11-02 12:34:55,413 [Thread-1] - WARN:DefaultAlarmHandler :: pollAllAlarms():Device isn't online. Stop polling alarms
+2017-11-02 12:34:55,414 [Thread-1] - DEBUG:InstrumentationManager :: getAllActiveAlertProperties():Total: 0 existing XT alerts found
+2017-11-02 12:34:55,414 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Alarm
+2017-11-02 12:34:55,415 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Alarm is undefined or not a function.
+2017-11-02 12:34:55,416 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Alarm return was null
+2017-11-02 12:34:55,417 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Alarm
+2017-11-02 12:34:55,418 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@b3a447e
+2017-11-02 12:34:55,418 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 
+2017-11-02 12:34:55,418 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-11-02 12:34:55,419 [Thread-1] - WARN:InstrumentationManager :: executeFunction():ErrorHandler is undefined or not a function.
+2017-11-02 12:34:55,420 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =Performance
+2017-11-02 12:34:55,421 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Performance is undefined or not a function.
+2017-11-02 12:34:55,422 [Thread-1] - WARN:InstrumentationManager :: executeFunction():Running Error Handler function call for  Performance return was null
+2017-11-02 12:34:55,423 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 0 Performance
+2017-11-02 12:34:55,424 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 1 [Ljava.lang.Object;@1e66b1f4
+2017-11-02 12:34:55,425 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Function parameter 2 
+2017-11-02 12:34:55,425 [Thread-1] - DEBUG:InstrumentationManager :: executeFunction():Running Function =ErrorHandler
+2017-11-02 12:34:55,426 [Thread-1] - WARN:InstrumentationManager :: executeFunction():ErrorHandler is undefined or not a function.
+2017-11-02 12:34:55,427 [Thread-1] - DEBUG:InstrumentationManager :: pollAllPerformance():Performance Poll returned null

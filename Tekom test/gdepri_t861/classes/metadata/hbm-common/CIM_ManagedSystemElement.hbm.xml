@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="CIM_ManagedElement" name="CIM_ManagedSystemElement" discriminator-value="CIM_ManagedSystemElement">
+    <meta attribute="class-description">Generated Javadocs for CIM_ManagedSystemElement
+	@author jkonicki</meta>
+    <join table="CIM_ManagedSystemElement">
+      <key column="id"/>
+      <property name="InstallDate" type="java.util.Date">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="InstallDate"/>
+      </property>
+      <property name="Name" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Name" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="OperationalStatus" type="com.harris.netboss.metadata.cim.CimValueType">
+        <meta attribute="property-type">java.lang.Integer[]</meta>
+        <column name="OperationalStatus_value" length="4000"/>
+        <column name="OperationalStatus_value_type"/>
+      </property>
+      <property name="StatusDescriptions" type="com.harris.netboss.metadata.cim.CimValueType">
+        <meta attribute="property-type">java.lang.String[]</meta>
+        <column name="StatusDescriptions_value" length="4000"/>
+        <column name="StatusDescriptions_value_type"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <class name="UIM_ManagedElement" table="UIM_ManagedElement" polymorphism="explicit" abstract="true">
+    <meta attribute="class-description">Generated Javadocs for UIM_ManagedElement
+	@author jkonicki</meta>
+    <meta attribute="extends">com.harris.netboss.common.schema.BaseAbstractEntity</meta>
+    <cache usage="read-write"/>
+    <id name="id" column="id" type="long">
+      <generator class="sequence">
+        <param name="sequence">total_instance_sequence</param>
+      </generator>
+    </id>
+    <discriminator column="discriminator_type" type="string"/>
+    <property name="Caption" type="java.lang.String">
+      <meta attribute="use-in-tostring">true</meta>
+      <column name="Caption" sql-type="varchar2(3000)"/>
+    </property>
+    <property name="Description" type="java.lang.String">
+      <meta attribute="use-in-tostring">true</meta>
+      <column name="Description" sql-type="varchar2(3000)"/>
+    </property>
+    <property name="DisplayName" type="java.lang.String">
+      <meta attribute="use-in-tostring">true</meta>
+      <column name="DisplayName" sql-type="varchar2(3000)"/>
+    </property>
+    <property name="DeletionAllowed" type="java.lang.Boolean">
+      <meta attribute="default-value">new java.lang.Boolean(false)</meta>
+      <meta attribute="use-in-tostring">true</meta>
+      <column name="DeletionAllowed"/>
+    </property>
+    <property name="MonitoringStatus" type="java.lang.Short">
+      <meta attribute="default-value">new Short((short)0)</meta>
+      <meta attribute="use-in-tostring">true</meta>
+      <column name="MonitoringStatus"/>
+    </property>
+    <property name="classtype" column="class_type" type="string"/>
+    <property name="owningNamespace" column="namespace_path" type="string" index="index_1441058335170_owningName"/>
+  </class>
+</hibernate-mapping>

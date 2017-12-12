@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<awc:ClassReference xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:awc="http:///com/harris/netboss/agentworkshop/containment.ecore">
+  <managedObjects classname="UIM_SmartOneNetworkElement" displayName="SmartOne Checkpoint" elementType="CheckpointSmartOne" version="2.7"/>
+</awc:ClassReference>

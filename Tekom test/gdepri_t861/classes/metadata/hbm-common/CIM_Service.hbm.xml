@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.harris.netboss.common.schema.generation.classes">
+  <typedef name="encryptedString" class="org.jasypt.hibernate.type.EncryptedStringType">
+    <param name="encryptorRegisteredName">hibernateStringEncryptor</param>
+  </typedef>
+  <subclass extends="CIM_EnabledLogicalElement" name="CIM_Service" discriminator-value="CIM_Service">
+    <meta attribute="class-description">Generated Javadocs for CIM_Service
+	@author jkonicki</meta>
+    <join table="CIM_Service">
+      <key column="id"/>
+      <property name="SystemCreationClassName" type="java.lang.String" index="index_1441058334696_SystemCrea">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemCreationClassName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="SystemName" type="java.lang.String" index="index_1441058334696_SystemName">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="SystemName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="CreationClassName" type="java.lang.String" index="index_1441058334696_CreationCl">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="CreationClassName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="PrimaryOwnerName" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PrimaryOwnerName" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="PrimaryOwnerContact" type="java.lang.String">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="PrimaryOwnerContact" sql-type="varchar2(3000)"/>
+      </property>
+      <property name="Started" type="java.lang.Boolean">
+        <meta attribute="use-in-tostring">true</meta>
+        <column name="Started"/>
+      </property>
+    </join>
+  </subclass>
+</hibernate-mapping>
