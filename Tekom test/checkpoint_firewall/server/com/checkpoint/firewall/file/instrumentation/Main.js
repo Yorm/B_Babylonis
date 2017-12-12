@@ -14,7 +14,7 @@ function Configuration() {
 						"ElementType" : "FirewallEthernetGrouping",//
 						"CustomClassName" : "UIM_FirewallEthernetGrouping",
 						"Parent" : ""});
-			updateElement("EthernetInterfaces", {"Diagramm" : true});
+
 
 			var uniqName = "Interface_"+result[index].portIndex;
 			var displayName = uniqName;		
@@ -24,8 +24,7 @@ function Configuration() {
 						"ElementType" : "FirewallEthernetPort",
 						"CustomClassName" : "UIM_FirewallEthernetPort",
 						"Parent" : "EthernetInterfaces"});
-			updateElement(uniqName, {"Diagramm" : true});
-			
+
 			
 		}
 	}
@@ -36,7 +35,7 @@ function Configuration() {
 		"ElementType" : "FirewallFanGrouping",
 		"CustomClassName" : "UIM_FirewallFanGrouping",
 		"Parent" : ""});
-	updateElement("FanSpeed", {"Diagramm" : true});
+
 	
 	var result=snmpWalk({"fanIndex" : "1.3.6.1.4.1.2620.1.6.7.8.2.1.1"});
 	for (var index in result) {
@@ -52,7 +51,7 @@ function Configuration() {
 					"ElementType" : "FirewallFanSpeed",
 					"CustomClassName" : "UIM_FirewallFanSpeed",
 					"Parent" : "FanSpeed"});
-		updateElement(uniqName, {"Diagramm" : true});		
+
 		
 	}
 	
@@ -62,9 +61,9 @@ function Configuration() {
 			"ElementType" : "FirewallRouteGrouping",
 			"CustomClassName" : "UIM_FirewallRouteGrouping",
 			"Parent" : ""});
-		updateElement("Routes", {"Diagramm" : true});
+
 		
-		//TODO узнавать количество роутов 
+
 		result=snmpWalk({"routIndex" : "1.3.6.1.4.1.2620.1.6.6.1.1"});
 		for (var i in result) {
 			if(!shouldRun()) {
@@ -78,7 +77,7 @@ function Configuration() {
 						"ElementType" : "FirewallRoute",
 						"CustomClassName" : "UIM_FirewallRoutes",
 						"Parent" : "Routes"});
-			updateElement(uniqName, {"Diagramm" : true});
+
 		}
 	}
 		
@@ -137,7 +136,7 @@ function ethernetPortAttributes() {
 											"OperStatus" : 		snmpGet("1.3.6.1.2.1.2.2.1.8." + i),
 											"LastChange" : 		(lastChange==null)?0:lastChange,//
 											//Wrong Type (should be Counter32): Gauge32: 0
-											//Все что дальше - возвращает null 
+											//return null 
 											"InOctets" : 		(inOctets==null)?0:inOctets,
 											"InUcastPkts" : 	(inUcastPkts==null)?0:inUcastPkts,
 											"InNUcastPkts" : 	(inNUcastPkts==null)?0:inNUcastPkts,//
@@ -159,6 +158,13 @@ function ethernetPortAttributes() {
 function Attributes() {
 	
 	ethernetPortAttributes();
+	
+	updateElement(uniqName, {"Diagramm" : true});
+	updateElement("Routes", {"Diagramm" : true});
+	updateElement(uniqName, {"Diagramm" : true});		
+	updateElement("EthernetInterfaces", {"Diagramm" : true});
+	updateElement(uniqName, {"Diagramm" : true});
+	updateElement("FanSpeed", {"Diagramm" : true});
 	
 	var result=snmpWalk({"fanIndex" : "1.3.6.1.4.1.2620.1.6.7.8.2.1.1"});
 	for (var i in result) {

@@ -13,7 +13,7 @@ function Configuration() {
 						"ElementType" : "SmartOneEthernetGrouping",//
 						"CustomClassName" : "UIM_SmartOneEthernetGrouping",
 						"Parent" : ""});
-			updateElement("EthernetInterfaces", {"Diagramm" : true});
+
 
 			var uniqName = "Interface_"+result[index].portIndex;
 			var displayName = uniqName;		
@@ -23,7 +23,7 @@ function Configuration() {
 						"ElementType" : "SmartOneEthernetPort",
 						"CustomClassName" : "UIM_SmartOneEthernetPort",
 						"Parent" : "EthernetInterfaces"});
-			updateElement(uniqName, {"Diagramm" : true});
+
 			
 			
 		}
@@ -35,11 +35,11 @@ function Configuration() {
 			"ElementType" : "SmartOneRouteGrouping",
 			"CustomClassName" : "UIM_SmartOneRouteGrouping",
 			"Parent" : ""});
-		updateElement("Routes", {"Diagramm" : true});
+
 		
-		//TODO узнавать количество роутов 
 		
-		for (var i=1;i<=2;i++) {
+		result=snmpWalk({"routIndex" : "1.3.6.1.4.1.2620.1.6.6.1.1"});
+		for (var i in result) {
 			if(!shouldRun()) {
 				return undefined;
 			}
@@ -51,42 +51,19 @@ function Configuration() {
 						"ElementType" : "SmartOneRoute",
 						"CustomClassName" : "UIM_SmartOneRoutes",
 						"Parent" : "Routes"});
-			updateElement(uniqName, {"Diagramm" : true});
-		}
+
+		}	
 	}
-	
-	
+
 	{
 		createElement({"Name" : "Statistic",
 			"DisplayName" : "Statistic",
 			"ElementType" : "SmartOneStatisticGrouping",
 			"CustomClassName" : "UIM_SmartOneStatisticGrouping",
 			"Parent" : ""});
-		updateElement("Statistic", {"Diagramm" : true});
-		
-		//TODO узнавать количество роутов 
-		
-		/*for (var i=1;i<=2;i++) {
-			if(!shouldRun()) {
-				return undefined;
-			}
-			
-			var uniqName = "Route_"+i;
-			var displayName = uniqName;		
-			createElement({"Name" : uniqName,
-						"DisplayName" : displayName,
-						"ElementType" : "SmartOneRoute",
-						"CustomClassName" : "UIM_SmartOneRoutes",
-						"Parent" : "Routes"});
-			updateElement(uniqName, {"Diagramm" : true});
-		}*/
 	}
 		
-	
-	
-	
-	
-	
+
 	var doNotDeleteList = [];
 
 	return doNotDeleteList;
@@ -136,7 +113,7 @@ function ethernetPortAttributes() {
 											"OperStatus" : 		snmpGet("1.3.6.1.2.1.2.2.1.8." + i),
 											"LastChange" : 		snmpGet("1.3.6.1.2.1.2.2.1.9." + i),//
 											//Wrong Type (should be Counter32): Gauge32: 0
-											//Все что дальше - возвращает null 
+											//return  null 
 											"InOctets" : 		(inOctets==null)?0:inOctets,
 											"InUcastPkts" : 	(inUcastPkts==null)?0:inUcastPkts,
 											"InNUcastPkts" : 	(inNUcastPkts==null)?0:inNUcastPkts,//
@@ -156,6 +133,12 @@ function ethernetPortAttributes() {
 }
 
 function Attributes() {
+	updateElement(uniqName, {"Diagramm" : true});
+	updateElement("Routes", {"Diagramm" : true});
+	updateElement("EthernetInterfaces", {"Diagramm" : true});
+	updateElement(uniqName, {"Diagramm" : true});
+	updateElement("Statistic", {"Diagramm" : true});
+	
 	
 	updateElement("",{"SvnProdName":snmpGet("1.3.6.1.4.1.2620.1.6.1.0")});	
 	updateElement("",{"SvnProdVerMajor":snmpGet("1.3.6.1.4.1.2620.1.6.2.0")});	
@@ -168,8 +151,8 @@ function Attributes() {
 	updateElement("",{"OsMinorVer":snmpGet("1.3.6.1.4.1.2620.1.6.5.3.0")});
 	updateElement("",{"OsVersionLevel":(snmpGet("1.3.6.1.4.1.2620.1.6.4.7.0")==null)?"null":snmpGet("1.3.6.1.4.1.2620.1.6.4.7.0")});
 	
-	//TODO узнавать количество роутов 
-	for (var i=1;i<=2;i++) {
+	result=snmpWalk({"routIndex" : "1.3.6.1.4.1.2620.1.6.6.1.1"});
+	for (var i in result) {
 		if(!shouldRun()) {
 			return undefined;
 		}
@@ -298,37 +281,7 @@ function Performance() {
 
 function TrapParser(trapId, varbinds, alarmId) {
 	logInfo(trapId+" TRAPID")
-	/*switch (trapId) {
-	case ".1.3.6.1.4.1.2620.1.2000.1.1":
-		logInfo("AAAAAAAAAAA");
-		break;
-	}*/
 	
-	
-	
-	/*switch (trapId) {
-	  case "1.3.6.1.6.3.1.1.5.1":{
-		  coldStartAlarm();
-	  }
-	  break;
-	  case "1.3.6.1.6.3.1.1.5.2":{
-		  warmStartAlarm();
-	  }
-	  break;
-	  case "1.3.6.1.6.3.1.1.5.3":{
-		  linkDownAlarm("Port_"+varbinds[1].value);
-
-	  }
-	  break;
-	  case "1.3.6.1.6.3.1.1.5.4":{
-		  linkUpAlarm("Port_"+varbinds[1].value);
-	  }
-	  break;
-	  case "1.3.6.1.6.3.1.1.5.5":{
-		  authenticationFailureAlarm();
-	  }
-	  break;
-	}*/
 	return "success";
 }
 
