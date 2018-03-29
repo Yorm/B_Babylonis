@@ -9,7 +9,8 @@ public class Main {
     public static void main(String args[]){
         GenerateMap map = new GenerateMap();
         //map.veldGen();
-        map.roomGen();
+       // map.roomGen();
+        map.corridorPrint();
         map.mapPrint();
     }
 }
