@@ -23,6 +23,7 @@ public class OutputMap {
             System.out.println("press [g|G] to GEN or [e|E] to END");
             c = sc.next().charAt(0);
             if(c=='g'||c=='G'){
+                gmap = new GenerateMap(40,40);
                 continue;
             }else{
             if(c=='e'||c=='E')
@@ -36,8 +37,8 @@ public class OutputMap {
             for (int j = 0; j < Y; j++){
                 switch (this.map[i][j]){
                     case 0:System.out.print("#");break;
-                    case 1:System.out.print(".");break;
-                    case 2:System.out.print("_");break;
+                    case 1:System.out.print("_");break;
+                    case 2:System.out.print(".");break;
                 }
                 System.out.print(" ");
             }

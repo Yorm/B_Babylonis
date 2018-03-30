@@ -20,7 +20,7 @@ public class Room {
     }
    
     public boolean intersect(Room r){
-       return !(r.x >= (x + w) || x >= (r.x + r.w) || r.y >= (y + h) || y >= (r.y + r.h));
+       return !(r.x+1 >= (x+1 + w+1) || x+1 >= (r.x+1 + r.w+1) || r.y+1 >= (y+1 + h+1) || y+1 >= (r.y+1 + r.h+1));
     }
 
     @Override

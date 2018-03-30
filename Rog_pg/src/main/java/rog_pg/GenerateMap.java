@@ -39,35 +39,26 @@ public class GenerateMap {
         }
       
     }
-    public void mapPrint(){
-        char map[][]=new char[X][Y]; 
-        for (int i = 0; i < X; i++) {
-            for (int j = 0; j < Y; j++){
-                switch (this.map[i][j]){
-                    case 0:System.out.print("#");break;
-                    case 1:System.out.print(".");break;
-                    case 2:System.out.print("_");break;
-                }
-                System.out.print(" ");
-            }
-            System.out.println();
-        }
-    }
     void roomGen(){
         boolean in=false;
-        for(int i=0;i<rand.nextInt(30-10)+10;i++){
+        for(int i=0;i<rand.nextInt(10-4)+4;i++){
             Room r = new Room();
-            r.x=rand.nextInt(X-11)+1;
-            r.y=rand.nextInt(Y-11)+1;
-            r.h=(rand.nextInt(6)+4);
-            r.w=(rand.nextInt(6)+4);
+            r.x=rand.nextInt(X-11)+2;
+            r.y=rand.nextInt(Y-11)+2;
+            r.h=(rand.nextInt(6)+3);
+            r.w=(rand.nextInt(6)+3);
             for(Room room:rooms){
                 if(r.intersect(room)){in=true;break;}
                 else{in=false; }
             }
-            if(!in){rooms.add(r);}    
-        }        
-        corridorPrint();
+            if(!in){
+                rooms.add(r);
+                if(rooms.size()>=2){
+                    corridorPrint(rooms.get(i-1),rooms.get(i));
+                }    
+            }else {i--;}
+        }  
+        
         roomPrint();
     }
     void roomPrint(){//TODO
@@ -94,22 +85,21 @@ public class GenerateMap {
                 if(map[i][j]==999) map[i][j]=2;  
             }
     }
-    void corridorPrint(){
+    void corridorPrint(Room a, Room b){
         int[][] mapp = new int[X][Y];
         for (int i = 0; i < X; i++) 
             for (int j = 0; j < Y; j++)
                 mapp[i][j] = 1;   
 
-        PathFinder pf = new PathFinder(mapp,this.X,this.Y);
+        PathFinder pf = new PathFinder(map,this.X,this.Y);
         Point[] path;
-        for (int i=0;i<rooms.size()-1;i++) {
-            path = pf.find(new Point(rooms.get(i).y+rooms.get(i).h/2,rooms.get(i).x+rooms.get(i).w/2),
-                           new Point(rooms.get(i+1).y+rooms.get(i+1).h/2,rooms.get(i+1).x+rooms.get(i+1).w/2));  
-            for (Point p:path) {
-                map[p.getX()][p.getY()]=999;
-            }
-        }
-    }  
+
+        path = pf.find(new Point(a.y+a.h/2,a.x+a.w/2),
+                       new Point(b.y+b.h/2,b.x+b.w/2));  
+        for (Point p:path) {
+            map[p.getX()][p.getY()]=999;
+        } 
+    }
     public int[][] getMap() {
         return map;
     }
