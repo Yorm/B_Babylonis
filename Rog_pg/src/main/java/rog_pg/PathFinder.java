@@ -10,7 +10,7 @@ import java.util.List;
 
 
 public class PathFinder{
-
+    
     int[][] fillmap;
     int[][] labyrinth;
     List buf = new ArrayList();
@@ -31,7 +31,8 @@ public class PathFinder{
         if(buf.isEmpty()) return null;
         return (Point)buf.remove(0);
     }
-
+    //не работает с краями карты (0,39)
+    //уводит в одну из сторон в последних вычислениях
     public Point[] find(Point start, Point end){
         int tx=0, ty=0, n = 0, t=0;
         Point p;
@@ -42,8 +43,7 @@ public class PathFinder{
         
         while((p = pop())!=null){ 
             if(p.equals(end)){
-                System.out.print("Hайден путь длины ");
-                System.out.println(n);
+                System.out.println("Hайден путь длины "+n);
             }
 
             n=fillmap[p.getY()][p.getX()]+labyrinth[p.getY()][p.getX()];
@@ -67,18 +67,34 @@ public class PathFinder{
         n = Integer.MAX_VALUE; 
         
         while((x!=start.getX())||(y!=start.getY())){ 
-
+            //TODO
             if(fillmap[y+1][x]<n){tx=x; ty=y+1; t=fillmap[y+1][x];}
             if(fillmap[y-1][x]<n){tx=x; ty=y-1; t=fillmap[y-1][x];}
-            if(fillmap[y][x+1]<n){tx=x+1; ty=y; t=fillmap[y][x+1];}
             if(fillmap[y][x-1]<n){tx=x-1; ty=y; t=fillmap[y][x-1];}
+            if(fillmap[y][x+1]<n){tx=x+1; ty=y; t=fillmap[y][x+1];}
             
+ 
             x = tx;
             y = ty;
             n = t; 
             path.add(new Point(x,y));
         }
-       
+        /*
+        for (int i = 0; i < 40; i++) {
+            for (int j = 0; j < 40; j++){
+                System.out.print(labyrinth[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        for (int i = 0; i < 40; i++) {
+            for (int j = 0; j < 40; j++){
+                System.out.print(fillmap[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        */
         Point[] result = new Point[path.size()];
         t = path.size();
         for(Object point: path)
