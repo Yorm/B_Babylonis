@@ -31,8 +31,7 @@ public class PathFinder{
         if(buf.isEmpty()) return null;
         return (Point)buf.remove(0);
     }
-    //не работает с краями карты (0,39)
-    //уводит в одну из сторон в последних вычислениях
+
     public Point[] find(Point start, Point end){
         int tx=0, ty=0, n = 0, t=0;
         Point p;
@@ -42,9 +41,9 @@ public class PathFinder{
         push(start, 0); 
         
         while((p = pop())!=null){ 
-            if(p.equals(end)){
+            /*if(p.equals(end)){
                 System.out.println("Hайден путь длины "+n);
-            }
+            }*/
 
             n=fillmap[p.getY()][p.getX()]+labyrinth[p.getY()][p.getX()];
 
@@ -55,10 +54,10 @@ public class PathFinder{
         }
         
         if(fillmap[end.getY()][end.getX()]==Integer.MAX_VALUE){
-            System.err.println("Пути не существует");
+           // System.err.println("Пути не существует");
             return null;
         } else
-            System.out.println("Поиск завершен");
+            /*System.out.println("Поиск завершен")*/;
         
         List path = new ArrayList();
         path.add(end);

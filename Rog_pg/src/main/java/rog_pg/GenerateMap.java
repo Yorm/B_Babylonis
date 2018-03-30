@@ -49,9 +49,6 @@ public class GenerateMap {
                     case 2:System.out.print("_");break;
                 }
                 System.out.print(" ");
-                //if(i==0||i==(X-1))System.out.print("-");
-                //else if(j==0||j==(Y-1))System.out.print("|"); 
-                //  map[0][Y-1]=map[X-1][0]=map[0][0]=map[X-1][Y-1]='+';
             }
             System.out.println();
         }
@@ -112,5 +109,8 @@ public class GenerateMap {
                 map[p.getX()][p.getY()]=999;
             }
         }
-    }    
+    }  
+    public int[][] getMap() {
+        return map;
+    }
 }

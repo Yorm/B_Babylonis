@@ -5,10 +5,15 @@ import rog_pg.GenerateMap;
  *
  * @author walte
  */
+/*
+Bug report
+-pathfinder.find dont work with map edges (0,39)
+-pathfinder.find in end of path find process can make waste step
+-gmap.cleanRooms dont paint the edges of the rooms at the edges of the map
+*/
 public class Main {
     public static void main(String args[]){
-        GenerateMap map = new GenerateMap();
-        map.roomGen();
-        map.mapPrint();
+        OutputMap out = new OutputMap();
+        out.main();
     }
 }
