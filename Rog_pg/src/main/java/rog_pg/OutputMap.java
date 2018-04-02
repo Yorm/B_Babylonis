@@ -1,29 +1,35 @@
 
 package rog_pg;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Random;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import rog_pg.GenerateMap;
+
 
 public class OutputMap {
-    int Y=40;
-    int X=40;
-    int[][] map;
+    private final int Y=128;
+    private final int X=128;
+    private int[][] map;
+    Random rand = new Random();
     
     void main(){
-        GenerateMap gmap = new GenerateMap(40,40);
-         Scanner sc = new Scanner(System.in);
+        GenerateMap gmap = new GenerateMap(X,Y);
+        Scanner sc = new Scanner(System.in);
         char c;
         for(;;){ 
-            gmap.roomGen();
-            map = gmap.getMap();
-            mapPrint();
+           // gmap.simpleLabyrinth(249,251);
+            gmap.bigSmoke(199,201);
+            //gmap.bigSmoke();
             
+            map = gmap.getMap();
+            //mapPrint();
+            mapWrite();
+            System.out.println(rand.nextGaussian());
             System.out.println("press [g|G] to GEN or [e|E] to END");
-            c = sc.next().charAt(0);
+            //c = sc.next().charAt(0);
+            c='e';
             if(c=='g'||c=='G'){
-                gmap = new GenerateMap(40,40);
+                gmap = new GenerateMap(X,Y);
                 continue;
             }else{
             if(c=='e'||c=='E')
@@ -31,7 +37,30 @@ public class OutputMap {
             }
         }
     }
-    public void mapPrint(){
+    private void mapWrite(){
+        try(FileWriter writer = new FileWriter("map.txt", false))
+        { 
+            writer.write("hello"
+                    + "\n");
+            for(int x=0;x<X;x++){
+                for(int y=0;y<Y;y++){
+                    switch (this.map[x][y]){
+                        case 0:writer.append('#');break;
+                        case 1:writer.append('_');break;
+                        case 2:writer.append('.');break;
+                    }
+                   writer.append(' ');
+                }
+                writer.append('\n');
+            }
+            writer.flush();
+        }
+        catch(IOException ex){ 
+            System.err.println(ex.getMessage());
+        } 
+
+    }
+    private void mapPrint(){
         char map[][]=new char[X][Y]; 
         for (int i = 0; i < X; i++) {
             for (int j = 0; j < Y; j++){
