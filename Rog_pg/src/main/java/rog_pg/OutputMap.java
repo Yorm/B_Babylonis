@@ -10,7 +10,7 @@ public class OutputMap {
     private final int Y=128;
     private final int X=128;
     private int[][] map;
-    Random rand = new Random();
+
     
     void main(){
         GenerateMap gmap = new GenerateMap(X,Y);
@@ -18,13 +18,13 @@ public class OutputMap {
         char c;
         for(;;){ 
            // gmap.simpleLabyrinth(249,251);
-            gmap.bigSmoke(199,201);
+            // gmap.proceduralGen(199,201);
             //gmap.bigSmoke();
-            
+            //gmap.simpleForest(40,80);
+            gmap.simpleCave(15,30);
             map = gmap.getMap();
             //mapPrint();
             mapWrite();
-            System.out.println(rand.nextGaussian());
             System.out.println("press [g|G] to GEN or [e|E] to END");
             //c = sc.next().charAt(0);
             c='e';
@@ -48,6 +48,9 @@ public class OutputMap {
                         case 0:writer.append('#');break;
                         case 1:writer.append('_');break;
                         case 2:writer.append('.');break;
+                        case 3:writer.append('T');break;
+                        case 4:writer.append('O');break;
+                        case 5:writer.append(',');break;
                     }
                    writer.append(' ');
                 }

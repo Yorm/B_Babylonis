@@ -9,7 +9,6 @@ public class GenerateMap {
     private final int X;
     private int[][] map;
     Random rand = new Random();
-    
     ArrayList<Room> rooms;
     
     public GenerateMap(){
@@ -17,30 +16,37 @@ public class GenerateMap {
         this.Y=40;
         this.X=40;
         this.map = new int[X][Y];
-        mapFill();
+        mapFill(2);
     }
     public GenerateMap(int x, int y){
         rooms=new ArrayList<>();
         this.Y=y;
         this.X=x;
         this.map = new int[X][Y];
-        mapFill();
+        mapFill(2);
     }
     // </editor-fold>   
-    private void mapFill(){
+    private void mapFill(int f){
         for (int i = 0; i < X; i++) {
             for (int j = 0; j < Y; j++){
-                map[i][j] = 1;   
+                map[i][j] = f;
             }
         }
     }
-    public void bigSmoke(int min,int max){
+    public void proceduralGen(int min,int max){
         boolean in=false;
-        for(int i=0;i<rand.nextInt(max-min)+min;i++){
+        
+        int roomCount=rand.nextInt(max-min)+min;
+        int prsnt=(int) Math.round((roomCount/100.0)*7);
+        
+        System.out.println("room count = "+roomCount);
+        System.out.println("big room = " +prsnt);
+        for(int i=0;i<roomCount;i++){//todo if prsnt - print corridors
             Room r;
-            if((rand.nextInt(10-1)+1)==1){
-               r= createRoom(i);
-            }else {r = roomGen(i);}
+            if(prsnt>0){
+                r = roomGen(i,true);
+                prsnt--;
+            }else{r = roomGen(i,false);}
             
             for(Room room:rooms){
                 if(r.intersect(room)){in=true;break;}
@@ -48,43 +54,98 @@ public class GenerateMap {
             }
             if(!in){
                 rooms.add(r);
-                if(rooms.size()>=2){
-                  //  corridorPrint(rooms.get(i-1),rooms.get(i));
-                }    
+                //if(rooms.size()>=2){
+                  //corridorPrint(rooms.get(i-1),rooms.get(i));
+                //}    
             }else {i--;}
-        }  
+        }
+        for(int i=1;i<prsnt;i++){
+            //у каждой комнаты будет массив из путей(массивов точек)
+            //из которого я выберу минимальный и протяну туда коридор
+            //тоесть
+            /*речь о больших комнатах
+            1) я провожу из первой комнаты коридоры во все комнаты
+            2) я выбираю кратчайший(один из кратчайших) и записываю его в массив путей
+            3) я провожу из второй комнаты пути во все комнаты кроме первой и выбираю кратчайший и записываю его в массив путей
+            4)....
+            5) я провожу пути
+            */
+            corridorPrint(rooms.get(0),rooms.get(i));
+        
+        }
         roomPrint();
     }
-    public Room createRoom(int id){
-        Room r = new Room(id);
-        r.setType(rand.nextInt(2-1)+1);
-        switch(r.getType()){
-            case 1: r.setW(5); r.setH(5); break;
-            case 2: r.setW(10); r.setH(10); break;  
+    //TODO
+    public void simpleCave(int min,int max){
+        mapFill(0);
+
+        int x, y, f, up = 100;
+        x = 40;
+        y = 40;
+        map[x][y] = 2;
+        for (int j = 0; j < up; j++) {
+            for (; ; ) {
+                x = rand.nextInt(X - 2) + 2;
+                y = rand.nextInt(Y - 2) + 2;
+                if (map[x][y] == 2) break;
+            }
+            for (int i = 0; i < rand.nextInt(max - min) + min; i++) {
+                f = rand.nextInt(4 - 1) + 1;
+                switch (f) {
+                    case 1:
+                        if (x < X - 2) x++;
+                        else i--;
+                        break;
+                    case 2:
+                        if (x > 2) x--;
+                        else i--;
+                        break;
+                    case 3:
+                        if (y < Y - 2) y++;
+                        else i--;
+                        break;
+                    case 4:
+                        if (y > 2) y--;
+                        else i--;
+                        break;
+                }
+                map[x][y] = 2;
+
+            /*if(i==up-2){
+                int px,py;
+                for(;;) {
+                    px = rand.nextInt(X - 2) + 2;
+                    py = rand.nextInt(Y - 2) + 2;
+                    if(map[px][py]==2) break;
+                }
+                corridorPrint(new Point(x,y),new Point(px,py));
+            }*/
+            }
         }
-        r.x=rand.nextInt(X-11)+2;
-        r.y=rand.nextInt(Y-11)+2;
-        return r;
+
+
+        for(int i=1;i<X-1;i++){
+            for(int j=1;j<Y-1;j++)
+                if(map[i][j]==0&&map[i+1][j]==2&&map[i-1][j]==2&&map[i][j+1]==2&&map[i][j-1]==2)
+                    map[i][j]=2;
+        }
     }
-    /*public void slTest(){
-        Room r = roomGen();
-        
-        rooms.add(r);
-        int wall = rand.nextInt(4)+1;//1-up 2-down 3-left 4-right
-        switch(wall){
-            case 1:  break;
-            case 2: break;
-            case 3: break;
-            case 4: break;
-            default: System.err.println("rog_pg.GenerateMap.slTest() switch");
+    //TODO
+    public void simpleForest(int min,int max){
+        mapFill(5);
+        int x,y;
+        for(int i=0;i<rand.nextInt(max-min)+min;i++){
+            x=rand.nextInt(X-1)+1;
+            y=rand.nextInt(Y-1)+1;
+            if(map[x][y]!=3){ map[x][y]=3; }
+            else i--;
         }
-        
-        roomPrint();
-    }*/
+    }
+    //COMPLITE (5-20 rooms)
     public void simpleLabyrinth(int min,int max){
         boolean in=false;
         for(int i=0;i<rand.nextInt(max-min)+min;i++){
-            Room r = roomGen(i);
+            Room r = roomGen(i,false);
             for(Room room:rooms){
                 if(r.intersect(room)){in=true;break;}
                 else{in=false; }
@@ -98,19 +159,26 @@ public class GenerateMap {
         }  
         roomPrint();
     }
-    private Room roomGen(int i){
-        Room r = new Room();
+    private Room roomGen(int i,boolean bigRoom){
+        Room r = new Room();//todo global rand?
+        if(bigRoom){
             r.setId(i);
             r.setType(0);
-           // r.x=(int)rand.nextGaussian(X-11)+2;
+            r.setX(rand.nextInt(X-13)+2);
+            r.setY(rand.nextInt(Y-13)+2);
+            r.setH(rand.nextInt(12-8)+8);
+            r.setW(rand.nextInt(12-8)+8);
+        }else{
+            r.setId(i);
+            r.setType(0);
             r.setX(rand.nextInt(X-11)+2);
             r.setY(rand.nextInt(Y-11)+2);
-            r.setH(rand.nextInt(6)+3);
-            r.setW(rand.nextInt(6)+3);
+            r.setH(rand.nextInt(9-3)+3);
+            r.setW(rand.nextInt(9-3)+3);
+        }
         return r;
     }
     private void roomPrint(){//TODO
-        int[][] lab;
         for(Room r:rooms) {
             switch(r.type){
                 case 0:{
@@ -121,20 +189,9 @@ public class GenerateMap {
                             //}else{map[i][j]=1;}
                     }
                     cleanRooms();
-                }
-                case 1: lab = r.defaultRoom(); insertRoom(r,lab); break;
-                case 2: lab = r.sphereRoom(); insertRoom(r,lab); break;
+                } break;
             }  
         }  
-    }
-    public void insertRoom(Room r, int lab[][]){
-        //TODO
-        for(int i=r.y;i<r.y+r.h;i++){
-            for(int j=r.x;j<r.x+r.w;j++)
-//                map[i][j]=lab[i-r.y][j-r.x];
-                System.out.print(lab[i-r.y][j-r.x]);
-            System.out.println();
-        }
     }
     private void cleanRooms(){
         for(int i=1;i<X-1;i++)
@@ -149,6 +206,7 @@ public class GenerateMap {
                 if(map[i][j]==999) map[i][j]=2;  
             }
     }
+
     private void corridorPrint(Room a, Room b){
         int[][] mapp = new int[X][Y];
         for (int i = 0; i < X; i++) 
@@ -164,6 +222,20 @@ public class GenerateMap {
             map[p.getX()][p.getY()]=999;
         } 
     }
+    //TODO
+    //TODO up and down
+    //TODO
+    private void corridorPrint(Point a, Point b){
+        PathFinder pf = new PathFinder(map,this.X,this.Y);
+        Point[] path;
+
+        path = pf.find(a,b);
+        for (Point p:path) {
+            map[p.getX()][p.getY()]=2;
+        }
+    }
+
+
     public int[][] getMap() {
         return map;
     }
