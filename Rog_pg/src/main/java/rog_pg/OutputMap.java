@@ -15,13 +15,19 @@ public class OutputMap {
     void main(){
         GenerateMap gmap = new GenerateMap(X,Y);
         Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
         char c;
         for(;;){ 
            // gmap.simpleLabyrinth(249,251);
             // gmap.proceduralGen(199,201);
             //gmap.bigSmoke();
             //gmap.simpleForest(40,80);
-            gmap.simpleCave(15,30);
+            gmap.mapFill(0);
+            int x,y;
+            x = rand.nextInt(X - 2) + 2;
+            y = rand.nextInt(Y - 2) + 2;
+
+            gmap.simpleCave(x,y,130,150,100);
             map = gmap.getMap();
             //mapPrint();
             mapWrite();

@@ -8,7 +8,7 @@ public class GenerateMap {
     private final int Y;
     private final int X;
     private int[][] map;
-    Random rand = new Random();
+    Random rand = new Random(System.currentTimeMillis());
     ArrayList<Room> rooms;
     
     public GenerateMap(){
@@ -26,7 +26,7 @@ public class GenerateMap {
         mapFill(2);
     }
     // </editor-fold>   
-    private void mapFill(int f){
+    public void mapFill(int f){
         for (int i = 0; i < X; i++) {
             for (int j = 0; j < Y; j++){
                 map[i][j] = f;
@@ -76,10 +76,48 @@ public class GenerateMap {
         roomPrint();
     }
     //TODO
-    public void simpleCave(int min,int max){
-        mapFill(0);
+    public void simpleCave(int x,int y, int min,int max,int count){
 
-        int x, y, f, up = 100;
+        int f;
+        ArrayList<Point> path = new ArrayList<>();
+
+        map[x][y] = 2;
+        path.add(new Point(x,y));
+
+        for (int i = 0; i < rand.nextInt(max - min) + min; i++) {
+            f = rand.nextInt(5 - 1) + 1;
+            switch (f) {
+                case 1:
+                    if (x < X - 2 ) x++;
+                    else i--;
+                    break;
+                case 2:
+                    if (x > 2  ) x--;
+                    else i--;
+                    break;
+                case 3:
+                    if (y < Y - 2 ) y++;
+                    else i--;
+                    break;
+                case 4:
+                    if (y > 2 ) y--;
+                    else i--;
+                    break;
+            }
+            path.add(new Point(x,y));
+            map[x][y] = 2;
+        }
+
+        Point start = path.get(rand.nextInt(path.size()));
+        x=start.getX();
+        y=start.getY();
+        System.out.println("x y "+x+" "+y);
+        if(count>0){
+            count--;
+            simpleCave(x,y,min,max,count);
+        }
+
+       /* int x, y, f, up = 100;
         x = 40;
         y = 40;
         map[x][y] = 2;
@@ -111,24 +149,24 @@ public class GenerateMap {
                 }
                 map[x][y] = 2;
 
-            /*if(i==up-2){
-                int px,py;
-                for(;;) {
-                    px = rand.nextInt(X - 2) + 2;
-                    py = rand.nextInt(Y - 2) + 2;
-                    if(map[px][py]==2) break;
-                }
-                corridorPrint(new Point(x,y),new Point(px,py));
-            }*/
+            //if(i==up-2){
+            //    int px,py;
+            //    for(;;) {
+             //       px = rand.nextInt(X - 2) + 2;
+             //       py = rand.nextInt(Y - 2) + 2;
+             //       if(map[px][py]==2) break;
+             //   }
+            //    corridorPrint(new Point(x,y),new Point(px,py));
+           // }
             }
-        }
+        }*/
 
 
-        for(int i=1;i<X-1;i++){
-            for(int j=1;j<Y-1;j++)
-                if(map[i][j]==0&&map[i+1][j]==2&&map[i-1][j]==2&&map[i][j+1]==2&&map[i][j-1]==2)
-                    map[i][j]=2;
-        }
+        /*for(int ix=1;ix<X-1;ix++){
+            for(int jy=1;jy<Y-1;jy++)
+                if(map[ix][jy]==0&&map[ix+1][jy]==2&&map[ix-1][jy]==2&&map[ix][jy+1]==2&&map[ix][jy-1]==2)
+                    map[ix][jy]=2;
+        }*/
     }
     //TODO
     public void simpleForest(int min,int max){
