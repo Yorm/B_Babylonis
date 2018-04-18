@@ -13,35 +13,20 @@ public class OutputMap {
 
     
     void main(){
-        GenerateMap gmap = new GenerateMap(X,Y);
-        Scanner sc = new Scanner(System.in);
         Random rand = new Random();
-        char c;
-        for(;;){ 
-           // gmap.simpleLabyrinth(249,251);
-            // gmap.proceduralGen(199,201);
-            //gmap.bigSmoke();
-            //gmap.simpleForest(40,80);
-            gmap.mapFill(0);
-            int x,y;
-            x = rand.nextInt(X - 2) + 2;
-            y = rand.nextInt(Y - 2) + 2;
 
-            gmap.simpleCave(x,y,130,150,100);
-            map = gmap.getMap();
-            //mapPrint();
-            mapWrite();
-            System.out.println("press [g|G] to GEN or [e|E] to END");
-            //c = sc.next().charAt(0);
-            c='e';
-            if(c=='g'||c=='G'){
-                gmap = new GenerateMap(X,Y);
-                continue;
-            }else{
-            if(c=='e'||c=='E')
-                return; 
-            }
-        }
+        //GDungeon d = new GDungeon(X,Y,2);
+        //GForest f= new GForest(X,Y,5);
+        //GCave c= new GCave(X,Y,0);
+
+        //d.simpleLabyrinth(5,20);
+        //d.proceduralGen(199,201);
+        //f.simpleForest(40,80);
+        //c.simpleCave(80,80,130,150,100);
+
+        //map = c.getMap();
+        mapWrite();
+
     }
     private void mapWrite(){
         try(FileWriter writer = new FileWriter("map.txt", false))
@@ -50,13 +35,14 @@ public class OutputMap {
                     + "\n");
             for(int x=0;x<X;x++){
                 for(int y=0;y<Y;y++){
-                    switch (this.map[x][y]){
+                    switch (map[x][y]){
                         case 0:writer.append('#');break;
                         case 1:writer.append('_');break;
                         case 2:writer.append('.');break;
                         case 3:writer.append('T');break;
                         case 4:writer.append('O');break;
                         case 5:writer.append(',');break;
+                        default: writer.append('@');break;
                     }
                    writer.append(' ');
                 }
@@ -66,21 +52,7 @@ public class OutputMap {
         }
         catch(IOException ex){ 
             System.err.println(ex.getMessage());
-        } 
-
-    }
-    private void mapPrint(){
-        char map[][]=new char[X][Y]; 
-        for (int i = 0; i < X; i++) {
-            for (int j = 0; j < Y; j++){
-                switch (this.map[i][j]){
-                    case 0:System.out.print("#");break;
-                    case 1:System.out.print("_");break;
-                    case 2:System.out.print(".");break;
-                }
-                System.out.print(" ");
-            }
-            System.out.println();
         }
+
     }
 }

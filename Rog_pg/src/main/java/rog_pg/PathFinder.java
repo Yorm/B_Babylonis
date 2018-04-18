@@ -78,26 +78,12 @@ public class PathFinder{
             n = t; 
             path.add(new Point(x,y));
         }
-        /*
-        for (int i = 0; i < 40; i++) {
-            for (int j = 0; j < 40; j++){
-                System.out.print(labyrinth[i][j]+" ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        for (int i = 0; i < 40; i++) {
-            for (int j = 0; j < 40; j++){
-                System.out.print(fillmap[i][j]+" ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        */
+
         Point[] result = new Point[path.size()];
         t = path.size();
-        for(Object point: path)
-            result[--t] = (Point)point;
+        for(Object point: path) {
+            result[--t] = (Point) point;
+        }
         return result;
     }
 

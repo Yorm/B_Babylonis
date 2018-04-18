@@ -1,6 +1,5 @@
 package rog_pg;
 
-import rog_pg.GenerateMap;
 /**
  *
  * @author walte
