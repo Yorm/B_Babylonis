@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 
 public class OutputMap {
-    private final int Y=128;
-    private final int X=128;
+    private final int Y=64;
+    private final int X=64;
     private int[][] map;
 
     
@@ -16,20 +16,20 @@ public class OutputMap {
         Random rand = new Random();
 
         //GDungeon d = new GDungeon(X,Y,2);
-        //GForest f= new GForest(X,Y,5);
-        //GCave c= new GCave(X,Y,0);
+        GForest f= new GForest(X,Y,5);
+        //GCave c = new GCave(X,Y,0);
 
         //d.simpleLabyrinth(5,20);
         //d.proceduralGen(199,201);
-        //f.simpleForest(40,80);
-        //c.simpleCave(80,80,130,150,100);
+        f.simpleForest(40,80);
+        //c.simpleCave(127,127,130,150,100);
 
-        //map = c.getMap();
-        mapWrite();
+        map = f.getMap();
+        mapWrite("map.txt");
 
     }
-    private void mapWrite(){
-        try(FileWriter writer = new FileWriter("map.txt", false))
+    private void mapWrite(String fileName){
+        try(FileWriter writer = new FileWriter(fileName, false))
         { 
             writer.write("hello"
                     + "\n");

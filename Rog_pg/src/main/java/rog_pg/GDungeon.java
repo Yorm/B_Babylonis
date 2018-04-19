@@ -10,7 +10,7 @@ public class GDungeon extends GMap {
     private Random rand;
     private ArrayList<Room> rooms;
 
-    public GDungeon(int x, int y,int f){
+    GDungeon(int x, int y, int f){
         rooms=new ArrayList<>();
         rand = new Random(System.currentTimeMillis());
         this.Y=y;
@@ -64,7 +64,7 @@ public class GDungeon extends GMap {
             4)....
             5) я провожу пути
             */
-            corridorPrint(rooms.get(0),rooms.get(i));
+            corridorPrint(rooms.get(i-1).getCenter(),rooms.get(i).getCenter());
 
         }
         roomPrint();
@@ -82,7 +82,7 @@ public class GDungeon extends GMap {
             if(!in){
                 rooms.add(r);
                 if(rooms.size()>=2){
-                   corridorPrint(rooms.get(i-1),rooms.get(i));
+                    corridorPrint(rooms.get(i-1).getCenter(),rooms.get(i).getCenter());
                 }
             }else {i--;}
         }
@@ -136,32 +136,10 @@ public class GDungeon extends GMap {
                 if(map[i][j]==999) map[i][j]=2;
             }
     }
-
-    //TODO TODO TODO TODO
-    private void corridorPrint(Room a, Room b){
-        int[][] mapp = new int[X][Y];
-        for (int i = 0; i < X; i++)
-            for (int j = 0; j < Y; j++)
-                mapp[i][j] = 1;
-
-        PathFinder pf = new PathFinder(map,this.X,this.Y);
-        Point[] path;
-
-        path = pf.find(new Point(a.y+a.h/2,a.x+a.w/2),
-                new Point(b.y+b.h/2,b.x+b.w/2));
-
-        for (Point p:path) {
-            map[p.getX()][p.getY()]=999;
-        }
-    }
-    //TODO
-    //    //TODO up and down
-    //    //TODO
     private void corridorPrint(Point a, Point b){
-        PathFinder pf = new PathFinder(map,this.X,this.Y);
         Point[] path;
 
-        path = pf.find(a,b);
+        path = new PathFinder(map,this.X,this.Y).find(a,b);
         for (Point p:path) {
             map[p.getX()][p.getY()]=2;
         }

@@ -8,7 +8,7 @@ public class GForest extends GMap {
     private int[][] map;
     private Random rand;
 
-    public GForest(int x, int y,int f){
+    GForest(int x, int y,int f){
         rand = new Random(System.currentTimeMillis());
         this.Y=y;
         this.X=x;
@@ -33,8 +33,8 @@ public class GForest extends GMap {
             if(map[x][y]!=3){ map[x][y]=3; }
             else i--;
         }
-
     }
+
     public int[][] getMap() {
         return map;
     }

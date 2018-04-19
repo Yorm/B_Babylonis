@@ -31,6 +31,9 @@ public class Room {
         return "Room{" + "x=" + x + ", y=" + y + ", w=" + w + ", h=" + h + ", id=" + id + '}';
     }
 
+    public Point getCenter(){
+        return new Point(y+h/2,x+w/2);
+    }
 
     public int[][] defaultRoom(){
         int[][] labyrinth = {//h=5//w=5//t=1
@@ -44,7 +47,7 @@ public class Room {
     }
     public int[][] sphereRoom(){
         int[][] labyrinth = {//h=10//w=10//t=2
-                	{1,1,1,1,0,0,1,1,1,1},
+                	    {1,1,1,1,0,0,1,1,1,1},
                         {1,1,0,0,1,1,0,0,1,1},
                         {1,0,1,1,1,1,1,1,0,1},
                         {1,0,1,1,1,1,1,1,0,1},
