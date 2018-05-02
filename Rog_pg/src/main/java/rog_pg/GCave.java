@@ -2,6 +2,7 @@ package rog_pg;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.logging.*;
 
 public class GCave extends GMap {
     private int Y;

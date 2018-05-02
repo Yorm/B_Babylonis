@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 
 public class OutputMap {
-    private final int Y=64;
-    private final int X=64;
+    private final int Y=256;
+    private final int X=256;
     private int[][] map;
 
     
@@ -16,18 +16,51 @@ public class OutputMap {
         Random rand = new Random();
 
         //GDungeon d = new GDungeon(X,Y,2);
-        GForest f= new GForest(X,Y,5);
-        //GCave c = new GCave(X,Y,0);
+        //GForest f= new GForest(X,Y,5);
+        GCave c = new GCave(X,Y,0);
 
         //d.simpleLabyrinth(5,20);
         //d.proceduralGen(199,201);
-        f.simpleForest(40,80);
-        //c.simpleCave(127,127,130,150,100);
+        //f.simpleForest(40,80);
+        c.simpleCave(127,127,130,150,100);
 
-        map = f.getMap();
+        map = c.getMap();
         mapWrite("map.txt");
+        jsMapWrite("map.js");
 
     }
+
+    private void jsMapWrite(String fileName){
+        try(FileWriter writer = new FileWriter(fileName, false))
+        {
+            writer.write("var map = [");
+
+            for(int x=0;x<X;x++){
+                writer.append('\"');
+                for(int y=0;y<Y;y++){
+                    switch (map[x][y]){
+                        case 0:writer.append('#');break;
+                        case 1:writer.append('_');break;
+                        case 2:writer.append('.');break;
+                        case 3:writer.append('T');break;
+                        case 4:writer.append('O');break;
+                        case 5:writer.append(',');break;
+                        case 6:writer.append('~');break;
+                        default: writer.append('@');break;
+                    }
+                }
+                writer.append('\"');
+                writer.append(',');
+                writer.append('\n');
+            }
+            writer.append("];");
+            writer.flush();
+        }
+        catch(IOException ex){
+            System.err.println(ex.getMessage());
+        }
+    }
+
     private void mapWrite(String fileName){
         try(FileWriter writer = new FileWriter(fileName, false))
         { 
@@ -42,6 +75,7 @@ public class OutputMap {
                         case 3:writer.append('T');break;
                         case 4:writer.append('O');break;
                         case 5:writer.append(',');break;
+                        case 6:writer.append('~');break;
                         default: writer.append('@');break;
                     }
                    writer.append(' ');
@@ -53,6 +87,5 @@ public class OutputMap {
         catch(IOException ex){ 
             System.err.println(ex.getMessage());
         }
-
     }
 }
