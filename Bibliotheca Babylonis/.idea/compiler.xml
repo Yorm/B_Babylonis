@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bibliotheca Babylonis" />
+        <module name="bibliotheca_Babylonis" />
       </profile>
     </annotationProcessing>
   </component>
