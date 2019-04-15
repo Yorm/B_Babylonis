@@ -1,4 +1,8 @@
 # Bibliotheca Babylonis
+
+The project generates books from the abstract Babylonian library and pages of absurd texts in Old Norse
+
+## Instruction
 To change the mode, assign the desired book class to the *Book.class* and transfer to the makeBook method the number of desired books.
 
 The program needs some work:
