@@ -1,7 +1,0 @@
-Built-By: NetBoss Technologies, Inc
-Import-Package: *;resolution:=optional
-Export-Package: *
-Bundle-SymbolicName: CheckPoint.Firewall
-Bundle-Version: 2.7
-Bundle-Vendor: CheckPoint
-Bundle-Activator: com.checkpoint.firewall.FirewallAgentInstanceProvider

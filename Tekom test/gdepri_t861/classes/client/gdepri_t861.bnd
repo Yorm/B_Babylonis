@@ -1,6 +1,0 @@
-Built-By: NetBoss Technologies, Inc
-Import-Package: *;resolution:=optional
-Export-Package: *
-Bundle-SymbolicName: GDEpri.T861
-Bundle-Version: 2.8
-Bundle-Vendor: GDEpri

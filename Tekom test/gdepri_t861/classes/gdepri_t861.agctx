@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<AgentContext>
-<MOTypeModel>client/com/gdepri/t861/MOTypeModel.xml</MOTypeModel>
-<MgmtModel>server/com/gdepri/t861/MgmtModel.xml</MgmtModel>
-<CIMInstances>server/com/gdepri/t861/instances.xml</CIMInstances>
-<CIMClasses>
-<CIMClass>server/com/gdepri/t861/Classes.xml</CIMClass>
-</CIMClasses>
-</AgentContext>

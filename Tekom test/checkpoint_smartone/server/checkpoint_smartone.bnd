@@ -1,7 +1,0 @@
-Built-By: NetBoss Technologies, Inc
-Import-Package: *;resolution:=optional
-Export-Package: *
-Bundle-SymbolicName: Checkpoint.SmartOne
-Bundle-Version: 2.7
-Bundle-Vendor: Checkpoint
-Bundle-Activator: com.checkpoint.smartone.SmartOneAgentInstanceProvider
