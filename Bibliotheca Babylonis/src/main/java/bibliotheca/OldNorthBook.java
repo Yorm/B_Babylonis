@@ -41,7 +41,7 @@ public class OldNorthBook implements Book{
         r = new Random();
         sb = new StringBuilder();
 
-        List<Elements> dict = new File(wordsLib).list().length==0?loadFromNU():loadFromOnf();
+        List<Elements> dict = new File(wordsLib).exists() ? loadFromNU() : loadFromOnf();
         if(dict == null){
             System.out.println("BE DA");
             System.exit(1);
@@ -80,6 +80,7 @@ public class OldNorthBook implements Book{
 
     private List<Elements> loadFromOnf(){
         List<Elements> dict = new ArrayList<>();
+        new File(wordsLib).mkdirs();
         try {
             System.out.println("Upload from files...");
             List<File> onfList = Files.walk(Paths.get(wordsLib))
