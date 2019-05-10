@@ -1,8 +1,7 @@
-package bibliotheca;
+package bibliotheca.books;
 
-
+import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -18,7 +17,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 
-public class OldNorthBook implements Book{
+public class OldNorthBook implements Book {
 
     private final String url;
     private final String[] htmlAlf;
@@ -41,7 +40,7 @@ public class OldNorthBook implements Book{
         r = new Random();
         sb = new StringBuilder();
 
-        List<Elements> dict = new File(wordsLib).exists() ? loadFromNU() : loadFromOnf();
+        List<Elements> dict = new File(wordsLib).exists() ? loadFromOnf() : loadFromNU();
         if(dict == null){
             System.out.println("BE DA");
             System.exit(1);
@@ -50,6 +49,16 @@ public class OldNorthBook implements Book{
         int sentLeng=0;
         int elNum = 0;
         int wordNum = 0;
+
+        try {
+            File oldNorthDir = new File("res/books/oldNorth");
+            if(!oldNorthDir.exists())
+                oldNorthDir.mkdirs();
+            FileUtils.cleanDirectory(oldNorthDir);
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.exit(-1);
+        }
 
         for(int c=0;c<count;c++) {
             try {
@@ -104,6 +113,7 @@ public class OldNorthBook implements Book{
 
     private List<Elements> loadFromNU(){
         List<Elements> dict = new ArrayList<>();
+        new File(wordsLib).mkdirs();
         try {
             System.out.println("Download from site...");
             Elements els;
